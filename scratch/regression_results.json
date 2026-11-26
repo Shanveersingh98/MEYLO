@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-11-20 20:27:01",
+  "checks": {
+    "checkpoint_sha256": {
+      "passed": true,
+      "details": "SHA256=CECBA4946A8B5A0404E42E9E1790C0D780228DA45E07B1910D190D89CBADF2FC (Matches expected: True)"
+    },
+    "database_integrity": {
+      "passed": true,
+      "details": "Integrity=ok, Tables={'datasets': 84, 'sqlite_sequence': 9, 'dataset_processing_history': 1, 'data_exclusions': 3, 'checkpoints': 28, 'training_sessions': 2, 'training_loss_history': 131, 'evaluation_results': 5, 'cleanup_operations': 14, 'application_events': 10}"
+    },
+    "model_manager_init": {
+      "passed": true,
+      "details": "Active=external, Device=cuda"
+    },
+    "qwen_offline_calculus": {
+      "passed": true,
+      "details": "Route=qwen_offline, Ans: To differentiate the function \\( \\frac{\\sin(x)}{\\cos(x)} \\), we can use the quotient rule. The quotient rule states that..."
+    },
+    "qwen_offline_arithmetic": {
+      "passed": true,
+      "details": "Route=qwen_offline, Ans: To calculate 45 * 12, you multiply 45 by 12. \n\n\\[ 45 \\times 12 = 540 \\]\n\nSo, 45 * 12 equals 540."
+    },
+    "qwen_web_punjab_cm": {
+      "passed": true,
+      "details": "Route=qwen_web_grounded, Ans: The current Chief Minister of Punjab, India is Bhagwant Mann."
+    },
+    "cancer_disambiguation": {
+      "passed": true,
+      "details": "Titles: ['American Association for Cancer Research', 'Breast cancer']"
+    },
+    "stock_retrieval": {
+      "passed": true,
+      "details": "Titles: ['Apple Stock Price Today | NASDAQ: AAPL Live - Investing.com', 'Apple Stock Chart \u2014 NASDAQ:AAPL Stock Price \u2014 TradingView', 'Apple (AAPL) Stock Price Today, Pre-Market &amp; After-Hours | CoinGlass']"
+    },
+    "model_switch_custom": {
+      "passed": true,
+      "details": "Active=custom"
+    },
+    "custom_model_conversational": {
+      "passed": true,
+      "details": "Route=neural_model, Ans: I'm sorry, but I don't have any advice. If you are not sure that your studies do not be helpful to ask me anything?..."
+    },
+    "model_switch_external": {
+      "passed": true,
+      "details": "Active=external"
+    },
+    "crash_resilience": {
+      "passed": true,
+      "details": "Recovered gracefully: Route=qwen_offline, Reply=I apologize, but I encountered an internal engine communication error while proc..."
+    }
+  },
+  "passed": 12,
+  "failed": 0
+}

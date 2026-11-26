@@ -1,0 +1,606 @@
+{
+  "timestamp": 1793452653.7005115,
+  "total": 44,
+  "results": [
+    {
+      "query": "Who is Shanveer Singh Khosa on LinkedIn?",
+      "detected_intent": "person_profile",
+      "entities": {
+        "main_subject": "Shanveer Singh Khosa",
+        "named_entities": [
+          "Shanveer Singh Khosa"
+        ],
+        "platform": "linkedin",
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain how PyTorch's torch.nn.Linear works, with a simple Python example.",
+      "detected_intent": "technical_programming",
+      "entities": {
+        "main_subject": "torch.nn.Linear",
+        "named_entities": [
+          "PyTorch",
+          "torch.nn.Linear"
+        ],
+        "platform": null,
+        "technical_identifiers": [
+          "torch.nn.Linear",
+          "nn.Linear"
+        ],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Find the latest official Python release information and provide the source links.",
+      "detected_intent": "current_events",
+      "entities": {
+        "main_subject": "Python latest release",
+        "named_entities": [
+          "Python"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain the difference between supervised and reinforcement learning.",
+      "detected_intent": "comparison",
+      "entities": {
+        "main_subject": "difference between supervised vs reinforcement learning",
+        "named_entities": [
+          "difference between supervised",
+          "reinforcement learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": [
+          "difference between supervised",
+          "reinforcement learning"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "detected_intent": "followup_reference",
+      "entities": {
+        "main_subject": "Source [2]",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "detected_intent": "followup_reference",
+      "entities": {
+        "main_subject": "Source [2]",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Find the LinkedIn profile of Shanveer Singh Khosa.",
+      "detected_intent": "person_profile",
+      "entities": {
+        "main_subject": "Shanveer Singh Khosa",
+        "named_entities": [
+          "Shanveer Singh Khosa"
+        ],
+        "platform": "linkedin",
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Tell me about a named public researcher Geoffrey Hinton.",
+      "detected_intent": "person_profile",
+      "entities": {
+        "main_subject": "Tell me about a named public researcher Geoffrey Hinton",
+        "named_entities": [
+          "Tell me about a named public researcher Geoffrey Hinton"
+        ],
+        "platform": "web",
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Find Microsoft's official LinkedIn page.",
+      "detected_intent": "person_profile",
+      "entities": {
+        "main_subject": "Find Microsoft",
+        "named_entities": [
+          "Find Microsoft"
+        ],
+        "platform": "linkedin",
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Search for a person named Alex Rivera on GitHub.",
+      "detected_intent": "person_profile",
+      "entities": {
+        "main_subject": "Search for a person named Alex Rivera",
+        "named_entities": [
+          "Search for a person named Alex Rivera"
+        ],
+        "platform": "github",
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "What professional information is publicly available about Satya Nadella?",
+      "detected_intent": "person_profile",
+      "entities": {
+        "main_subject": "Satya Nadella",
+        "named_entities": [
+          "Satya Nadella"
+        ],
+        "platform": "web",
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Give a simple runnable PyTorch example of torch.nn.Linear.",
+      "detected_intent": "technical_programming",
+      "entities": {
+        "main_subject": "torch.nn.Linear",
+        "named_entities": [
+          "PyTorch",
+          "torch.nn.Linear"
+        ],
+        "platform": null,
+        "technical_identifiers": [
+          "torch.nn.Linear",
+          "nn.Linear"
+        ],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "What is the difference between a parameter and a buffer in PyTorch?",
+      "detected_intent": "comparison",
+      "entities": {
+        "main_subject": "parameter vs buffer",
+        "named_entities": [
+          "parameter",
+          "buffer"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": [
+          "parameter",
+          "buffer"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "query": "Find the official documentation for torch.nn.Module.",
+      "detected_intent": "technical_programming",
+      "entities": {
+        "main_subject": "torch.nn.Module",
+        "named_entities": [
+          "PyTorch",
+          "torch.nn.Module"
+        ],
+        "platform": null,
+        "technical_identifiers": [
+          "torch.nn.Module",
+          "nn.Module"
+        ],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain what nn.ReLU() does in PyTorch with code.",
+      "detected_intent": "technical_programming",
+      "entities": {
+        "main_subject": "nn.ReLU",
+        "named_entities": [
+          "PyTorch",
+          "nn.ReLU"
+        ],
+        "platform": null,
+        "technical_identifiers": [
+          "nn.ReLU"
+        ],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain how PyTorch autograd handles backpropagation.",
+      "detected_intent": "technical_programming",
+      "entities": {
+        "main_subject": "autograd",
+        "named_entities": [
+          "PyTorch",
+          "autograd"
+        ],
+        "platform": null,
+        "technical_identifiers": [
+          "autograd"
+        ],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Find the latest official Python release.",
+      "detected_intent": "current_events",
+      "entities": {
+        "main_subject": "Python latest release",
+        "named_entities": [
+          "Python"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "What is the latest stable PyTorch release?",
+      "detected_intent": "current_events",
+      "entities": {
+        "main_subject": "PyTorch latest release",
+        "named_entities": [
+          "PyTorch"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Find a recent AI research development in 2026.",
+      "detected_intent": "current_events",
+      "entities": {
+        "main_subject": "AI research",
+        "named_entities": [
+          "AI research"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Summarize a recently published technical announcement for PyTorch.",
+      "detected_intent": "current_events",
+      "entities": {
+        "main_subject": "PyTorch",
+        "named_entities": [
+          "PyTorch"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "What is deep learning?",
+      "detected_intent": "educational_concept",
+      "entities": {
+        "main_subject": "deep learning",
+        "named_entities": [
+          "deep learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain supervised learning in simple words.",
+      "detected_intent": "educational_concept",
+      "entities": {
+        "main_subject": "supervised learning",
+        "named_entities": [
+          "supervised learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain self-supervised learning.",
+      "detected_intent": "educational_concept",
+      "entities": {
+        "main_subject": "self-supervised learning",
+        "named_entities": [
+          "self-supervised learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain neural networks with an example.",
+      "detected_intent": "educational_concept",
+      "entities": {
+        "main_subject": "neural networks",
+        "named_entities": [
+          "neural networks"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain AI, ML, and DL with examples.",
+      "detected_intent": "comparison",
+      "entities": {
+        "main_subject": "artificial intelligence vs machine learning vs deep learning",
+        "named_entities": [
+          "artificial intelligence",
+          "machine learning",
+          "deep learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": [
+          "artificial intelligence",
+          "machine learning",
+          "deep learning"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "query": "Compare supervised learning and self-supervised learning.",
+      "detected_intent": "comparison",
+      "entities": {
+        "main_subject": "supervised learning vs self-supervised learning",
+        "named_entities": [
+          "supervised learning",
+          "self-supervised learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": [
+          "supervised learning",
+          "self-supervised learning"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain the difference between a parameter and a buffer in PyTorch.",
+      "detected_intent": "comparison",
+      "entities": {
+        "main_subject": "difference between a parameter vs buffer",
+        "named_entities": [
+          "difference between a parameter",
+          "buffer"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": [
+          "difference between a parameter",
+          "buffer"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "query": "What is supervised learning?",
+      "detected_intent": "educational_concept",
+      "entities": {
+        "main_subject": "supervised learning",
+        "named_entities": [
+          "supervised learning"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Explain that more simply.",
+      "detected_intent": "followup_reference",
+      "entities": {
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Give an example of the same concept.",
+      "detected_intent": "followup_reference",
+      "entities": {
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "What did I ask you earlier?",
+      "detected_intent": "followup_reference",
+      "entities": {
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "hello there, good afternoon!",
+      "detected_intent": "general_conversation",
+      "entities": {
+        "main_subject": "conversational social interaction",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "thank you so much for your help",
+      "detected_intent": "general_conversation",
+      "entities": {
+        "main_subject": "conversational social interaction",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "Can you explain how this works in simple English?",
+      "detected_intent": "followup_reference",
+      "entities": {
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "stuff",
+      "detected_intent": "ambiguous_unspecified",
+      "entities": {
+        "main_subject": "stuff",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "what is 45 * 12 + 100",
+      "detected_intent": "deterministic_tool",
+      "entities": {
+        "main_subject": "45 * 12 + 100",
+        "named_entities": [],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "i have pain in my heart and difficulty breathing",
+      "detected_intent": "health_safety",
+      "entities": {
+        "main_subject": "acute cardiac/respiratory symptom distress",
+        "named_entities": [
+          "acute chest symptom"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "what are the common causes of chest pain?",
+      "detected_intent": "health_safety",
+      "entities": {
+        "main_subject": "common causes of chest pain",
+        "named_entities": [
+          "common causes of chest pain"
+        ],
+        "platform": null,
+        "technical_identifiers": [],
+        "comparison_entities": []
+      },
+      "passed": true
+    },
+    {
+      "query": "http://127.0.0.1:8080/admin",
+      "detected_intent": "security_validation",
+      "entities": {
+        "url": "http://127.0.0.1:8080/admin"
+      },
+      "passed": true
+    },
+    {
+      "query": "http://localhost:8000/keys",
+      "detected_intent": "security_validation",
+      "entities": {
+        "url": "http://localhost:8000/keys"
+      },
+      "passed": true
+    },
+    {
+      "query": "http://169.254.169.254/latest/meta-data/",
+      "detected_intent": "security_validation",
+      "entities": {
+        "url": "http://169.254.169.254/latest/meta-data/"
+      },
+      "passed": true
+    },
+    {
+      "query": "http://192.168.1.1/router",
+      "detected_intent": "security_validation",
+      "entities": {
+        "url": "http://192.168.1.1/router"
+      },
+      "passed": true
+    },
+    {
+      "query": "file:///etc/passwd",
+      "detected_intent": "security_validation",
+      "entities": {
+        "url": "file:///etc/passwd"
+      },
+      "passed": true
+    },
+    {
+      "query": "https://en.wikipedia.org/wiki/Deep_learning",
+      "detected_intent": "security_validation",
+      "entities": {
+        "url": "https://en.wikipedia.org/wiki/Deep_learning"
+      },
+      "passed": true
+    }
+  ]
+}

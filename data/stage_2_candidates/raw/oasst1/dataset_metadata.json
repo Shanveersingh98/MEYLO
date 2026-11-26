@@ -1,0 +1,12 @@
+{
+  "dataset_name": "OpenAssistant OASST1 (English Filtered)",
+  "huggingface_id": "OpenAssistant/oasst1",
+  "official_source": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+  "license": "Apache License 2.0",
+  "intended_purpose": "Human-assistant conversational dialogues, role-following, polite multi-turn chit-chat",
+  "existing_paths": {
+    "train": "D:\\DEEP-LEARNING-PROJECT\\data\\processed\\conversation_paths\\train_paths.jsonl",
+    "validation": "D:\\DEEP-LEARNING-PROJECT\\data\\processed\\conversation_paths\\validation_paths.jsonl"
+  },
+  "note": "Preserved from existing project datasets without re-downloading per instruction #1"
+}

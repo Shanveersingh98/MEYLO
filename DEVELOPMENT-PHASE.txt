@@ -1,0 +1,29 @@
+PHASE 0
+Environment setup
+        ↓
+PHASE 1
+Dataset + tokenizer
+        ↓
+PHASE 2
+Build our Transformer
+        ↓
+PHASE 3
+Train first tiny model
+        ↓
+PHASE 4
+Evaluate + improve
+        ↓
+PHASE 5
+Train conversational version
+        ↓
+PHASE 6
+Emotion model
+        ↓
+PHASE 7
+Memory
+        ↓
+PHASE 8
+Whisper + Piper
+        ↓
+PHASE 9
+Final AI Companion application

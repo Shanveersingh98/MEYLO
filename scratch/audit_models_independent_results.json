@@ -1,0 +1,61 @@
+{
+  "custom_model": {
+    "general_conversation": {
+      "query": "Hello! How are you doing today?",
+      "reply": "Hey! My day is going well, thanks for asking! Always happy to connect and chat with you. How has your day been treating you?",
+      "route": "companion_greeting"
+    },
+    "educational_question": {
+      "query": "What is photosynthesis?",
+      "reply": "**Photosynthesis** is the biological process by which green plants, algae, and certain microorganisms convert light energy (sunlight), water, and carbon dioxide into chemical energy (glucose) and oxygen.\n\nKey aspects of photosynthesis:\n- **Chemical Equation**: `6 CO2 + 6 H2O + Light Energy -> C6H12O6 (glucose) + 6 O2 (oxygen)`\n- **Chlorophyll**: The specialized pigment in plant chloroplasts that absorbs light energy (primarily blue and red wavelengths).\n- **Two Stages**: Light-dependent reactions (capturing photons to generate ATP and NADPH while releasing oxygen) and the Calvin Cycle (light-independent reactions fixing carbon into sugar molecules).\n- **Ecological Importance**: It generates virtually all the oxygen we breathe and provides the base energy source for almost every food chain on Earth.",
+      "route": "offline_educational_grounded"
+    },
+    "mathematical_question": {
+      "query": "Can you explain the derivative of x^2?",
+      "reply": "Certainly! The main difference between the Sun is a chemical energy that occurs when it can be used to produce light, which are then converted into glucose. This process involves using anatar and other hand-based organisms with carbon dioxide (sugar) or water molecules in the oxygen (such as a lucose).",
+      "route": "neural_model"
+    },
+    "technical_explanation": {
+      "query": "What is gradient descent in machine learning?",
+      "reply": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+      "route": "offline_educational_grounded"
+    },
+    "follow_up_question": {
+      "query": "Can you explain more about its learning rate?",
+      "reply": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+      "route": "offline_educational_grounded"
+    }
+  },
+  "external_model": {
+    "general_conversation": {
+      "query": "Hello! What kind of companion are you?",
+      "reply": "Hello! As an AI Companion, I'm designed to be a friendly, intelligent, and helpful helper. I'm here to assist you with a wide range of topics and questions. Whether you need information on a particular subject, help with a problem, or just want to chat, I'm here to make your experience enjoyable and informative. Is there anything I can help you with today?",
+      "route": "qwen_offline"
+    },
+    "educational_question": {
+      "query": "Explain the theory of relativity in simple terms.",
+      "reply": "The theory of relativity, primarily developed by Albert Einstein, consists of two main parts: the special theory of relativity and the general theory of relativity.\n\n1. **Special Theory of Relativity**: This theory explains how space and time are interconnected and how they change depending on an object's velocity relative to other objects. Key points are:\n   - **Time Dilation**: The faster an object moves, the slower time passes for that object. For example, a clock in a moving train would run slower than a stationary clock.\n   - **Length Contraction**: The shorter the object is in motion, the shorter it appears to be. This is particularly noticeable near the speed of light.\n   - **Light Speed in a Vacuum**: The speed of light (c) is constant in all inertial frames of reference. This means that no matter how fast you're moving, light always travels at this speed.\n   - **Relativity of Simultaneity**: Events that are simultaneous in one reference frame are not necessarily simultaneous in another reference frame moving at a constant velocity relative to the first.\n\n2. **General Theory of Relativity**: This theory describes how gravity affects the geometry of spacetime. It states that massive objects cause space to curve, and this curvature is what we perceive as gravitational force. Key points are:\n   - **Curvature of Spacetime**: Massive objects cause space to curve around them, creating a gravitational field.\n   - **Gravitational Lensing**: Light is bent as it passes through a massive object, similar to the lens of a camera, which bends light rays.\n   - **Gravity as a Curvature**: Gravity is not a force between masses, but rather the curvature of spacetime caused by the presence of massive objects.\n   - **Equivalence Principle**: The effects of gravity are indistinguishable from the effects of acceleration. This means you can't tell the difference between a planet orbiting the sun and being in free fall.\n\nThese theories are incredibly powerful and have been confirmed by numerous experiments and observations. They have profound implications in fields ranging from astrophysics to cosmology.",
+      "route": "qwen_offline"
+    },
+    "mathematics": {
+      "query": "Find the derivative of sin(x)*cos(x) step by step.",
+      "reply": "To find the derivative of the function \\( f(x) = \\sin(x) \\cos(x) \\), we can use a trigonometric identity to simplify the expression first. The identity we'll use is:\n\n\\[ \\sin(2x) = 2 \\sin(x) \\cos(x) \\]\n\nThis allows us to rewrite the function as:\n\n\\[ f(x) = \\frac{1}{2} \\sin(2x) \\]\n\nNow, to find the derivative of \\( f(x) \\), we can use the chain rule. The chain rule states that if we have a function \\( f(x) = g(h(x)) \\), then the derivative \\( f'(x) \\) is given by:\n\n\\[ f'(x) = g'(h(x)) \\cdot h'(x) \\]\n\nHere, \\( g(u) = \\frac{1}{2} \\sin(u) \\) and \\( h(x) = 2x \\).\n\nFirst, we find the derivative of \\( g(u) \\):\n\n\\[ g'(u) = \\frac{1}{2} \\cos(u) \\]\n\nNext, we find the derivative of \\( h(x) \\):\n\n\\[ h'(x) = 2 \\]\n\nNow, we apply the chain rule:\n\n\\[ f'(x) = g'(h(x)) \\cdot h'(x) = \\frac{1}{2} \\cos(2x) \\cdot 2 \\]\n\nSimplifying this, we get:\n\n\\[ f'(x) = \\cos(2x) \\]\n\nSo, the derivative of \\( f(x) = \\sin(x) \\cos(x) \\) is \\( f'(x) = \\cos(2x) \\).",
+      "route": "qwen_offline"
+    },
+    "web_retrieval": {
+      "query": "Who is the current Chief Minister of Punjab, India?",
+      "reply": "The current Chief Minister of Punjab, India is Bhagwant Mann. He has been serving in this position since 16 March 2022.",
+      "route": "qwen_web_grounded"
+    },
+    "multi_turn_1": {
+      "query": "Which topic did we discuss right before this mathematics question?",
+      "reply": "The topic we discussed right before this mathematics question was \"The Theory of Relativity.\" Specifically, we talked about the special theory of relativity, which explains how space and time are interconnected and how they change depending on the velocity of an object relative to other objects.",
+      "route": "qwen_offline"
+    },
+    "multi_turn_2": {
+      "query": "Can you summarize our conversation so far in two sentences?",
+      "reply": "Sure! Our conversation has covered two main topics so far: the Theory of Relativity, specifically the special theory of relativity, and a discussion on the derivative of the function \\( f(x) = \\sin(x) \\cos(x) \\) using the trigonometric identity \\( \\sin(2x) = 2 \\sin(x) \\cos(x) \\).",
+      "route": "qwen_offline"
+    }
+  }
+}

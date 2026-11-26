@@ -1,0 +1,46 @@
+{
+  "timestamp": 1793120515.4202757,
+  "model_checkpoint": "checkpoints/ultimate_improvement/best.pt",
+  "total_tests": 69,
+  "total_passed": 69,
+  "total_failed": 0,
+  "pass_rate_percent": 100.0,
+  "suites": {
+    "Intent Routing": {
+      "total": 33,
+      "passed": 33,
+      "failed": 0,
+      "pass_rate": 100.0
+    },
+    "Public Profile Search": {
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "pass_rate": 100.0
+    },
+    "Health & Safety Triage": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "pass_rate": 100.0
+    },
+    "Content Extraction": {
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "pass_rate": 100.0
+    },
+    "Web Retrieval & SSRF Security": {
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "pass_rate": 100.0
+    },
+    "Conversation & Controls": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0,
+      "pass_rate": 100.0
+    }
+  }
+}

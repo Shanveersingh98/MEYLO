@@ -1,0 +1,11 @@
+{"step": 0, "curriculum_val_loss": 2.4913, "curriculum_val_ppl": 12.08, "oasst1_val_loss": 4.0219, "oasst1_val_ppl": 55.81, "composite_loss": 3.2566, "is_best": true, "timestamp": 1793083594.6873298}
+{"step": 150, "epoch": 1, "curriculum_val_loss": 0.8784, "curriculum_val_ppl": 2.41, "oasst1_val_loss": 4.0463, "oasst1_val_ppl": 57.19, "composite_loss": 2.4624, "is_best": true, "timestamp": 1793083689.6602747}
+{"step": 300, "epoch": 1, "curriculum_val_loss": 0.5925, "curriculum_val_ppl": 1.81, "oasst1_val_loss": 4.0415, "oasst1_val_ppl": 56.91, "composite_loss": 2.317, "is_best": true, "timestamp": 1793083803.6305475}
+{"step": 450, "epoch": 2, "curriculum_val_loss": 0.4945, "curriculum_val_ppl": 1.64, "oasst1_val_loss": 4.0399, "oasst1_val_ppl": 56.82, "composite_loss": 2.2672, "is_best": true, "timestamp": 1793083899.3640914}
+{"step": 600, "epoch": 2, "curriculum_val_loss": 0.4584, "curriculum_val_ppl": 1.58, "oasst1_val_loss": 4.0388, "oasst1_val_ppl": 56.76, "composite_loss": 2.2486, "is_best": true, "timestamp": 1793084027.0826232}
+{"step": 750, "epoch": 2, "curriculum_val_loss": 0.4142, "curriculum_val_ppl": 1.51, "oasst1_val_loss": 4.0278, "oasst1_val_ppl": 56.14, "composite_loss": 2.221, "is_best": true, "timestamp": 1793084115.763343}
+{"step": 900, "epoch": 3, "curriculum_val_loss": 0.3991, "curriculum_val_ppl": 1.49, "oasst1_val_loss": 4.0288, "oasst1_val_ppl": 56.19, "composite_loss": 2.2139, "is_best": true, "timestamp": 1793084182.9805996}
+{"step": 1050, "epoch": 3, "curriculum_val_loss": 0.3885, "curriculum_val_ppl": 1.47, "oasst1_val_loss": 4.0265, "oasst1_val_ppl": 56.07, "composite_loss": 2.2075, "is_best": true, "timestamp": 1793084249.8966305}
+{"step": 1200, "epoch": 4, "curriculum_val_loss": 0.3789, "curriculum_val_ppl": 1.46, "oasst1_val_loss": 4.0218, "oasst1_val_ppl": 55.8, "composite_loss": 2.2004, "is_best": true, "timestamp": 1793084317.4334123}
+{"step": 1350, "epoch": 4, "curriculum_val_loss": 0.3748, "curriculum_val_ppl": 1.45, "oasst1_val_loss": 4.0219, "oasst1_val_ppl": 55.81, "composite_loss": 2.1983, "is_best": true, "timestamp": 1793084396.544776}
+{"step": 1500, "epoch": 4, "curriculum_val_loss": 0.3721, "curriculum_val_ppl": 1.45, "oasst1_val_loss": 4.0206, "oasst1_val_ppl": 55.73, "composite_loss": 2.1963, "is_best": true, "timestamp": 1793084503.7545488}

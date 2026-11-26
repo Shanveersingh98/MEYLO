@@ -1,0 +1,123 @@
+{
+  "stage": "Stage 1: Complete Neural Model Audit, Independent Evaluation & Training Readiness",
+  "timestamp": 1794574918.3391962,
+  "iso_timestamp": "2026-11-13T13:01:58Z",
+  "output_directory": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1",
+  "total_artifacts": 19,
+  "artifacts": {
+    "initial_audit.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\initial_audit.md",
+      "size_bytes": 8017,
+      "sha256": "fe8c89c400618cdc1979026a94d06949bc1f8b05498c77498cc0f33349f15047",
+      "modified": "2026-11-13T12:59:11Z"
+    },
+    "model_architecture_audit.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\model_architecture_audit.md",
+      "size_bytes": 9598,
+      "sha256": "f0186df5c33c1029bd64343858f0af80035dc9fe68b5e74b627aee85242a0026",
+      "modified": "2026-11-13T12:59:40Z"
+    },
+    "independent_model_benchmark.json": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\independent_model_benchmark.json",
+      "size_bytes": 2729,
+      "sha256": "7c83fe7c6c6ffca6c1580dc818979571808fb518318676f86bacaf1effddc562",
+      "modified": "2026-11-13T12:48:47Z"
+    },
+    "baseline_model_responses.json": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\baseline_model_responses.json",
+      "size_bytes": 27858,
+      "sha256": "06ec798c4a5917d22e4ea6c0178f04add0c9ddff345a7b127ea30ae8585090eb",
+      "modified": "2026-11-13T12:55:37Z"
+    },
+    "generation_comparison.json": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\generation_comparison.json",
+      "size_bytes": 14226,
+      "sha256": "fcc95fb2316c9aa4ff7ae44ddcf9ac1ae0ce2e388b5dd805ba9b1c586e0cec58",
+      "modified": "2026-11-13T12:57:07Z"
+    },
+    "training_pipeline_audit.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\training_pipeline_audit.md",
+      "size_bytes": 8380,
+      "sha256": "68cd4feed62f40a722735fc6c0231661f81a7f4deeeff1d7ae68e1976974050d",
+      "modified": "2026-11-13T13:00:09Z"
+    },
+    "validation_integrity_report.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\validation_integrity_report.md",
+      "size_bytes": 7003,
+      "sha256": "ad3433076552506cc1598c2c004a0fc841b37230f3d52f1ee5ca06f47118a1c0",
+      "modified": "2026-11-13T13:00:29Z"
+    },
+    "training_data_quality_report.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\training_data_quality_report.md",
+      "size_bytes": 7256,
+      "sha256": "a621e3c4cb7bec42eb1cb3826fb09bcea481b43dd5ff94e9667904247822d9ff",
+      "modified": "2026-11-13T13:00:50Z"
+    },
+    "model_limitations_report.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\model_limitations_report.md",
+      "size_bytes": 7472,
+      "sha256": "83e85b39dbe095efa9e2c393f9a44462e6eddf8aa144893a5d52c603aa27a92c",
+      "modified": "2026-11-13T13:01:14Z"
+    },
+    "training_improvement_recommendation.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\training_improvement_recommendation.md",
+      "size_bytes": 8008,
+      "sha256": "5ab35a2b6f8e08131543cdc54aad72b871a8ae1a7171fa7d1cb875bf1456f8c2",
+      "modified": "2026-11-13T13:01:39Z"
+    },
+    "scripts/evaluate_local_model.py": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scripts\\evaluate_local_model.py",
+      "size_bytes": 12181,
+      "sha256": "d67fba75dee09bc2fd98db993e9ed5d5239bba571f9fcb0b69d8e028f93ef268",
+      "modified": "2026-11-13T12:49:39Z"
+    },
+    "scripts/evaluate_generation_parameters.py": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scripts\\evaluate_generation_parameters.py",
+      "size_bytes": 8968,
+      "sha256": "eac8be84996c5df8f95b63ef5fd5c430264bf78e60f1266461d74ca66d28d579",
+      "modified": "2026-11-13T12:55:05Z"
+    },
+    "scripts/audit_pipeline_and_data.py": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scripts\\audit_pipeline_and_data.py",
+      "size_bytes": 14712,
+      "sha256": "0a3cacbf034d1b674bd23edeae6edbcdb0690a27b089036262c4ef8d40cb00f4",
+      "modified": "2026-11-13T12:56:53Z"
+    },
+    "scratch/audit_params.py": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scratch\\audit_params.py",
+      "size_bytes": 9646,
+      "sha256": "1faedcda54768f87058d2f73ef8994fa71870dd5f8683cb6a8cd2557e45e835a",
+      "modified": "2026-11-13T12:49:11Z"
+    },
+    "scratch/generate_inventory_and_backup.py": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scratch\\generate_inventory_and_backup.py",
+      "size_bytes": 5300,
+      "sha256": "f05dce410378b2612f561ad9824027a90a80a5ce7dbcd717f55c506bf4b71c9c",
+      "modified": "2026-11-13T12:58:06Z"
+    },
+    "scratch/file_inventory_and_hashes.json": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scratch\\file_inventory_and_hashes.json",
+      "size_bytes": 7561,
+      "sha256": "f65ee61ddafe89bc0f6fd56a250c7523a1db5c920aa9647fa24974447fb6928c",
+      "modified": "2026-11-13T12:58:23Z"
+    },
+    "scratch/pipeline_audit_results.json": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\scratch\\pipeline_audit_results.json",
+      "size_bytes": 6506,
+      "sha256": "86fe95fa8cedd6ad907a9834e1a9f351405275c9e7c0aa27f6baf409c30d35f5",
+      "modified": "2026-11-13T12:57:45Z"
+    },
+    "backups/source_backup_20261113_182820.zip": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\backups\\source_backup_20261113_182820.zip",
+      "size_bytes": 381639,
+      "sha256": "dfb4b5b53785cd0563062a2d8a527a9657ba71411a1a3eb4ff30cc4137b4cf1e",
+      "modified": "2026-11-13T12:58:23Z"
+    },
+    "final_report.md": {
+      "file_path": "D:\\DEEP-LEARNING-PROJECT\\logs\\model_development_stage_1\\final_report.md",
+      "size_bytes": 14376,
+      "sha256": "30f73c396d739f0afc19519078616e75a83554643b2fa0070df79498ef8474fc",
+      "modified": "2026-11-13T13:02:32Z"
+    }
+  }
+}

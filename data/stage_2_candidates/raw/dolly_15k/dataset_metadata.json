@@ -1,0 +1,8 @@
+{
+  "dataset_name": "Databricks Dolly 15K",
+  "huggingface_id": "databricks/databricks-dolly-15k",
+  "official_source": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)",
+  "intended_purpose": "Instruction following, open/closed Q&A, brainstorming, summarization",
+  "raw_file": "D:\\DEEP-LEARNING-PROJECT\\data\\stage_2_candidates\\raw\\dolly_15k\\databricks-dolly-15k.jsonl"
+}

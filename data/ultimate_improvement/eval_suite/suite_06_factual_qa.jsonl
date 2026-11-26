@@ -1,0 +1,20 @@
+{"id": "fact_01", "prompt": "What is the capital of France?", "expected_key_points": ["Paris"]}
+{"id": "fact_02", "prompt": "What is the largest planet in our solar system?", "expected_key_points": ["Jupiter"]}
+{"id": "fact_03", "prompt": "What gas do green plants absorb from the atmosphere for photosynthesis?", "expected_key_points": ["carbon dioxide", "CO2"]}
+{"id": "fact_04", "prompt": "What is the chemical formula for water?", "expected_key_points": ["H2O"]}
+{"id": "fact_05", "prompt": "How many continents are there on Earth?", "expected_key_points": ["7", "seven"]}
+{"id": "fact_06", "prompt": "Who proposed the general theory of relativity?", "expected_key_points": ["Albert Einstein", "Einstein"]}
+{"id": "fact_07", "prompt": "What is the boiling point of water in Celsius at standard atmospheric pressure?", "expected_key_points": ["100", "100°C", "100 degrees"]}
+{"id": "fact_08", "prompt": "What is the primary organ used for pumping blood throughout the human body?", "expected_key_points": ["heart"]}
+{"id": "fact_09", "prompt": "In computer science, what does CPU stand for?", "expected_key_points": ["Central Processing Unit"]}
+{"id": "fact_10", "prompt": "Which element has the atomic number 1 on the periodic table?", "expected_key_points": ["Hydrogen", "H"]}
+{"id": "fact_11", "prompt": "What is the currency of Japan?", "expected_key_points": ["Yen"]}
+{"id": "fact_12", "prompt": "What is the speed of light in a vacuum approximately in meters per second?", "expected_key_points": ["300,000", "300000", "3 x 10^8", "3*10^8", "299,792,458"]}
+{"id": "fact_13", "prompt": "Which organ in the human body is primarily responsible for filtering blood and producing urine?", "expected_key_points": ["kidneys", "kidney"]}
+{"id": "fact_14", "prompt": "What is the tallest mountain in the world above sea level?", "expected_key_points": ["Mount Everest", "Everest"]}
+{"id": "fact_15", "prompt": "In Python, which built-in function returns the number of items in a list?", "expected_key_points": ["len", "len()"]}
+{"id": "fact_16", "prompt": "What is the process called by which liquid water turns into water vapor?", "expected_key_points": ["evaporation"]}
+{"id": "fact_17", "prompt": "How many bits are in one standard byte?", "expected_key_points": ["8", "eight"]}
+{"id": "fact_18", "prompt": "What is the freezing point of water in Celsius?", "expected_key_points": ["0", "0°C", "zero"]}
+{"id": "fact_19", "prompt": "Which planet is known as the Red Planet?", "expected_key_points": ["Mars"]}
+{"id": "fact_20", "prompt": "What does RAM stand for in computing?", "expected_key_points": ["Random Access Memory"]}

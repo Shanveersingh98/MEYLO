@@ -1,0 +1,89 @@
+{
+  "benchmark_version": "1.0",
+  "description": "Independent baseline benchmark for FromScratchLM (14.1M params). Tests raw neural model only — no external tools.",
+  "categories": {
+    "A_general_conversation": {
+      "label": "General Conversation",
+      "type": "single_turn",
+      "prompts": [
+        "Hello, how are you?",
+        "Tell me something interesting.",
+        "What can you help me with?",
+        "Thank you for helping me."
+      ]
+    },
+    "B_educational_explanations": {
+      "label": "Educational Explanations",
+      "type": "single_turn",
+      "prompts": [
+        "What is machine learning?",
+        "What is deep learning?",
+        "What is artificial intelligence?",
+        "What is a neural network?",
+        "Explain supervised learning.",
+        "Explain reinforcement learning."
+      ]
+    },
+    "C_instruction_following": {
+      "label": "Instruction Following",
+      "type": "single_turn",
+      "prompts": [
+        "Explain what a computer program is in exactly three points.",
+        "Give a short definition of gravity and one example.",
+        "Explain photosynthesis in two sentences.",
+        "List three differences between a CPU and a GPU using a numbered list.",
+        "Explain what an API is in beginner-friendly language."
+      ]
+    },
+    "D_basic_reasoning": {
+      "label": "Basic Reasoning",
+      "type": "single_turn",
+      "prompts": [
+        "If I have 5 apples and give away 2, how many do I have left?",
+        "Which is larger, the Earth or the Moon?",
+        "What happens if you heat ice?",
+        "If it is raining outside, should you bring an umbrella?"
+      ]
+    },
+    "E_multi_turn": {
+      "label": "Multi-Turn Conversations",
+      "type": "multi_turn",
+      "conversations": [
+        {
+          "id": "conv1",
+          "turns": [
+            "What is machine learning?",
+            "Give me an example.",
+            "Explain it in simpler words."
+          ]
+        },
+        {
+          "id": "conv2",
+          "turns": [
+            "What is the capital of France?",
+            "Tell me more about that city.",
+            "What was my first question?"
+          ]
+        },
+        {
+          "id": "conv3",
+          "turns": [
+            "Hello!",
+            "Can you explain what Python is?",
+            "Why is it popular?"
+          ]
+        }
+      ]
+    },
+    "F_text_quality_probes": {
+      "label": "Text Quality Probes",
+      "type": "single_turn",
+      "prompts": [
+        "Write a short paragraph about the ocean.",
+        "Describe what a good teacher does.",
+        "Explain why exercise is important for health.",
+        "Tell me about the history of computers."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1663 @@
+{
+  "timestamp": 1793452653.69684,
+  "total": 44,
+  "passed": 44,
+  "results": [
+    {
+      "query": "Who is Shanveer Singh Khosa on LinkedIn?",
+      "interpretation": {
+        "original_message": "Who is Shanveer Singh Khosa on LinkedIn?",
+        "normalized_message": "Who is Shanveer Singh Khosa on LinkedIn?",
+        "intent": "person_profile",
+        "sub_intent": null,
+        "action": "search_profile",
+        "main_subject": "Shanveer Singh Khosa",
+        "named_entities": [
+          "Shanveer Singh Khosa"
+        ],
+        "related_entities": [],
+        "platform": "linkedin",
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "\"Shanveer Singh Khosa\" LinkedIn",
+          "site:linkedin.com/in \"Shanveer Singh Khosa\"",
+          "\"Shanveer Singh Khosa\" professional profile"
+        ],
+        "preferred_sources": [
+          "linkedin",
+          "wikipedia",
+          "wikidata",
+          "openalex"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Public profile search identified for 'Shanveer Singh Khosa' on platform 'linkedin'."
+      },
+      "passed": true,
+      "latency_ms": 2174.92
+    },
+    {
+      "query": "Explain how PyTorch's torch.nn.Linear works, with a simple Python example.",
+      "interpretation": {
+        "original_message": "Explain how PyTorch's torch.nn.Linear works, with a simple Python example.",
+        "normalized_message": "Explain how PyTorch's torch.nn.Linear works, with a simple Python example.",
+        "intent": "technical_programming",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "torch.nn.Linear",
+        "named_entities": [
+          "PyTorch",
+          "torch.nn.Linear"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [
+          "torch.nn.Linear",
+          "nn.Linear"
+        ],
+        "requested_format": "code_example",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch torch.nn.Linear official documentation",
+          "torch.nn.Linear in_features out_features bias documentation"
+        ],
+        "preferred_sources": [
+          "official_pytorch_docs",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Technical programming inquiry regarding 'torch.nn.Linear' (PyTorch) with requested format: code_example."
+      },
+      "passed": true,
+      "latency_ms": 8.49
+    },
+    {
+      "query": "Find the latest official Python release information and provide the source links.",
+      "interpretation": {
+        "original_message": "Find the latest official Python release information and provide the source links.",
+        "normalized_message": "Find the latest official Python release information and provide the source links.",
+        "intent": "current_events",
+        "sub_intent": null,
+        "action": "find_latest",
+        "main_subject": "Python latest release",
+        "named_entities": [
+          "Python"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": true,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "Python official downloads latest release",
+          "site:python.org/downloads/release Python latest release",
+          "Python latest official release version date"
+        ],
+        "preferred_sources": [
+          "official_python_releases",
+          "general_web"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Freshness-sensitive query for Python."
+      },
+      "passed": true,
+      "latency_ms": 2615.05
+    },
+    {
+      "query": "Explain the difference between supervised and reinforcement learning.",
+      "interpretation": {
+        "original_message": "Explain the difference between supervised and reinforcement learning.",
+        "normalized_message": "Explain the difference between supervised and reinforcement learning.",
+        "intent": "comparison",
+        "sub_intent": null,
+        "action": "compare",
+        "main_subject": "difference between supervised vs reinforcement learning",
+        "named_entities": [
+          "difference between supervised",
+          "reinforcement learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "comparison_table",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": true,
+        "comparison_entities": [
+          "difference between supervised",
+          "reinforcement learning"
+        ],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "difference between difference between supervised and reinforcement learning",
+          "difference between supervised definition and key characteristics",
+          "reinforcement learning definition and key characteristics"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Comparison query decomposed into 2 distinct entities: ['difference between supervised', 'reinforcement learning']"
+      },
+      "passed": true,
+      "latency_ms": 2861.73
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "interpretation": {
+        "original_message": "Explain the second source in simpler words.",
+        "normalized_message": "Explain the second source in simpler words.",
+        "intent": "followup_reference",
+        "sub_intent": null,
+        "action": "simplify",
+        "main_subject": "Source [2]",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": true,
+        "context_reference_type": "numbered_source",
+        "referenced_source_index": 1,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [
+          "cached_evidence"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Conversational follow-up resolved (referenced_idx=1, action=simplify)."
+      },
+      "passed": true,
+      "latency_ms": 0.48
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "interpretation": {
+        "original_message": "Explain the second source in simpler words.",
+        "normalized_message": "Explain the second source in simpler words.",
+        "intent": "followup_reference",
+        "sub_intent": null,
+        "action": "simplify",
+        "main_subject": "Source [2]",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": true,
+        "context_reference_type": "numbered_source",
+        "referenced_source_index": 1,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [
+          "cached_evidence"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Conversational follow-up resolved (referenced_idx=1, action=simplify)."
+      },
+      "passed": true,
+      "latency_ms": 0.66
+    },
+    {
+      "query": "Find the LinkedIn profile of Shanveer Singh Khosa.",
+      "interpretation": {
+        "original_message": "Find the LinkedIn profile of Shanveer Singh Khosa.",
+        "normalized_message": "Find the LinkedIn profile of Shanveer Singh Khosa.",
+        "intent": "person_profile",
+        "sub_intent": null,
+        "action": "search_profile",
+        "main_subject": "Shanveer Singh Khosa",
+        "named_entities": [
+          "Shanveer Singh Khosa"
+        ],
+        "related_entities": [],
+        "platform": "linkedin",
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "\"Shanveer Singh Khosa\" LinkedIn",
+          "site:linkedin.com/in \"Shanveer Singh Khosa\"",
+          "\"Shanveer Singh Khosa\" professional profile"
+        ],
+        "preferred_sources": [
+          "linkedin",
+          "wikipedia",
+          "wikidata",
+          "openalex"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Public profile search identified for 'Shanveer Singh Khosa' on platform 'linkedin'."
+      },
+      "passed": true,
+      "latency_ms": 2046.28
+    },
+    {
+      "query": "Tell me about a named public researcher Geoffrey Hinton.",
+      "interpretation": {
+        "original_message": "Tell me about a named public researcher Geoffrey Hinton.",
+        "normalized_message": "Tell me about a named public researcher Geoffrey Hinton.",
+        "intent": "person_profile",
+        "sub_intent": null,
+        "action": "search_profile",
+        "main_subject": "Tell me about a named public researcher Geoffrey Hinton",
+        "named_entities": [
+          "Tell me about a named public researcher Geoffrey Hinton"
+        ],
+        "related_entities": [],
+        "platform": "web",
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "\"Tell me about a named public researcher Geoffrey Hinton\" professional profile",
+          "\"Tell me about a named public researcher Geoffrey Hinton\" biography career",
+          "Tell me about a named public researcher Geoffrey Hinton"
+        ],
+        "preferred_sources": [
+          "general_web",
+          "wikipedia",
+          "wikidata",
+          "openalex"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Public profile search identified for 'Tell me about a named public researcher Geoffrey Hinton' on platform 'web'."
+      },
+      "passed": true,
+      "latency_ms": 14894.76
+    },
+    {
+      "query": "Find Microsoft's official LinkedIn page.",
+      "interpretation": {
+        "original_message": "Find Microsoft's official LinkedIn page.",
+        "normalized_message": "Find Microsoft's official LinkedIn page.",
+        "intent": "person_profile",
+        "sub_intent": null,
+        "action": "search_profile",
+        "main_subject": "Find Microsoft",
+        "named_entities": [
+          "Find Microsoft"
+        ],
+        "related_entities": [],
+        "platform": "linkedin",
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "\"Find Microsoft\" LinkedIn",
+          "site:linkedin.com/in \"Find Microsoft\"",
+          "\"Find Microsoft\" professional profile"
+        ],
+        "preferred_sources": [
+          "linkedin",
+          "wikipedia",
+          "wikidata",
+          "openalex"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Public profile search identified for 'Find Microsoft' on platform 'linkedin'."
+      },
+      "passed": true,
+      "latency_ms": 2785.08
+    },
+    {
+      "query": "Search for a person named Alex Rivera on GitHub.",
+      "interpretation": {
+        "original_message": "Search for a person named Alex Rivera on GitHub.",
+        "normalized_message": "Search for a person named Alex Rivera on GitHub.",
+        "intent": "person_profile",
+        "sub_intent": null,
+        "action": "search_profile",
+        "main_subject": "Search for a person named Alex Rivera",
+        "named_entities": [
+          "Search for a person named Alex Rivera"
+        ],
+        "related_entities": [],
+        "platform": "github",
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "\"Search for a person named Alex Rivera\" GitHub",
+          "site:github.com \"Search for a person named Alex Rivera\""
+        ],
+        "preferred_sources": [
+          "general_web",
+          "wikipedia",
+          "wikidata",
+          "openalex"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Public profile search identified for 'Search for a person named Alex Rivera' on platform 'github'."
+      },
+      "passed": true,
+      "latency_ms": 14726.02
+    },
+    {
+      "query": "What professional information is publicly available about Satya Nadella?",
+      "interpretation": {
+        "original_message": "What professional information is publicly available about Satya Nadella?",
+        "normalized_message": "What professional information is publicly available about Satya Nadella?",
+        "intent": "person_profile",
+        "sub_intent": null,
+        "action": "search_profile",
+        "main_subject": "Satya Nadella",
+        "named_entities": [
+          "Satya Nadella"
+        ],
+        "related_entities": [],
+        "platform": "web",
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "\"Satya Nadella\" professional profile",
+          "\"Satya Nadella\" biography career",
+          "Satya Nadella"
+        ],
+        "preferred_sources": [
+          "general_web",
+          "wikipedia",
+          "wikidata",
+          "openalex"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Public profile search identified for 'Satya Nadella' on platform 'web'."
+      },
+      "passed": true,
+      "latency_ms": 15047.49
+    },
+    {
+      "query": "Give a simple runnable PyTorch example of torch.nn.Linear.",
+      "interpretation": {
+        "original_message": "Give a simple runnable PyTorch example of torch.nn.Linear.",
+        "normalized_message": "Give a simple runnable PyTorch example of torch.nn.Linear.",
+        "intent": "technical_programming",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "torch.nn.Linear",
+        "named_entities": [
+          "PyTorch",
+          "torch.nn.Linear"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [
+          "torch.nn.Linear",
+          "nn.Linear"
+        ],
+        "requested_format": "explanation",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch torch.nn.Linear official documentation",
+          "torch.nn.Linear in_features out_features bias documentation"
+        ],
+        "preferred_sources": [
+          "official_pytorch_docs",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Technical programming inquiry regarding 'torch.nn.Linear' (PyTorch) with requested format: explanation."
+      },
+      "passed": true,
+      "latency_ms": 1.57
+    },
+    {
+      "query": "What is the difference between a parameter and a buffer in PyTorch?",
+      "interpretation": {
+        "original_message": "What is the difference between a parameter and a buffer in PyTorch?",
+        "normalized_message": "What is the difference between a parameter and a buffer in PyTorch?",
+        "intent": "comparison",
+        "sub_intent": null,
+        "action": "compare",
+        "main_subject": "parameter vs buffer",
+        "named_entities": [
+          "parameter",
+          "buffer"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "comparison_table",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": true,
+        "comparison_entities": [
+          "parameter",
+          "buffer"
+        ],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "difference between parameter and buffer",
+          "parameter definition and key characteristics",
+          "buffer definition and key characteristics"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Comparison query decomposed into 2 distinct entities: ['parameter', 'buffer']"
+      },
+      "passed": true,
+      "latency_ms": 1.15
+    },
+    {
+      "query": "Find the official documentation for torch.nn.Module.",
+      "interpretation": {
+        "original_message": "Find the official documentation for torch.nn.Module.",
+        "normalized_message": "Find the official documentation for torch.nn.Module.",
+        "intent": "technical_programming",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "torch.nn.Module",
+        "named_entities": [
+          "PyTorch",
+          "torch.nn.Module"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [
+          "torch.nn.Module",
+          "nn.Module"
+        ],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch torch.nn.Module official documentation",
+          "PyTorch torch.nn.Module documentation example"
+        ],
+        "preferred_sources": [
+          "official_pytorch_docs",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Technical programming inquiry regarding 'torch.nn.Module' (PyTorch) with requested format: explanation."
+      },
+      "passed": true,
+      "latency_ms": 0.37
+    },
+    {
+      "query": "Explain what nn.ReLU() does in PyTorch with code.",
+      "interpretation": {
+        "original_message": "Explain what nn.ReLU() does in PyTorch with code.",
+        "normalized_message": "Explain what nn.ReLU() does in PyTorch with code.",
+        "intent": "technical_programming",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "nn.ReLU",
+        "named_entities": [
+          "PyTorch",
+          "nn.ReLU"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [
+          "nn.ReLU"
+        ],
+        "requested_format": "code_example",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch nn.ReLU official documentation",
+          "PyTorch nn.ReLU documentation example"
+        ],
+        "preferred_sources": [
+          "official_pytorch_docs",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Technical programming inquiry regarding 'nn.ReLU' (PyTorch) with requested format: code_example."
+      },
+      "passed": true,
+      "latency_ms": 0.42
+    },
+    {
+      "query": "Explain how PyTorch autograd handles backpropagation.",
+      "interpretation": {
+        "original_message": "Explain how PyTorch autograd handles backpropagation.",
+        "normalized_message": "Explain how PyTorch autograd handles backpropagation.",
+        "intent": "technical_programming",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "autograd",
+        "named_entities": [
+          "PyTorch",
+          "autograd"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [
+          "autograd"
+        ],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch autograd official documentation",
+          "PyTorch autograd documentation example"
+        ],
+        "preferred_sources": [
+          "official_pytorch_docs",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Technical programming inquiry regarding 'autograd' (PyTorch) with requested format: explanation."
+      },
+      "passed": true,
+      "latency_ms": 0.68
+    },
+    {
+      "query": "Find the latest official Python release.",
+      "interpretation": {
+        "original_message": "Find the latest official Python release.",
+        "normalized_message": "Find the latest official Python release.",
+        "intent": "current_events",
+        "sub_intent": null,
+        "action": "find_latest",
+        "main_subject": "Python latest release",
+        "named_entities": [
+          "Python"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": true,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "Python official downloads latest release",
+          "site:python.org/downloads/release Python latest release",
+          "Python latest official release version date"
+        ],
+        "preferred_sources": [
+          "official_python_releases",
+          "general_web"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Freshness-sensitive query for Python."
+      },
+      "passed": true,
+      "latency_ms": 2336.25
+    },
+    {
+      "query": "What is the latest stable PyTorch release?",
+      "interpretation": {
+        "original_message": "What is the latest stable PyTorch release?",
+        "normalized_message": "What is the latest stable PyTorch release?",
+        "intent": "current_events",
+        "sub_intent": null,
+        "action": "find_latest",
+        "main_subject": "PyTorch latest release",
+        "named_entities": [
+          "PyTorch"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": true,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch latest stable release version date",
+          "site:github.com/pytorch/pytorch/releases PyTorch latest release"
+        ],
+        "preferred_sources": [
+          "official_pytorch_releases",
+          "github",
+          "general_web"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Freshness-sensitive query for PyTorch."
+      },
+      "passed": true,
+      "latency_ms": 1.35
+    },
+    {
+      "query": "Find a recent AI research development in 2026.",
+      "interpretation": {
+        "original_message": "Find a recent AI research development in 2026.",
+        "normalized_message": "Find a recent AI research development in 2026.",
+        "intent": "current_events",
+        "sub_intent": null,
+        "action": "find_latest",
+        "main_subject": "AI research",
+        "named_entities": [
+          "AI research"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": true,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "recent AI research developments 2025 2026 arXiv",
+          "DeepSeek-R1 reasoning models release"
+        ],
+        "preferred_sources": [
+          "openalex",
+          "general_web"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Freshness-sensitive query for AI research."
+      },
+      "passed": true,
+      "latency_ms": 0.51
+    },
+    {
+      "query": "Summarize a recently published technical announcement for PyTorch.",
+      "interpretation": {
+        "original_message": "Summarize a recently published technical announcement for PyTorch.",
+        "normalized_message": "Summarize a recently published technical announcement for PyTorch.",
+        "intent": "current_events",
+        "sub_intent": null,
+        "action": "find_latest",
+        "main_subject": "PyTorch",
+        "named_entities": [
+          "PyTorch"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": true,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "PyTorch latest stable release version date",
+          "site:github.com/pytorch/pytorch/releases PyTorch latest release"
+        ],
+        "preferred_sources": [
+          "official_pytorch_releases",
+          "github",
+          "general_web"
+        ],
+        "confidence": 0.96,
+        "reasoning": "Freshness-sensitive query for PyTorch."
+      },
+      "passed": true,
+      "latency_ms": 0.72
+    },
+    {
+      "query": "What is deep learning?",
+      "interpretation": {
+        "original_message": "What is deep learning?",
+        "normalized_message": "What is deep learning?",
+        "intent": "educational_concept",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "deep learning",
+        "named_entities": [
+          "deep learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "deep learning",
+          "deep learning machine learning definition"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "wikidata",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Educational concept definition inquiry for 'deep learning'."
+      },
+      "passed": true,
+      "latency_ms": 2452.7
+    },
+    {
+      "query": "Explain supervised learning in simple words.",
+      "interpretation": {
+        "original_message": "Explain supervised learning in simple words.",
+        "normalized_message": "Explain supervised learning in simple words.",
+        "intent": "educational_concept",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "supervised learning",
+        "named_entities": [
+          "supervised learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "supervised learning",
+          "supervised learning machine learning definition"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "wikidata",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Educational concept definition inquiry for 'supervised learning'."
+      },
+      "passed": true,
+      "latency_ms": 3092.62
+    },
+    {
+      "query": "Explain self-supervised learning.",
+      "interpretation": {
+        "original_message": "Explain self-supervised learning.",
+        "normalized_message": "Explain self-supervised learning.",
+        "intent": "educational_concept",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "self-supervised learning",
+        "named_entities": [
+          "self-supervised learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "self-supervised learning",
+          "self-supervised learning machine learning definition"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "wikidata",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Educational concept definition inquiry for 'self-supervised learning'."
+      },
+      "passed": true,
+      "latency_ms": 2461.14
+    },
+    {
+      "query": "Explain neural networks with an example.",
+      "interpretation": {
+        "original_message": "Explain neural networks with an example.",
+        "normalized_message": "Explain neural networks with an example.",
+        "intent": "educational_concept",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "neural networks",
+        "named_entities": [
+          "neural networks"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation_with_example",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "neural networks",
+          "neural networks machine learning definition"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "wikidata",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Educational concept definition inquiry for 'neural networks'."
+      },
+      "passed": true,
+      "latency_ms": 2459.54
+    },
+    {
+      "query": "Explain AI, ML, and DL with examples.",
+      "interpretation": {
+        "original_message": "Explain AI, ML, and DL with examples.",
+        "normalized_message": "Explain AI, ML, and DL with examples.",
+        "intent": "comparison",
+        "sub_intent": null,
+        "action": "compare",
+        "main_subject": "artificial intelligence vs machine learning vs deep learning",
+        "named_entities": [
+          "artificial intelligence",
+          "machine learning",
+          "deep learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "comparison_table",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": true,
+        "comparison_entities": [
+          "artificial intelligence",
+          "machine learning",
+          "deep learning"
+        ],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "difference between artificial intelligence and machine learning",
+          "artificial intelligence definition and key characteristics",
+          "machine learning definition and key characteristics",
+          "deep learning definition and key characteristics"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Comparison query decomposed into 3 distinct entities: ['artificial intelligence', 'machine learning', 'deep learning']"
+      },
+      "passed": true,
+      "latency_ms": 2.24
+    },
+    {
+      "query": "Compare supervised learning and self-supervised learning.",
+      "interpretation": {
+        "original_message": "Compare supervised learning and self-supervised learning.",
+        "normalized_message": "Compare supervised learning and self-supervised learning.",
+        "intent": "comparison",
+        "sub_intent": null,
+        "action": "compare",
+        "main_subject": "supervised learning vs self-supervised learning",
+        "named_entities": [
+          "supervised learning",
+          "self-supervised learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "comparison_table",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": true,
+        "comparison_entities": [
+          "supervised learning",
+          "self-supervised learning"
+        ],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "difference between supervised learning and self-supervised learning",
+          "supervised learning definition and key characteristics",
+          "self-supervised learning definition and key characteristics"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Comparison query decomposed into 2 distinct entities: ['supervised learning', 'self-supervised learning']"
+      },
+      "passed": true,
+      "latency_ms": 1076.98
+    },
+    {
+      "query": "Explain the difference between a parameter and a buffer in PyTorch.",
+      "interpretation": {
+        "original_message": "Explain the difference between a parameter and a buffer in PyTorch.",
+        "normalized_message": "Explain the difference between a parameter and a buffer in PyTorch.",
+        "intent": "comparison",
+        "sub_intent": null,
+        "action": "compare",
+        "main_subject": "difference between a parameter vs buffer",
+        "named_entities": [
+          "difference between a parameter",
+          "buffer"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "comparison_table",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": true,
+        "comparison_entities": [
+          "difference between a parameter",
+          "buffer"
+        ],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "difference between difference between a parameter and buffer",
+          "difference between a parameter definition and key characteristics",
+          "buffer definition and key characteristics"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Comparison query decomposed into 2 distinct entities: ['difference between a parameter', 'buffer']"
+      },
+      "passed": true,
+      "latency_ms": 0.0
+    },
+    {
+      "query": "What is supervised learning?",
+      "interpretation": {
+        "original_message": "What is supervised learning?",
+        "normalized_message": "What is supervised learning?",
+        "intent": "educational_concept",
+        "sub_intent": null,
+        "action": "explain",
+        "main_subject": "supervised learning",
+        "named_entities": [
+          "supervised learning"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "supervised learning",
+          "supervised learning machine learning definition"
+        ],
+        "preferred_sources": [
+          "wikipedia",
+          "wikidata",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "Educational concept definition inquiry for 'supervised learning'."
+      },
+      "passed": true,
+      "latency_ms": 2502.59
+    },
+    {
+      "query": "Explain that more simply.",
+      "interpretation": {
+        "original_message": "Explain that more simply.",
+        "normalized_message": "Explain that more simply.",
+        "intent": "followup_reference",
+        "sub_intent": null,
+        "action": "simplify",
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": true,
+        "context_reference_type": "pronoun",
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [
+          "cached_evidence"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Conversational follow-up resolved (referenced_idx=None, action=simplify)."
+      },
+      "passed": true,
+      "latency_ms": 0.0
+    },
+    {
+      "query": "Give an example of the same concept.",
+      "interpretation": {
+        "original_message": "Give an example of the same concept.",
+        "normalized_message": "Give an example of the same concept.",
+        "intent": "followup_reference",
+        "sub_intent": null,
+        "action": "example",
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "code_example",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": true,
+        "context_reference_type": "prior_subject",
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [
+          "cached_evidence"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Conversational follow-up resolved (referenced_idx=None, action=example)."
+      },
+      "passed": true,
+      "latency_ms": 2241.14
+    },
+    {
+      "query": "What did I ask you earlier?",
+      "interpretation": {
+        "original_message": "What did I ask you earlier?",
+        "normalized_message": "What did I ask you earlier?",
+        "intent": "followup_reference",
+        "sub_intent": null,
+        "action": "recall",
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": true,
+        "context_reference_type": "recall",
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [
+          "cached_evidence"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Conversational follow-up resolved (referenced_idx=None, action=recall)."
+      },
+      "passed": true,
+      "latency_ms": 1.88
+    },
+    {
+      "query": "hello there, good afternoon!",
+      "interpretation": {
+        "original_message": "hello there, good afternoon!",
+        "normalized_message": "hello there, good afternoon!",
+        "intent": "general_conversation",
+        "sub_intent": null,
+        "action": "chat",
+        "main_subject": "conversational social interaction",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [],
+        "confidence": 1.0,
+        "reasoning": "Social greeting or polite conversational pleasantry."
+      },
+      "passed": true,
+      "latency_ms": 204.3
+    },
+    {
+      "query": "thank you so much for your help",
+      "interpretation": {
+        "original_message": "thank you so much for your help",
+        "normalized_message": "thank you so much for your help",
+        "intent": "general_conversation",
+        "sub_intent": null,
+        "action": "chat",
+        "main_subject": "conversational social interaction",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [],
+        "confidence": 1.0,
+        "reasoning": "Social greeting or polite conversational pleasantry."
+      },
+      "passed": true,
+      "latency_ms": 309.45
+    },
+    {
+      "query": "Can you explain how this works in simple English?",
+      "interpretation": {
+        "original_message": "Can you explain how this works in simple English?",
+        "normalized_message": "Can you explain how this works in simple English?",
+        "intent": "followup_reference",
+        "sub_intent": null,
+        "action": "simplify",
+        "main_subject": "Previous context",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "beginner",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": true,
+        "context_reference_type": "prior_subject",
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [
+          "cached_evidence"
+        ],
+        "confidence": 0.98,
+        "reasoning": "Conversational follow-up resolved (referenced_idx=None, action=simplify)."
+      },
+      "passed": true,
+      "latency_ms": 4.16
+    },
+    {
+      "query": "stuff",
+      "interpretation": {
+        "original_message": "stuff",
+        "normalized_message": "stuff",
+        "intent": "ambiguous_unspecified",
+        "sub_intent": null,
+        "action": "clarify",
+        "main_subject": "stuff",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": true,
+        "ambiguity_reason": "The query 'stuff' is a single word with multiple potential meanings.",
+        "search_queries": [],
+        "preferred_sources": [],
+        "confidence": 0.85,
+        "reasoning": "Single-word query without context requires clarification."
+      },
+      "passed": true,
+      "latency_ms": 0.51
+    },
+    {
+      "query": "what is 45 * 12 + 100",
+      "interpretation": {
+        "original_message": "what is 45 * 12 + 100",
+        "normalized_message": "what is 45 * 12 + 100",
+        "intent": "deterministic_tool",
+        "sub_intent": null,
+        "action": "calculate",
+        "main_subject": "45 * 12 + 100",
+        "named_entities": [],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "direct_answer",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": false,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": false,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [],
+        "preferred_sources": [],
+        "confidence": 1.0,
+        "reasoning": "Deterministic arithmetic calculation pattern detected."
+      },
+      "passed": true,
+      "latency_ms": 0.53
+    },
+    {
+      "query": "i have pain in my heart and difficulty breathing",
+      "interpretation": {
+        "original_message": "i have pain in my heart and difficulty breathing",
+        "normalized_message": "i have pain in my heart and difficulty breathing",
+        "intent": "health_safety",
+        "sub_intent": "urgent_emergency",
+        "action": "triage",
+        "main_subject": "acute cardiac/respiratory symptom distress",
+        "named_entities": [
+          "acute chest symptom"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": true,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "emergency evaluation acute chest pain",
+          "cardiac symptoms triage"
+        ],
+        "preferred_sources": [
+          "pubmed",
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 1.0,
+        "reasoning": "Urgent acute symptom report requiring immediate emergency medical triage guidance."
+      },
+      "passed": true,
+      "latency_ms": 2205.0
+    },
+    {
+      "query": "what are the common causes of chest pain?",
+      "interpretation": {
+        "original_message": "what are the common causes of chest pain?",
+        "normalized_message": "what are the common causes of chest pain?",
+        "intent": "health_safety",
+        "sub_intent": "general_health_info",
+        "action": "explain",
+        "main_subject": "common causes of chest pain",
+        "named_entities": [
+          "common causes of chest pain"
+        ],
+        "related_entities": [],
+        "platform": null,
+        "organization": null,
+        "technical_identifiers": [],
+        "requested_format": "explanation",
+        "requested_detail": "standard",
+        "requires_current_info": false,
+        "requires_external_research": true,
+        "is_comparison": false,
+        "comparison_entities": [],
+        "refers_to_context": false,
+        "context_reference_type": null,
+        "referenced_source_index": null,
+        "requires_safety_response": true,
+        "is_ambiguous": false,
+        "ambiguity_reason": null,
+        "search_queries": [
+          "common causes of chest pain",
+          "common causes of chest pain medical causes symptoms"
+        ],
+        "preferred_sources": [
+          "pubmed",
+          "wikipedia",
+          "general_web"
+        ],
+        "confidence": 0.95,
+        "reasoning": "General medical knowledge query routed to health evidence."
+      },
+      "passed": true,
+      "latency_ms": 2546.46
+    },
+    {
+      "query": "http://127.0.0.1:8080/admin",
+      "interpretation": {
+        "url": "http://127.0.0.1:8080/admin",
+        "description": "Loopback IP"
+      },
+      "passed": true,
+      "latency_ms": 0.0
+    },
+    {
+      "query": "http://localhost:8000/keys",
+      "interpretation": {
+        "url": "http://localhost:8000/keys",
+        "description": "Localhost hostname"
+      },
+      "passed": true,
+      "latency_ms": 0.0
+    },
+    {
+      "query": "http://169.254.169.254/latest/meta-data/",
+      "interpretation": {
+        "url": "http://169.254.169.254/latest/meta-data/",
+        "description": "AWS metadata endpoint"
+      },
+      "passed": true,
+      "latency_ms": 3.8
+    },
+    {
+      "query": "http://192.168.1.1/router",
+      "interpretation": {
+        "url": "http://192.168.1.1/router",
+        "description": "Private RFC-1918 subnet"
+      },
+      "passed": true,
+      "latency_ms": 0.0
+    },
+    {
+      "query": "file:///etc/passwd",
+      "interpretation": {
+        "url": "file:///etc/passwd",
+        "description": "Prohibited file:// scheme"
+      },
+      "passed": true,
+      "latency_ms": 0.0
+    },
+    {
+      "query": "https://en.wikipedia.org/wiki/Deep_learning",
+      "interpretation": {
+        "url": "https://en.wikipedia.org/wiki/Deep_learning",
+        "description": "Public valid HTTPS"
+      },
+      "passed": true,
+      "latency_ms": 0.81
+    }
+  ]
+}

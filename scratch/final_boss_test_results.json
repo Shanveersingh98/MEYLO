@@ -1,0 +1,380 @@
+{
+  "offline_tests": [
+    {
+      "id": 1,
+      "prompt": "Hey, how are you?",
+      "route": "companion_greeting",
+      "response": "I'm here, feeling great and ready to chat! How are you feeling today?",
+      "note": "Natural friendly greeting"
+    },
+    {
+      "id": 2,
+      "prompt": "What are you doing?",
+      "route": "companion_casual_conversation",
+      "response": "I'm right here chatting with you and ready to help! What are you up to?",
+      "note": "Conversational companion activity check"
+    },
+    {
+      "id": 3,
+      "prompt": "I had a tiring day.",
+      "route": "companion_tired",
+      "response": "I'm sorry to hear that you had such a tiring day. Long and exhausting days can really drain your energy and mood. Take a moment to sit back, breathe, and unwind. If you'd like to talk about what made it so exhausting, or if you just want some relaxing company, I'm right here with you.",
+      "note": "Empathetic listening for exhausted day"
+    },
+    {
+      "id": 4,
+      "prompt": "I feel lonely.",
+      "route": "companion_lonely",
+      "response": "Feeling lonely is really hard, but please know that you are not alone right now. I'm right here with you, and I genuinely enjoy chatting with you. What's been on your mind lately?",
+      "note": "Warm, understanding companionship"
+    },
+    {
+      "id": 5,
+      "prompt": "I had an argument with my best friend.",
+      "route": "companion_emotional_hurt",
+      "response": "I'm really sorry to hear that. Disagreements with someone close to you are especially distressing and emotionally draining. When someone matters that much to you, conflict cuts deep. I'm right here to listen—do you want to share what the disagreement was about, or how you're feeling right now?",
+      "note": "Acknowledges friend conflict, asks what caused it"
+    },
+    {
+      "id": 6,
+      "prompt": "He misunderstood me.",
+      "route": "companion_emotional_hurt",
+      "response": "That can be really frustrating, especially when someone close misunderstands your intentions or what you said. When you didn't mean things that way, it hurts to feel blamed. Have you had a chance to calmly explain what you actually meant?",
+      "note": "Understands misunderstanding in ongoing conflict"
+    },
+    {
+      "id": 7,
+      "prompt": "What should I do?",
+      "route": "companion_interpersonal_advice",
+      "response": "If I were in your shoes, I would give both of you a little time to let the initial frustration settle, and then I would send a short, caring message first. You don't have to rehash the whole argument right away; something simple and sincere works best:\n\n*'Hey, our friendship means a lot to me and I really don't like that we argued today. Whenever you're ready, I'd love to talk things through and hear your thoughts.'*\n\nReaching out this way takes the pressure off, demonstrates maturity, and leaves the door open without putting your friend on the defensive. How does that approach sound to you?",
+      "note": "Interpersonal advice tailored to situation"
+    },
+    {
+      "id": 8,
+      "prompt": "What would you do in my situation?",
+      "route": "companion_interpersonal_advice",
+      "response": "If I were in your shoes, I would give both of you a little time to let the initial frustration settle, and then I would send a short, caring message first. You don't have to rehash the whole argument right away; something simple and sincere works best:\n\n*'Hey, our friendship means a lot to me and I really don't like that we argued today. Whenever you're ready, I'd love to talk things through and hear your thoughts.'*\n\nReaching out this way takes the pressure off, demonstrates maturity, and leaves the door open without putting your friend on the defensive. How does that approach sound to you?",
+      "note": "Thoughtful, gentle personal advice"
+    },
+    {
+      "id": 9,
+      "prompt": "I am feeling helpless.",
+      "route": "companion_helpless_insecure",
+      "response": "It hurts so much when you feel helpless or question your worth. I want to remind you gently that making mistakes doesn't make you foolish, and these feelings don't define who you are. Take a slow, deep breath. I'm here to listen without any judgment—what happened that brought this feeling on?",
+      "note": "Empathetic support for helplessness"
+    },
+    {
+      "id": 10,
+      "prompt": "I am angry with my father.",
+      "route": "companion_family_conflict",
+      "response": "Dealing with tension with your parents can be so stressful and frustrating. You have every right to feel your feelings. What caused the disagreement or anger with your father?",
+      "note": "Family conflict empathy (not assuming a friend)"
+    },
+    {
+      "id": 11,
+      "prompt": "I passed my exam!",
+      "route": "companion_happy",
+      "response": "That is truly worth celebrating! What an amazing achievement. How are you going to celebrate today?",
+      "note": "Warm celebration and excitement"
+    },
+    {
+      "id": 12,
+      "prompt": "What is artificial intelligence?",
+      "route": "offline_educational_grounded",
+      "response": "**Artificial Intelligence (AI)** is the overarching discipline within computer science focused on creating machines and software systems capable of performing tasks that typically require human cognition.\n\nKey aspects of AI include:\n- **Core Capabilities**: Reasoning, pattern recognition, learning from experience, natural language understanding, and perception.\n- **Methodologies**: Encompasses both symbolic rule-based systems (expert systems, logic engines) and modern empirical data-driven approaches.\n- **Subfields**: Machine Learning (ML), Deep Learning (DL), Robotics, Computer Vision, and Natural Language Processing (NLP).",
+      "note": "Core AI definition"
+    },
+    {
+      "id": 13,
+      "prompt": "What is machine learning?",
+      "route": "offline_educational_grounded",
+      "response": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+      "note": "Core ML definition (distinct from AI)"
+    },
+    {
+      "id": 14,
+      "prompt": "What is deep learning?",
+      "route": "offline_educational_grounded",
+      "response": "**Deep Learning (DL)** is a specialized subset of Machine Learning based on artificial neural networks with multiple successive layers (deep architectures). Unlike classical machine learning that relies heavily on manual feature engineering, deep learning autonomously extracts hierarchical representations directly from raw data.\n\nKey characteristics of Deep Learning include:\n- **Hierarchical Feature Learning**: Lower layers learn low-level primitives (like edges or sound frequencies), while deeper layers compose them into complex concepts (like faces, words, or full objects).\n- **Core Architectures**: Convolutional Neural Networks (CNNs) for spatial and visual data, Recurrent Neural Networks (RNNs) for sequential data, and Transformers for attention-based representation learning.\n- **Scale and Hardware**: Leverages massive datasets and parallel GPU computing power to train millions or billions of parameters.",
+      "note": "Core DL definition (hierarchical features)"
+    },
+    {
+      "id": 15,
+      "prompt": "What is a chatbot?",
+      "route": "offline_educational_grounded",
+      "response": "A **chatbot** is a conversational software application designed to interact with users through natural language, either in text or voice format.\n\nKey aspects of chatbots include:\n- **How They Work**: Chatbots range from simple **rule-based systems** (which follow predefined conversation scripts and pattern matching) to **AI-powered conversational companions** using Natural Language Processing (NLP) and machine learning models to understand context, sentiment, and nuance.\n- **Common Types**: Virtual customer service assistants, productivity helpers, and AI personal companions.\n- **Core Architecture**: Natural Language Understanding (NLU) to interpret intent, conversation state management to remember context across turns, and response generation to craft empathetic, accurate answers.",
+      "note": "Chatbot definition"
+    },
+    {
+      "id": 16,
+      "prompt": "What is education?",
+      "route": "offline_educational_grounded",
+      "response": "**Education** is the systematic process of facilitating learning and the acquisition of knowledge, skills, values, beliefs, and habits. It encompasses both structured formal schooling and lifelong experiential development.\n\nKey aspects of education include:\n- **Foundational Purpose**: Fostering critical thinking, cognitive development, personal empowerment, and social responsibility.\n- **Forms of Education**: Formal education (structured academic curriculum in schools and universities), non-formal education (community learning and vocational skills), and informal education (experiential learning from daily life and mentorship).\n- **Societal Impact**: Drives scientific and technological progress, cultural preservation, economic mobility, and informed democratic participation.",
+      "note": "Education definition"
+    },
+    {
+      "id": 17,
+      "prompt": "What is the latest discovery announced today?",
+      "route": "offline_freshness_fallback",
+      "response": "I'm sorry, I don't have access to live internet information right now because web search is disabled. Please enable web search (`/web on`), and I'll find the latest information for you.",
+      "note": "Honest offline limitation (current info)"
+    },
+    {
+      "id": 18,
+      "prompt": "Who is the current Prime Minister of India?",
+      "route": "offline_freshness_fallback",
+      "response": "I cannot verify current officeholders or live political information while web search is disabled. Please enable web search (`/web on`), and I'll look up the verified, current information for you.",
+      "note": "Honest offline limitation (current officeholder)"
+    },
+    {
+      "id": 19,
+      "prompt": "What is the gestation period of an African elephant?",
+      "route": "offline_quality_fallback",
+      "response": "I don't have enough verified offline information to answer that accurately. If you would like me to search the web for details, please enable web search with `/web on`.",
+      "note": "Honest limitation for unknown offline fact"
+    },
+    {
+      "id": 20,
+      "prompt": "wats mashine lerning",
+      "route": "offline_educational_grounded",
+      "response": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+      "note": "Spelling correction + educational answer"
+    }
+  ],
+  "online_tests": [
+    {
+      "id": 1,
+      "prompt": "Hello, how are you?",
+      "route": "companion_greeting",
+      "response": "Hello! I'm here and ready to chat. How has your day been?",
+      "sources": [],
+      "note": "Conversational greeting - NO search"
+    },
+    {
+      "id": 2,
+      "prompt": "I feel stressed.",
+      "route": "companion_stressed",
+      "response": "Take a deep, slow breath with me. When stress piles up, everything can feel overwhelming all at once. You don't have to fix everything today. What's the heaviest thing on your mind right now?",
+      "sources": [],
+      "note": "Empathetic emotional support - NO search"
+    },
+    {
+      "id": 3,
+      "prompt": "What is machine learning?",
+      "route": "offline_educational_grounded",
+      "response": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+      "sources": [],
+      "note": "Educational answer - NO unnecessary search"
+    },
+    {
+      "id": 4,
+      "prompt": "What is education?",
+      "route": "offline_educational_grounded",
+      "response": "**Education** is the systematic process of facilitating learning and the acquisition of knowledge, skills, values, beliefs, and habits. It encompasses both structured formal schooling and lifelong experiential development.\n\nKey aspects of education include:\n- **Foundational Purpose**: Fostering critical thinking, cognitive development, personal empowerment, and social responsibility.\n- **Forms of Education**: Formal education (structured academic curriculum in schools and universities), non-formal education (community learning and vocational skills), and informal education (experiential learning from daily life and mentorship).\n- **Societal Impact**: Drives scientific and technological progress, cultural preservation, economic mobility, and informed democratic participation.",
+      "sources": [],
+      "note": "Educational answer - NO unnecessary search"
+    },
+    {
+      "id": 5,
+      "prompt": "Explain quantum computing.",
+      "route": "web_grounded_evidence",
+      "response": "Quantum mechanics and computer science formed distinct academic communities until the advent of quantum computing. Quantum theory was developed in the 1920s to explain perplexing physical phenomena. Computers emerged decades later.\n\nThe basic unit of information in quantum computing, the qubit (quantum bit), serves a similar function as the bit in ordinary or \"classical\" computing. Unlike a classical bit, which can be in one of two states (a binary), a qubit can exist in a linear combination of states known as a quantum superposition. The result of measuring a qubit is one of the two states, given by a probabilistic rule. If a quantum computer manipulates the qubit in a particular way, wave interference effects amplify the probability of the desired measurement result. Quantum algorithm design involves creating procedures that allow a quantum computer to perform this amplification.\n\nQuantum mechanics and computer science formed distinct academic communities until the advent of quantum computing. Quantum theory was developed in the 1920s to explain perplexing physical phenomena. Computers emerged decades later.\nAs physicists applied quantum mechanical models to computational problems and swapped bits for qubits, quantum mechanics and computer science began to converge. In 1980, Paul Benioff introduced the quantum Turing machine, which used quantum theory to describe a simplified computer. As digital computers became faster, physicists faced an exponential increase in overhead when simulating quantum dynamics, prompting Yuri Manin and Richard Feynman to independently suggest that hardware based on quantum phenomena might be more efficient for computer simulation. In a 1984 paper, Charles Bennett and Gilles Brassard applied quantum theory to cryptography protocols and demonstrated that quantum key distribution could enhance information security.\nQuantum algorithms then emerged for solving oracle problems, such as Deutsch's algorithm in 1985, the Bernstein–Vazirani algorithm in 1993, and Simon's algorithm in 1994. These algorithms did not solve practical problems, but demonstrated mathematically that more information could be obtained by querying a black box with a quantum state in superposition, sometimes referred to as quantum parallelism.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quantum_computing",
+        "https://en.wikipedia.org/wiki/Superconducting_quantum_computing"
+      ],
+      "note": "Educational web search explanation"
+    },
+    {
+      "id": 6,
+      "prompt": "Who is the current Prime Minister of India?",
+      "route": "web_grounded_evidence",
+      "response": "**Narendra Modi** is the current Prime Minister of India. He has been serving as the 14th Prime Minister of the Republic of India since May 26, 2014, leading the Government of the Republic of India.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prime_Minister%27s_Office_%28India%29",
+        "https://en.wikipedia.org/wiki/Prime_Minister_of_India"
+      ],
+      "note": "Current officeholder - direct verified answer"
+    },
+    {
+      "id": 7,
+      "prompt": "What are the latest developments in AI?",
+      "route": "web_grounded_evidence",
+      "response": "### Recent Research Papers & Findings in Artificial Intelligence\n\n#### 1. Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion\n- **Publication Date:** 2026-11-13\n- **Source / Repository:** arXiv.org ([View Paper](http://arxiv.org/abs/2611.18563v1))\n- **Summary & Key Findings:**\nAuthors: Daniel Grimm, Kyra Jongman, Renato Cordeiro Ferreira et al.\nPublished: 2026-11-13\n\nAbstract:\nMonitoring maritime activities is important for safety and security, particularly for detecting illegal activities, but remains challenging due to the size and complexity of the maritime domain. The Automatic Identification System (AIS) is commonly used for this purpose, despite its known vulnerabilities. In contrast, space-based radio frequency (RF) observations provide an independent source of vessel activity but lack ship identification and therefore cannot identify vessels on their own. Following the CRISP-DM process, this study applies a Pair Hidden Markov Model (PHMM) to align individual RF detections with AIS trajectories, using temporal and spatial information while modeling noise and timing discrepancies. We evaluate it on NOAA AIS data with synthetic RF detections against nearest-neighbor baselines and analyze its errors with bias tests on trajectory length, sampling density, stationarity and AIS--RF distance. The length-corrected Forward score reaches a top-1 precision of $0.7776$ on the validation split of multi-candidate detections, where errors are possible, and an AUC of $0.637$ for detecting dark vessels among the detections that pass the prefilter. With a single RF detection, the score mostly reflects the AIS trajectory itself, and its errors favor longer and more stationary trajectories. A log-odds score, which compares the full model with a null model without match transitions, raises precision to $0.8580$ and AUC to $0.852$. Its length-corrected variant no longer shows a significant bias towards stationary trajectories and short inter-message distances, but still favors candidates farther from the RF detection. A time-weighted nearest-neighbor baseline without fitting remains ahead (precision $0.9013$, AUC $0.904$), so this single-detection, hand-designed PHMM formulation approaches but does not beat it.\n\n#### 2. Reconstruction of Dynamical Dark Energy and Gravity from latest cosmological data\n- **Publication Date:** 2026-11-13\n- **Source / Repository:** arXiv.org ([View Paper](http://arxiv.org/abs/2611.18558v1))\n- **Summary & Key Findings:**\nAuthors: Maria Luisa Gallavotti, Alessandra Silvestri\nPublished: 2026-11-13\n\nAbstract:\nRecent cosmological observations have renewed interest in non-standard late-time evolution. We investigate whether departures from the standard expansion history are accompanied by modifications of gravitational dynamics through a joint, non-parametric reconstruction of the effective dark energy density, $Ω_{\\rm X}(a)$, and the gravitational response functions $μ(a)$ and $Σ(a)$. Combining CMB, DESI DR2 BAO, Pantheon+, and large scale structure observations, including DES Year 3 $6\\times2$pt data, we perform reconstructions with and without a theory motivated correlation prior derived from stable Horndeski models. We find a persistent maximum in $Ω_{\\rm X}$ at $z\\simeq0.5$--$0.7$, corresponding to a crossing of the effective phantom divide. This feature is already present in the CMB+BAO combination and remains robust when modifications to clustering and lensing are allowed. The reconstructed gravitational response exhibits suggestive enhancements in $μ$ and $Σ$ over approximately the same redshift range, although these departures are less significant. Including LSS information instead favours a reduced lensing response, $Σ<1$, while leaving the background feature largely unchanged. An interpretation within Generalized Brans-Dicke theories illustrates how modifications to the effective gravitational coupling and a scalar-mediated fifth force may contribute to these trends. Our results indicate that current departures from $Λ$CDM are most significant in the expansion history, while leaving open the possibility of correlated modifications to gravitational dynamics that future Stage IV surveys can test.\n\n#### 3. Internal diameter bounds for DLA on random planar maps under invariance principles\n- **Publication Date:** 2026-11-13\n- **Source / Repository:** arXiv.org ([View Paper](http://arxiv.org/abs/2611.18540v1))\n- **Summary & Key Findings:**\nAuthors: Deven Mithal\nPublished: 2026-11-13\n\nAbstract:\nWe establish sublinear bounds for the internal diameter of External Diffusion Limited Aggregation (DLA) clusters on random planar maps. We develop two conditional DLA growth results for deterministic planar maps: the weaker condition yielding sublinear growth for DLA, and the stronger yielding polynomially sublinear growth for DLA. We then verify the strong assumption a.s. for the $γ$-mated CRT maps, and the weak condition a.s. for ergodic scale-free random environments, establishing the corresponding a.s bounds.\n",
+      "sources": [
+        "http://arxiv.org/abs/2611.18563v1",
+        "http://arxiv.org/abs/2611.18558v1"
+      ],
+      "note": "Freshness query - live research with sources"
+    },
+    {
+      "id": 8,
+      "prompt": "Why does the human brain need sleep?",
+      "route": "web_grounded_evidence",
+      "response": "The human organism physically restores itself during sleep, occurring mostly during slow-wave sleep during which body temperature, heart rate, and brain oxygen consumption decrease. In both the brain and body, the reduced rate of metabolism enables countervailing restorative processes. While the body benefits from sleep, the brain actually requires sleep for restoration, whereas these processes can take place during quiescent waking in the rest of the body. The essential function of sleep may be its restorative effect on the brain: \"Sleep is of the brain, by the brain and for the brain.\" Furthermore, this includes almost any brain, no matter how small: sleep is observed to be a necessary behavior across most of the animal kingdom, including some of the least cognitively advanced animals, implying that sleep is essential to the most fundamental brain processes, i.e. neuronal firing.  This shows that sleep is vital even when there is no need for other functions of sleep, such as memory consolidation or dreaming.\n\nDuring sleep, most of the body's systems are in an anabolic state, helping to restore the immune, nervous, skeletal, and muscular systems; these are vital processes that maintain mood, memory, and cognitive function, and play a large role in the function of the endocrine and immune systems. The internal circadian clock promotes sleep daily at night, when it is dark. However, midday naps may also be necessary: current research is studying power naps. The diverse purposes and mechanisms of sleep are the subject of substantial ongoing research. Sleep is a highly conserved behavior across animal evolution, likely going back hundreds of millions of years, and originating as a means for the brain to cleanse itself of waste products. Researchers have found that cleansing, including the removal of amyloid, may be a core purpose of sleep.\n\nThe most pronounced physiological changes in sleep occur in the brain. The brain uses significantly less energy during sleep than it does when awake, especially during non-REM sleep. In areas with reduced activity, the brain restores its supply of adenosine triphosphate (ATP), the molecule used for short-term storage and transport of energy. In quiet waking, the brain is responsible for 20% of the body's energy use, thus this reduction has a noticeable effect on overall energy consumption.\nSleep increases the sensory threshold. In other words, sleeping persons perceive fewer stimuli, but can generally still respond to loud noises and other salient sensory events.\nDuring slow-wave sleep, humans secrete bursts of growth hormone. All sleep, even during the day, is associated with the secretion of prolactin.\nKey physiological methods for monitoring and measuring changes during sleep include electroencephalography (EEG) of brain waves, electrooculography (EOG) of eye movements, and electromyography (EMG) of skeletal muscle activity. Simultaneous collection of these measurements is called polysomnography, and can be performed in a specialized sleep laboratory. Sleep researchers also use simplified electrocardiography (EKG) for cardiac activity and actigraphy for motor movements.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sleep"
+      ],
+      "note": "Broad universal search query - science"
+    },
+    {
+      "id": 9,
+      "prompt": "Compare two smartphone processors.",
+      "route": "web_grounded_evidence",
+      "response": "### Comprehensive Technical Comparison: Flagship Smartphone Processors\n\nComparing flagship mobile systems-on-chips: **Apple A18 Pro** (featured in iPhone 16 Pro) and **Qualcomm Snapdragon 8 Elite** (featured in modern flagship Android devices):\n\n#### 1. Architectural Overview & Design Philosophy\n- **Apple A18 Pro**: Fabricated on TSMC's second-generation 3nm (N3E) process. Features an Apple-designed ARMv9.2-A six-core CPU with two high-performance cores running up to 4.04 GHz and four high-efficiency cores at 2.42 GHz. Utilizes unified memory with low latency and dedicated 16-core Neural Engine.\n- **Qualcomm Snapdragon 8 Elite**: Fabricated on TSMC's 3nm (N3E) node. Employs Qualcomm's custom Oryon CPU microarchitecture in an all-big-core 2+6 cluster (two Prime cores running up to 4.32 GHz and six Performance cores at 3.53 GHz), paired with the Adreno 830 GPU and Hexagon NPU.\n\n#### 2. Detailed Technical Specifications Table\n\n| Specification / Dimension | Apple A18 Pro | Qualcomm Snapdragon 8 Elite |\n| :--- | :--- | :--- |\n| **Fabrication Process** | TSMC 3nm (N3E generation) | TSMC 3nm (N3E generation) |\n| **CPU Cluster & Cores** | 6-Core: 2x Performance (4.04 GHz) + 4x Efficiency (2.42 GHz) | 8-Core: 2x Prime Oryon (4.32 GHz) + 6x Performance Oryon (3.53 GHz) |\n| **GPU Engine** | Apple Custom 6-Core GPU with Hardware Ray Tracing | Qualcomm Adreno 830 GPU with Sliced Architecture & Ray Tracing |\n| **NPU / AI Engine** | 16-Core Apple Neural Engine (35 TOPS rated) | Qualcomm Hexagon NPU (up to 45 TOPS rated, multimodal LLMs) |\n| **Memory Subsystem** | LPDDR5X (Unified Memory Subsystem with 17% higher bandwidth) | LPDDR5X (up to 5.3 GHz, 10.7 Gbps bandwidth) |\n| **Modem & Cellular** | External Qualcomm 5G Baseband Modem + Wi-Fi 7 | Integrated Snapdragon X80 5G Modem-RF System (10 Gbps peak) |\n| **Primary Platform** | Apple iOS (iPhone 16 Pro, iPhone 16 Pro Max) | Android Flagship Ecosystem (Galaxy S25, OnePlus 13, Xiaomi 15) |\n\n#### 3. Key Performance & Efficiency Takeaways\n- **CPU Compute**: Apple A18 Pro delivers class-leading single-core IPC and battery efficiency under typical iOS interactive tasks, while the Snapdragon 8 Elite's 8-core Oryon design achieves outstanding sustained multi-core compute in intensive workloads.\n- **Graphics & Gaming**: Both GPUs offer desktop-caliber hardware-accelerated ray tracing, mesh shading, and sustained high-frame-rate rendering.\n- **On-Device AI**: Dedicated high-TOPS NPUs on both chips support native on-device generative AI models (such as summarization, live translation, and local multimodal reasoning) without cloud reliance.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Apple_A18_Pro",
+        "https://en.wikipedia.org/wiki/Qualcomm_Snapdragon"
+      ],
+      "note": "Comparison query - structured breakdown"
+    },
+    {
+      "id": 10,
+      "prompt": "Find recent research about artificial intelligence.",
+      "route": "web_grounded_evidence",
+      "response": "### Recent Research Papers & Findings in Artificial Intelligence\n\n#### 1. FETTUCCINE: Fast and efficient brain-to-text decoding on mobile devices\n- **Publication Date:** 2026-11-13\n- **Source / Repository:** arXiv.org ([View Paper](http://arxiv.org/abs/2611.18561v1))\n- **Summary & Key Findings:**\nAuthors: Jonathan D. McCart, Pranav I. Deevi, Mehdi Azabou et al.\nPublished: 2026-11-13\n\nAbstract:\nRecent advances in speech neuroprostheses have enabled new communication avenues for people who have lost the ability to speak due to neurological illness or injury. These systems can decode neural activity during attempted speech into text by relying on language priors to achieve high decoding accuracy. This performance currently comes at the cost of using a compute-intensive language modeling stack, presenting a major bottleneck for real-world use. Further, current language models incur highly variable and disruptive inference latencies, limiting communication throughput and preventing users from reliably participating in natural conversation. We introduce FETTUCCINE, an end-to-end brain-to-text framework that leverages the speed and portability of automatic speech recognition (ASR) models to address the aforementioned practical challenges, while achieving usable (<10%) word error rates (WER), efficient adaptation to neural non-stationarities, and reliable performance on mobile devices. When evaluated using publicly available data from an intracortical speech neuroprosthesis user, FETTUCCINE outperforms previous end-to-end methods, achieving as low as 4.39% WER. Most notably, our models successfully run on a commercially-available mobile device with throughput reaching up to 370x real-time, providing the first demonstration of brain-to-text decoding on a mobile device. We also show that our models can be successfully finetuned to extend usable performance to future days. Beyond performance, our approach enables localization of the neural features most relevant for decoding via gradient-based saliency maps, which we show align with well-established physiological priors across different ASR model families. Taken together, our results show that FETTUCCINE overcomes core infrastructural and computational barriers, yielding a new class of portable brain-to-text communication.\n\n#### 2. On the pure part of the cohomology of character varieties\n- **Publication Date:** 2026-11-13\n- **Source / Repository:** arXiv.org ([View Paper](http://arxiv.org/abs/2611.18560v1))\n- **Summary & Key Findings:**\nAuthors: Olivier Schiffmann, Eric Vasserot\nPublished: 2026-11-13\n\nAbstract:\nWe prove the purity conjecture of Hausel and Rodriguez-Villegas relating the graded dimension of the pure part of the cohomology of the twisted character variety $M^B(r,d)$ of $GL(r)$ of genus $g$ with the cohomology of a suitable quiver variety associated to the quiver $S_g$ with one vertex and $g$ loops. In particular, this provides an explicit formula for the pure part of the mixed Hodge polynomial of $M^B(r,d)$ in terms of the Kac polynomial $A_{S_g,r}(q)$. Our approach is based on the $P=W$ theorem to transfer the purity conjecture into a statement about the perverse filtration on the cohomology of th stack of Higgs bundles on a genus $g$ curve. We use the theory of BPS Lie algebras, their $χ$-independence property (proven by Kinjo-Koseki), the recent proof of the stack version of $P=C$ due to Picovschi and Davison's analytic neighborhood theorem to reduce the conjecture to a comparison problem between (the 'pure' part) of the BPS Lie algebra asociated to the stack of Higgs bundles on a genus $g$ curve and the BPS Lie algebra of the stack of representations of the preprojective algebra of the quiver $S_g$. This last step is taken care of by a quiver analog of Markman's tautological generation theorem for the BPS Lie algebra of arbitrary quivers (this last result is also proven by Davison and Hennecart).\n\n#### 3. BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations\n- **Publication Date:** 2026-11-13\n- **Source / Repository:** arXiv.org ([View Paper](http://arxiv.org/abs/2611.18559v1))\n- **Summary & Key Findings:**\nAuthors: Genki Kinoshita, Ko Nishino\nPublished: 2026-11-13\n\nAbstract:\nLearning semantically meaningful human movement representations from 3D pose sequences is essential for human behavior modeling. Existing self-supervised methods derive supervision from artificial assumptions, e.g., invariance to augmentation within a certain range or recoverability of masked regions at a certain temporal scale, introducing heuristic hyperparameters that make the learned semantics sensitive to their settings. We propose BAL, a self-supervised framework that instead exploits supervision intrinsic to human movement: the natural ordering structure of everyday behavior. BAL autoregressively predicts in a semantically abstract latent space, analogous to how humans anticipate others' actions rather than their precise joint configurations. Bidirectional autoregressive prediction, both forward and backward in time, fully leverages these ordering constraints while enabling representation extraction using both past and future context at inference. To suppress representation collapse, BAL decomposes each prediction target into a global component capturing sequence-level semantics and a local component capturing context-independent movement. We prove that the local targets retain nontrivial angular diversity unless the representations are completely collapsed, preserving a meaningful training signal. Experiments on large-scale datasets demonstrate that BAL's representations are highly effective for motion captioning, forecasting, and interpolation, outperforming baselines on most evaluation metrics.\n",
+      "sources": [
+        "http://arxiv.org/abs/2611.18561v1",
+        "http://arxiv.org/abs/2611.18560v1"
+      ],
+      "note": "Research query with multiple papers/sources"
+    },
+    {
+      "id": 11,
+      "prompt": "Explain the second result from your previous answer.",
+      "route": "web_cache_followup",
+      "response": "Source [2]: On the pure part of the cohomology of character varieties\nURL: http://arxiv.org/abs/2611.18560v1\n\nSummary:\nAuthors: Olivier Schiffmann, Eric Vasserot\nPublished: 2026-11-13\n\nAbstract:\nWe prove the purity conjecture of Hausel and Rodriguez-Villegas relating the graded dimension of the pure part of the cohomology of the twisted character variety $M^B(r,d)$ of $GL(r)$ of genus $g$ with the cohomology of a suitable quiver variety associated to the quiver $S_g$ with one vertex and $g$ loops. In particular, this provides an explicit formula for the pure part of the mixed Hodge polynomial of $M^B(r,d)$ in terms of the Kac polynomial $A_{S_g,r}(q)$. Our approach is based on the $P=W$ theorem to transfer the purity conjecture into a statement about the perverse filtration on the cohomology of th stack of Higgs bundles on a genus $g$ curve.",
+      "sources": [
+        "http://arxiv.org/abs/2611.18561v1",
+        "http://arxiv.org/abs/2611.18560v1"
+      ],
+      "note": "Multi-turn context follow-up on source 2"
+    },
+    {
+      "id": 12,
+      "prompt": "Find an official government contact number.",
+      "route": "emergency_helpline",
+      "response": "In India, key official government emergency contacts and public helplines are centralized under **112**.\n\n**Key Emergency Numbers in India:**\n- **All-in-One National Emergency**: **112** (Police, Fire, Ambulance)\n- **Police Emergency**: **112** (or legacy **100**)\n- **Ambulance (Medical Emergency)**: **102** / **108**\n- **Fire Services**: **101**\n- **Women Helpline (Safety / Distress)**: **1091** / **181**\n- **Childline**: **1098**\n- **Cyber Crime Helpline**: **1930**\n\n*(Note: In the United States and Canada, call **911**; in the United Kingdom, call **999**; in Europe, call **112**.)*\n\nIf you or someone around you is in immediate danger or needs medical attention, please dial **112** right away!",
+      "sources": [
+        "http://arxiv.org/abs/2611.18561v1",
+        "http://arxiv.org/abs/2611.18560v1"
+      ],
+      "note": "Emergency/helpline directory"
+    },
+    {
+      "id": 13,
+      "prompt": "Why do flamingos stand on one leg?",
+      "route": "web_grounded_evidence",
+      "response": "Flamingos usually stand on one leg with the other tucked beneath the body. The reason for this behaviour is not fully understood. One theory is that standing on one leg allows the birds to conserve more body heat, given that they spend a significant amount of time wading in cold water. However, the behaviour also takes place in warm water and is also observed in birds that do not typically stand in water. An alternative theory is that standing on one leg reduces the energy expenditure for producing muscular effort to stand and balance on one leg. A study on cadavers showed that the one-legged pose could be held without any muscle activity, while living flamingos demonstrate substantially less body sway in a one-legged posture.\n\nWhile walking, a flamingo's legs may appear to bend backwards. This appearance is due to the middle joint on their legs being their ankle, not their knee. Flamingos also have webbed feet that aid with swimming and they may stamp their feet in the mud to stir up food from the bottom.\n\n== Etymology ==\nThe name flamingo comes from Portuguese or Spanish flamengo 'flame-coloured'; in turn, the word comes from Provençal flamenc – a combination of flama 'flame' and a Germanic-like suffix -ing. The word may also have been influenced by the Spanish ethnonym flamenco 'Fleming' or 'Flemish'.\nThe name of the genus, Phoenicopterus, is from Ancient Greek  φοινικόπτερος (phoinikopteros) 'crimson/red-feathered'; other genera names include Phoeniconaias, which means 'crimson/red water nymph (or naiad)', and Phoenicoparrus, which means 'crimson/red bird (though, an unknown bird of omen)'.\nA group of flamingos is called a \"flamboyance\", or a \"stand\".",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Flamingo",
+        "https://en.wikipedia.org/wiki/American_flamingo"
+      ],
+      "note": "Universal search query outside every predefined KB"
+    },
+    {
+      "id": 14,
+      "prompt": "Explain the differences between supervised learning and reinforcement learning with examples",
+      "route": "web_grounded_evidence",
+      "response": "### Comparison: Supervised Learning vs. Reinforcement Learning\n\n#### 1. Definition of Supervised Learning\n**Supervised Learning (SL)** is a machine learning paradigm where an algorithm trains on a dataset of **explicit input-output pairs** $(x, y)$ labeled by human annotators or external ground-truth supervisors. The model learns a mathematical mapping function $f(x) \\approx y$ that minimizes prediction error against the known labels.\n\n#### 2. Definition of Reinforcement Learning\n**Reinforcement Learning (RL)** is a paradigm where an autonomous **agent** learns to make sequential decisions by interacting with a dynamic **environment**. Rather than receiving correct answers, the agent receives evaluative numerical feedback (**rewards or penalties**) based on the outcomes of its actions, with the objective of maximizing cumulative future return.\n\n#### 3. Core Differences in How They Learn\n- **Feedback Mechanism**: Supervised learning provides **direct instructional feedback** (the exact correct label for each sample). Reinforcement learning provides **indirect evaluative feedback** (a scalar reward indicating how well an action performed, without stating what the best action was).\n- **Data Generation**: In supervised learning, the dataset is **static and passive** (collected beforehand). In reinforcement learning, data is generated **dynamically** through the agent's own actions, creating an active exploration vs. exploitation trade-off.\n- **Temporal Horizon**: Supervised learning evaluates predictions **instantaneously** per sample. Reinforcement learning actions often involve **delayed consequences** where an action taken now impacts states and rewards far into the future.\n\n#### 4. Simple Examples of Each\n- **Supervised Learning Example**: **Spam Email Classification**. An algorithm inspects 500,000 historical emails marked as 'Spam' or 'Not Spam'. It learns word patterns and sender features to classify new incoming emails.\n- **Reinforcement Learning Example**: **Autonomous Drone Navigation or Game Playing (Chess / Go)**. A drone controller adjusts motor thrusts. If it stays stable and reaches the destination, it receives +100 reward; if it tilts excessively or crashes, it receives -500 penalty. It learns optimal flight maneuvers through trial and error.\n\n#### 5. Summary Comparison Table\n\n| Feature / Dimension | Supervised Learning | Reinforcement Learning |\n| :--- | :--- | :--- |\n| **Training Signal** | Explicit ground-truth labels $(x, y)$ | Scalar reward / penalty feedback from environment |\n| **Agent Role** | Passive; maps fixed input data to target labels | Active; interacts with environment, actions influence states |\n| **Data Distribution** | Stationary, independent and identically distributed (i.i.d.) | Non-stationary, sequential trajectories (Markov Decision Process) |\n| **Primary Goal** | Minimize prediction error / loss function | Maximize expected cumulative reward (value function) |\n| **Feedback Timing** | Instantaneous per example | Often delayed over multiple time steps |\n| **Key Challenge** | High cost of human data annotation | Sample efficiency and exploration vs. exploitation |\n| **Typical Applications** | Image recognition, medical diagnosis, language translation | Robotics, game AI (AlphaGo), autonomous vehicles, RLHF |",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Supervised_learning",
+        "https://en.wikipedia.org/wiki/reinforcement_learning"
+      ],
+      "note": "Multi-part comparative question"
+    },
+    {
+      "id": 15,
+      "prompt": "can u explain quantam computing in simple english",
+      "route": "web_grounded_evidence",
+      "response": "Quantum computing increasingly focused on controlling decoherence through quantum error correction. In 2024, researchers demonstrated approaches for high threshold, low-overhead fault-tolerant quantum memory. These developments represented a critical step toward scaling systems beyond the noisy intermediate-scale quantum (NISQ) era into the fault-tolerant application scale quantum computing (FASQ) era, though large-scale physical implementation remains an engineering challenge.\n\nQuantum mechanics and computer science formed distinct academic communities until the advent of quantum computing. Quantum theory was developed in the 1920s to explain perplexing physical phenomena. Computers emerged decades later.\n\n**Analogy:** Imagine trying to find the exit of an intricate maze. A classical computer acts like a person walking down one corridor at a time; if it hits a dead end, it backtracks and tries the next path sequentially. A quantum computer, leveraging quantum superposition and entanglement, is like flooding the entire maze with water all at once—it explores all possible pathways simultaneously to find the solution.\n\nQuantum mechanics and computer science formed distinct academic communities until the advent of quantum computing. Quantum theory was developed in the 1920s to explain perplexing physical phenomena. Computers emerged decades later.\nAs physicists applied quantum mechanical models to computational problems and swapped bits for qubits, quantum mechanics and computer science began to converge. In 1980, Paul Benioff introduced the quantum Turing machine, which used quantum theory to describe a simplified computer. As digital computers became faster, physicists faced an exponential increase in overhead when simulating quantum dynamics, prompting Yuri Manin and Richard Feynman to independently suggest that hardware based on quantum phenomena might be more efficient for computer simulation. In a 1984 paper, Charles Bennett and Gilles Brassard applied quantum theory to cryptography protocols and demonstrated that quantum key distribution could enhance information security.\nQuantum algorithms then emerged for solving oracle problems, such as Deutsch's algorithm in 1985, the Bernstein–Vazirani algorithm in 1993, and Simon's algorithm in 1994. These algorithms did not solve practical problems, but demonstrated mathematically that more information could be obtained by querying a black box with a quantum state in superposition, sometimes referred to as quantum parallelism.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Quantum_computing",
+        "https://en.wikipedia.org/wiki/Quantum_mechanics"
+      ],
+      "note": "Typo + informal explanation"
+    }
+  ],
+  "regression_tests": [
+    {
+      "id": 1,
+      "prompt": "What is a chatbot?",
+      "web_search": false,
+      "route": "offline_educational_grounded",
+      "response": "A **chatbot** is a conversational software application designed to interact with users through natural language, either in text or voice format.\n\nKey aspects of chatbots include:\n- **How They Work**: Chatbots range from simple **rule-based systems** (which follow predefined conversation scripts and pattern matching) to **AI-powered conversational companions** using Natural Language Processing (NLP) and machine learning models to understand context, sentiment, and nuance.\n- **Common Types**: Virtual customer service assistants, productivity helpers, and AI personal companions.\n- **Core Architecture**: Natural Language Understanding (NLU) to interpret intent, conversation state management to remember context across turns, and response generation to craft empathetic, accurate answers.",
+      "note": "Must define chatbot clearly"
+    },
+    {
+      "id": 2,
+      "prompt": "What is a machine?",
+      "web_search": false,
+      "route": "offline_educational_grounded",
+      "response": "A **machine** is an apparatus, physical mechanism, or computational system designed to utilize energy to perform specific tasks, work, or automated operations.\n\nIn science and technology:\n- **Physical & Mechanical Machines**: Devices (from simple levers, pulleys, and engines to complex robotic assemblies) that transmit force and motion to perform physical work.\n- **Computational Machines**: Digital computers, processors, and hardware architectures that execute algorithms and process structured data.\n- **In Artificial Intelligence & Machine Learning**: The 'machine' refers to the computational system and algorithms that discover patterns from data and make automated decisions without requiring explicit step-by-step instructions for every case.",
+      "note": "Must define machine, NOT machine learning"
+    },
+    {
+      "id": 3,
+      "prompt": "What is machine learning?",
+      "web_search": false,
+      "route": "offline_educational_grounded",
+      "response": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+      "note": "Must define ML, NOT generic AI"
+    },
+    {
+      "id": 4,
+      "prompt": "Give me police number",
+      "web_search": false,
+      "route": "emergency_helpline",
+      "response": "In India, the emergency police helpline is **112** (or **100**).\n\n**Key Emergency Numbers in India:**\n- **All-in-One National Emergency**: **112** (Police, Fire, Ambulance)\n- **Police Emergency**: **112** (or legacy **100**)\n- **Ambulance (Medical Emergency)**: **102** / **108**\n- **Fire Services**: **101**\n- **Women Helpline (Safety / Distress)**: **1091** / **181**\n- **Childline**: **1098**\n- **Cyber Crime Helpline**: **1930**\n\n*(Note: In the United States and Canada, call **911**; in the United Kingdom, call **999**; in Europe, call **112**.)*\n\nIf you or someone around you is in immediate danger or needs medical attention, please dial **112** right away!",
+      "note": "Verified emergency police helpline 112 / 100"
+    },
+    {
+      "id": 5,
+      "prompt": "I am helpless",
+      "web_search": false,
+      "route": "companion_helpless_insecure",
+      "response": "It hurts so much when you feel helpless or question your worth. I want to remind you gently that making mistakes doesn't make you foolish, and these feelings don't define who you are. Take a slow, deep breath. I'm here to listen without any judgment—what happened that brought this feeling on?",
+      "note": "Empathetic emotional support for helplessness"
+    },
+    {
+      "id": 6,
+      "prompt": "I am foolish",
+      "web_search": false,
+      "route": "companion_helpless_insecure",
+      "response": "I'm really sorry you're feeling this way. Feeling helpless, foolish, or feeling like nothing you do matters is a really heavy emotional weight to carry. Please know that having these feelings does not mean you are actually foolish or incapable, and you don't have to face this alone. I'm right here with you. Do you want to talk about what's making you feel this way?",
+      "note": "Empathetic support for feeling foolish/self-doubt"
+    },
+    {
+      "id": 7,
+      "prompt": "I got injured",
+      "web_search": false,
+      "route": "companion_physical_injury",
+      "response": "Oh no, I'm sorry to hear that. Are you okay? What happened?",
+      "note": "Injury acknowledgment and first-aid/medical care guidance"
+    },
+    {
+      "id": 8,
+      "prompt": "I beat up my friend",
+      "web_search": false,
+      "route": "companion_safety_violence",
+      "response": "Getting into a physical fight or hitting someone is serious and dangerous. First, please let me know: is anyone injured? If anyone needs medical care, getting help right now is the urgent priority. Please step away from the situation immediately, take a breath, and do not escalate things any further. Violence creates lasting damage, and resolving this will require calming down, taking accountability, and finding a peaceful path forward.",
+      "note": "Violence de-escalation, checking if anyone is hurt"
+    },
+    {
+      "id": 9,
+      "prompt": "What is the latest discovery announced today?",
+      "web_search": false,
+      "route": "offline_freshness_fallback",
+      "response": "I'm sorry, I don't have access to live internet information right now because web search is disabled. Please enable web search (`/web on`), and I'll find the latest information for you.",
+      "note": "Honest offline limitation when Web=OFF"
+    },
+    {
+      "id": 10,
+      "prompt": "Who is the current Prime Minister of India?",
+      "web_search": true,
+      "route": "web_grounded_evidence",
+      "response": "**Narendra Modi** is the current Prime Minister of India. He has been serving as the 14th Prime Minister of the Republic of India since May 26, 2014, leading the Government of the Republic of India.",
+      "note": "Online: direct answer Narendra Modi"
+    }
+  ]
+}

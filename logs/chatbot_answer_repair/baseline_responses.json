@@ -1,0 +1,132 @@
+[
+  {
+    "id": "q01",
+    "prompt": "what is deep learning",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 1400.85,
+    "response": "Poping learning is a deep learning paradigan that involves the model of machine learning, where it can be used to learn and generate human relationships with its own data. The choice between artificial intelligence (ML) function is a subfield of machine translation, which allows the model to learn from data and make predictions or decisions without being explicitly necessary for the training data.",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q02",
+    "prompt": "what is chatgpt",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 443.86,
+    "response": "Bptgptpt is a very large language model trained on a large language processing and can be trained on many different languages. However, I do not have any specific tasks you would like to answer questions or provide me with?",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q03",
+    "prompt": "/search what is deep learning",
+    "routing_decision": {
+      "should_search_web": true,
+      "reason": "Explicit user search request."
+    },
+    "engine_used": "web_retrieval",
+    "latency_ms": 5299.17,
+    "response": "Sure! Here are the steps you can follow to help with?\n1. First, here:\n2. Create a model of AI models on machine learning models:\n\n3. Use algorithms that can be used to learn and understand how they use them.\n4. Use machine learning algorithms to improve data to improve performance.\n5. Use neural networks (RU) to improve its performance and improve performance in real-world tasks.\n6. Use techniques such as image recognition, or text-based learning models to improve their performance and accuracy.\n7. Use deep learning models like GPT-3.\n8. Use visualization (CRDMALLM), textures, and other machine learning techniques to\n\n\nSources:\n[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning\n[2] Deep reinforcement learning: https://en.wikipedia.org/wiki/Deep_reinforcement_learning\n[3] Artificial intelligence: https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "has_sources": true,
+    "verdict": "PASS"
+  },
+  {
+    "id": "q04",
+    "prompt": "/search what is ChatGPT",
+    "routing_decision": {
+      "should_search_web": true,
+      "reason": "Explicit user search request."
+    },
+    "engine_used": "web_retrieval",
+    "latency_ms": 5138.28,
+    "response": "Sure, here's an example of how to use the Open Assistant API:\n```python\nimport requests\nimilarly_name = 'https://www.com/wikipedia-s/wiki/wikia/wikium-signup-com/github.compolice=False)\n\n# Define the API\nresult = [\"{\"humania': 'basuijajijihikijuiho\", \"Blatiahohn Wait\": \"Autoftware\"}\n\nprint(midiahihijiah_element\": \"Powerful\"))\n\n\nSources:\n[1] ChatGPT: https://en.wikipedia.org/wiki/ChatGPT\n[2] ChatGPT Atlas: https://en.wikipedia.org/wiki/ChatGPT_Atlas\n[3] GPT-4: https://en.wikipedia.org/wiki/GPT-4",
+    "has_sources": true,
+    "verdict": "PASS"
+  },
+  {
+    "id": "q05",
+    "prompt": "What is machine learning?",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 546.99,
+    "response": "Artificial Intelligence (AI) is a broad machine learning that involves the development of computer science and machines to learn from data. It's a deep learning model that can be used to learn and learn from the data, including learning, speech recognition, and machine learning.",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q06",
+    "prompt": "Explain the difference between AI, machine learning, and deep learning.",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 873.29,
+    "response": "Artificial Intelligence (AI) is a machine learning model that involves the ability to learn and decisions based on the specific tasks.\n\nIn general, AI is a complex task that requires a deep learning process of machine learning, but it can be used to generate human intelligence. The use of machine translation algorithms to perform tasks such as neural networks, or machine learning models.",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q07",
+    "prompt": "Give three real-world applications of deep learning.",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 918.85,
+    "response": "Artificial Intelligence (AI) is a broad range of tasks that can be used to predict the real-world problems.\n\nIn general, artificial intelligence is a complex and machine learning algorithm that uses deep neural networks to learn from data and make predictions or decisions based on the specific task. The goal of AI is to learn and understand how it works by training data in a given text.",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q08",
+    "prompt": "Explain supervised learning in simple words.",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 590.34,
+    "response": "Artificial Intelligence (AI) is a broad field of computer science fiction that deals with machine learning and machine learning. It is a subfield of artificial intelligence that involves the development of computer vision, algorithms to learn from data and make predictions or decisions based on the human brain.",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q09",
+    "prompt": "What is a neural network?",
+    "routing_decision": {
+      "should_search_web": false,
+      "reason": "Standard conversational query handled locally."
+    },
+    "engine_used": "neural_model",
+    "latency_ms": 646.75,
+    "response": "The neural network is a neural network that involves the neural networks of neurons in the brain. It is an artificial neural network, which are trained on the neural network and generate layers of neurons. The network is used to learn from the neural layers of neural networks, such as neural networks or the network.",
+    "has_sources": false,
+    "verdict": "FAIL"
+  },
+  {
+    "id": "q10",
+    "prompt": "What are the latest release updates for Python 3.12?",
+    "routing_decision": {
+      "should_search_web": true,
+      "reason": "Contains time-sensitive or version-specific indicators."
+    },
+    "engine_used": "web_retrieval",
+    "latency_ms": 5357.16,
+    "response": "Yes, here are the steps you can use to create a Python script:\n\n```python\ndef get_name = [https://www.com/wiki/docs/wikipedia-http://www/wikia/wlastal/wikilla_id=Can_False)\n    \"\"\"\n  */group 'Please note_Type=False otherwise.html')\n  - You can use the following code for the `pngredients: https://wwwdoccaptocs.comproma.com.com` library to add the text file and display the \"Building\" data into the `LAME\")\n\n\nSources:\n[1] Python (programming language): https://en.wikipedia.org/wiki/Python_%28programming_language%29\n[2] History of Python: https://en.wikipedia.org/wiki/History_of_Python\n[3] Monty Python's Life of Brian: https://en.wikipedia.org/wiki/Monty_Python%27s_Life_of_Brian",
+    "has_sources": true,
+    "verdict": "FAIL"
+  }
+]

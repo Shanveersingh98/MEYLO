@@ -1,0 +1,13 @@
+{
+    "model_name": "Qwen2.5-1.5B-Instruct",
+    "format": "GGUF",
+    "quantization": "Q4_K_M",
+    "parameters": "1.54B",
+    "context_length": 4096,
+    "repo_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "size_bytes": 1117320736,
+    "license": "Apache-2.0",
+    "intended_use": "Direct instruction-following local chat inference"
+}

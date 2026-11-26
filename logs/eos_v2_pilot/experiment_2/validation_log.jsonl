@@ -1,0 +1,9 @@
+{"step": 0, "curriculum_val_loss": 3.7451, "curriculum_val_ppl": 42.31, "oasst1_val_loss": 3.962, "oasst1_val_ppl": 52.56, "composite_loss": 3.8536, "is_best": true, "timestamp": 1792430190.0614855}
+{"step": 250, "curriculum_val_loss": 3.3894, "curriculum_val_ppl": 29.65, "oasst1_val_loss": 4.0147, "oasst1_val_ppl": 55.41, "composite_loss": 3.702, "is_best": true, "timestamp": 1792430428.8498619}
+{"step": 500, "curriculum_val_loss": 3.3273, "curriculum_val_ppl": 27.86, "oasst1_val_loss": 4.0355, "oasst1_val_ppl": 56.57, "composite_loss": 3.6814, "is_best": true, "timestamp": 1792430590.6560082}
+{"step": 750, "curriculum_val_loss": 3.288, "curriculum_val_ppl": 26.79, "oasst1_val_loss": 4.0342, "oasst1_val_ppl": 56.5, "composite_loss": 3.6611, "is_best": true, "timestamp": 1792430813.958428}
+{"step": 1000, "curriculum_val_loss": 3.2751, "curriculum_val_ppl": 26.45, "oasst1_val_loss": 4.0338, "oasst1_val_ppl": 56.48, "composite_loss": 3.6545, "is_best": true, "timestamp": 1792431089.6864924}
+{"step": 1250, "curriculum_val_loss": 3.2775, "curriculum_val_ppl": 26.51, "oasst1_val_loss": 4.0288, "oasst1_val_ppl": 56.19, "composite_loss": 3.6531, "is_best": true, "timestamp": 1792431413.4866672}
+{"step": 1500, "curriculum_val_loss": 3.2797, "curriculum_val_ppl": 26.57, "oasst1_val_loss": 4.0259, "oasst1_val_ppl": 56.03, "composite_loss": 3.6528, "is_best": true, "timestamp": 1792431641.5458064}
+{"step": 1750, "curriculum_val_loss": 3.2623, "curriculum_val_ppl": 26.11, "oasst1_val_loss": 4.0219, "oasst1_val_ppl": 55.81, "composite_loss": 3.6421, "is_best": true, "timestamp": 1792431772.604501}
+{"step": 2000, "curriculum_val_loss": 3.2728, "curriculum_val_ppl": 26.38, "oasst1_val_loss": 4.025, "oasst1_val_ppl": 55.98, "composite_loss": 3.6489, "is_best": false, "timestamp": 1792431899.728774}

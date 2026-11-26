@@ -1,0 +1,15 @@
+{"id": "inst_01", "prompt": "Answer this question in exactly three words: What color is a clear daytime sky?", "eval_type": "word_count", "expected_count": 3, "key_phrase": "sky is blue"}
+{"id": "inst_02", "prompt": "Reply with only the word YES or NO: Is Python a programming language?", "eval_type": "exact_choice", "valid_choices": ["yes", "yes."]}
+{"id": "inst_03", "prompt": "Reply with only the word YES or NO: Is the moon made of green cheese?", "eval_type": "exact_choice", "valid_choices": ["no", "no."]}
+{"id": "inst_04", "prompt": "List exactly 3 fruits as a numbered list from 1 to 3.", "eval_type": "numbered_list", "expected_items": 3}
+{"id": "inst_05", "prompt": "Name one mammal without using the letter 'e'.", "eval_type": "negative_constraint_char", "forbidden_char": "e"}
+{"id": "inst_06", "prompt": "Explain what a variable is in Python in one single sentence.", "eval_type": "sentence_count", "max_sentences": 1}
+{"id": "inst_07", "prompt": "Give your response completely in UPPERCASE letters: What is the capital of Italy?", "eval_type": "all_caps", "expected_keyword": "ROME"}
+{"id": "inst_08", "prompt": "State the result of 5 + 5. Output only the number and nothing else.", "eval_type": "only_number", "expected_number": 10}
+{"id": "inst_09", "prompt": "Provide two benefits of drinking water formatted as bullet points starting with '-'.", "eval_type": "bullet_points", "expected_bullets": 2}
+{"id": "inst_10", "prompt": "Write the word 'CONFIRMED' followed by an exclamation mark.", "eval_type": "exact_phrase", "expected_phrase": "CONFIRMED!"}
+{"id": "inst_11", "prompt": "Answer in exactly two words: Who wrote Romeo and Juliet?", "eval_type": "word_count", "expected_count": 2, "key_phrase": "William Shakespeare"}
+{"id": "inst_12", "prompt": "Do not mention the word 'dog' in your response. Describe what a cat is.", "eval_type": "forbidden_word", "forbidden_word": "dog"}
+{"id": "inst_13", "prompt": "State only the square root of 64 as a single number.", "eval_type": "only_number", "expected_number": 8}
+{"id": "inst_14", "prompt": "Reply with only 'TRUE' or 'FALSE': Water boils at 100 degrees Celsius.", "eval_type": "exact_choice", "valid_choices": ["true", "true."]}
+{"id": "inst_15", "prompt": "List 4 programming languages separated by commas.", "eval_type": "comma_separated", "min_items": 4}

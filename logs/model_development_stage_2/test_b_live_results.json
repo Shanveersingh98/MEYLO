@@ -1,0 +1,56 @@
+[
+  {
+    "number": 1,
+    "question": "What is the latest NVIDIA GPU?",
+    "desc": "Hardware freshness check",
+    "route": "web_grounded_evidence",
+    "used_search": true,
+    "latency_ms": 13879.0,
+    "response": "This list contains general information about graphics processing units (GPUs) and video cards from Nvidia, based on official specifications. In addition some Nvidia motherboards come with integrated onboard GPUs. Limited/special/collectors' editions or AIB versions are not included. Please do not edit the tables to match your specific AIB model.\n\nSources Consulted:\n\u2022 List of Nvidia graphics processing units (en.wikipedia.org)\n\u2022 list of Nvidia graphics processing units (wikidata.org)\n\u2022 Lists of graphics cards (en.wikipedia.org)"
+  },
+  {
+    "number": 2,
+    "question": "Explain Transformer architecture in deep learning.",
+    "desc": "Educational structured architecture inquiry",
+    "route": "local_model_web_grounded",
+    "used_search": true,
+    "latency_ms": 4072.3,
+    "response": "The Transformer model is a subset of text data type, and it can be used to generate a sequence of words. In this case, the transformer would likely be more complex, as the model will depend on the specific needs of the training data.\n\nSources Consulted:\n\u2022 Transformer (deep learning) (en.wikipedia.org)\n\u2022 Bastiaan Quast (en.wikipedia.org)\n\u2022 TFT (en.wikipedia.org)"
+  },
+  {
+    "number": 3,
+    "question": "Compare CNN and Transformer architectures, including their advantages and disadvantages.",
+    "desc": "Multi-concept comparative inquiry",
+    "route": "local_model_web_grounded",
+    "used_search": true,
+    "latency_ms": 7791.3,
+    "response": "1. VALFERRIDTHE (NAM) are two types of layers:\n\n2. **MARTRITEMADLENDENTSU\") and use PATASTORDE is a subset of image processing to generate text data, which makes it easier for complex tasks that can be used in real-world applications such as machine learning, speech recognition, or other handles. It's important to note that while using the EVIDAI model may not be more specific to learn from multiple features like CHINGETs, they may want to learn and make decisions about certain types of language models.\n\n3. **OUTCTYPE html>**: This technique involves creating high-level architecture with different\n\nSources Consulted:\n\u2022 Convolutional neural network (en.wikipedia.org)\n\u2022 Transformer (deep learning) (en.wikipedia.org)"
+  },
+  {
+    "number": 4,
+    "question": "What are the latest developments in Artificial Intelligence?",
+    "desc": "Current events / research freshness check",
+    "route": "local_model_web_grounded",
+    "used_search": true,
+    "latency_ms": 7883.4,
+    "response": "1. ADARTRID-MIENTEARTHINGO: What is the best approach to AI systems?\n2. Answering questions about AI and how can be used to learn from human intelligence, but they are not well as a specific task or uncompassing data.\n3. A. The ability to analyze algorithms that can make decisions based on their performance and improve cognitive capabilities.\n4. GANs: I/LAMA, which means that an AI model is trained in mind-based computer vision and it may not have limited tasks.\n5. SREFORTERBSTITE (C) is designed with many different techniques such as image recognition, text classification, and machine learning models, and\n\nSources Consulted:\n\u2022 Artificial intelligence (en.wikipedia.org)\n\u2022 artificial intelligence (wikidata.org)\n\u2022 Artificial Intelligence (wikidata.org)"
+  },
+  {
+    "number": 5,
+    "question": "Hello, how are you?",
+    "desc": "Casual greeting under web=ON (must NOT search)",
+    "route": "neural_model",
+    "used_search": false,
+    "latency_ms": 644.3,
+    "response": "Hello, a language model! I am trained on how to answer questions. How can I help you?"
+  },
+  {
+    "number": 6,
+    "question": "I am feeling sad. Can we talk?",
+    "desc": "Emotional support under web=ON (must NOT search)",
+    "route": "neural_model",
+    "used_search": false,
+    "latency_ms": 848.2,
+    "response": "I'm sorry, but I don't have personal opinions or emotions. However, as a person is not considered to be an unintended question and can lead to feelings of others."
+  }
+]

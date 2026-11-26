@@ -1,0 +1,58 @@
+{
+  "timestamp": 1793120497.4170904,
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "test_name": "Nested Div & Breadcrumb Bug Reproduction",
+      "raw_length": 557,
+      "extracted_length": 244,
+      "extracted_sample": "Emergency Evaluation of Acute Chest Symptoms Acute chest discomfort requires immediate systematic clinical evaluation to rule out acute coronary syndrome. Potential etiologies include cardiac ischemia",
+      "has_required": true,
+      "lacks_prohibited": true,
+      "latency_ms": 6.96,
+      "passed": true
+    },
+    {
+      "test_name": "Advertising, Sidebar & Newsletter Stripping",
+      "raw_length": 598,
+      "extracted_length": 152,
+      "extracted_sample": "Deep Neural Network Architectures A deep neural network consists of multiple sequential hidden layers that perform hierarchical representation learning.",
+      "has_required": true,
+      "lacks_prohibited": true,
+      "latency_ms": 0.82,
+      "passed": true
+    },
+    {
+      "test_name": "Mathematical Notation Cleanup",
+      "raw_length": 163,
+      "extracted_length": 75,
+      "extracted_sample": "The conditional probability density is given by p(y | x) = (1 / sqrt(2pi)).",
+      "has_required": true,
+      "lacks_prohibited": true,
+      "latency_ms": 0.0,
+      "passed": true
+    },
+    {
+      "test_name": "HTML Entities & Character Escapes",
+      "raw_length": 172,
+      "extracted_length": 85,
+      "extracted_sample": "Tom & Jerry \"enjoyed\" learning about Artificial Intelligence \u2014 it was > 99% accurate.",
+      "has_required": true,
+      "lacks_prohibited": true,
+      "latency_ms": 0.0,
+      "passed": true
+    },
+    {
+      "test_name": "Client-Hydrated Metadata Harvesting (LinkedIn Pattern)",
+      "raw_length": 647,
+      "extracted_length": 211,
+      "extracted_sample": "Satya Nadella - Chairman and CEO at Microsoft | LinkedIn Chairman and CEO at Microsoft. As chairman and CEO of Microsoft, I define my mission as empowering every person. Experience: Microsoft. Locatio",
+      "has_required": true,
+      "lacks_prohibited": true,
+      "latency_ms": 0.0,
+      "passed": true
+    }
+  ]
+}

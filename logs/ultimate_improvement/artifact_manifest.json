@@ -1,0 +1,121 @@
+{
+  "manifest_version": "1.0",
+  "mission": "Ultimate Chatbot Improvement",
+  "project_root": "D:/DEEP-LEARNING-PROJECT",
+  "timestamp": 1792434500.0,
+  "checkpoints": {
+    "reference_checkpoint": {
+      "path": "checkpoints/experiment_2/best.pt",
+      "sha256": "f717e5efff9dc6d58b0fc1d4872e74b0b03bd734029715a3ae14aa549b5b4ab1",
+      "size_bytes": 169528489,
+      "status": "PROTECTED_UNTOUCHED"
+    },
+    "final_improved_checkpoint": {
+      "path": "checkpoints/ultimate_improvement/best.pt",
+      "sha256": "cecba4946a8b5a0404e42e9e1790c0d780228da45e07b1910d190d89cbadf2fc",
+      "size_bytes": 169528553,
+      "status": "VERIFIED_OPTIMAL"
+    },
+    "final_latest_checkpoint": {
+      "path": "checkpoints/ultimate_improvement/latest.pt",
+      "sha256": "9eb9b09c6f95acb257f86af3dc070f73ad465785cfda0c071b2d4f1d1cfb9bd2",
+      "size_bytes": 169537949,
+      "status": "SAVED"
+    }
+  },
+  "tokenizer": {
+    "path": "tokenizer/tokenizer.json",
+    "sha256": "0f00fae1c3852879cb0bb9a807b45aad93d7700ca4e3f903b1c607ac8c565b08",
+    "vocab_size": 8000,
+    "status": "UNTOUCHED"
+  },
+  "key_datasets": {
+    "ultimate_train_tokens": {
+      "path": "data/ultimate_improvement/training_sequences/train_tokens.bin",
+      "sha256": "779d579e7e3a89cc9731a5ef9966667856999f956118a645622d86cd5fdf53fa",
+      "sequences": 6000
+    },
+    "ultimate_train_mask": {
+      "path": "data/ultimate_improvement/training_sequences/train_mask.bin",
+      "sha256": "5570791a015e5268afcf64b5abb9e22fc0c30d576b52609c341e25e67796e561",
+      "sequences": 6000
+    },
+    "ultimate_heldout_tokens": {
+      "path": "data/ultimate_improvement/training_sequences/heldout_tokens.bin",
+      "sha256": "6eb97c9e29a1088d7e67916dcd9287ad9e3a8939de78e5a85d73b39c4472a120",
+      "sequences": 110
+    },
+    "oasst1_cleaned_curriculum": {
+      "path": "data/experiment_2/curriculum_raw/category1_oasst1_cleaned.jsonl",
+      "sha256": "b6aea036e322fb942f0fee2dabea509f0e072672450365f17512a08f6c37aba9"
+    }
+  },
+  "evaluation_suites": {
+    "suite_01_benchmarks": {
+      "path": "data/ultimate_improvement/eval_suite/suite_01_benchmarks.json",
+      "sha256": "8ad3dc961dd01c1e4a7a6151a49751530facdd780fa5903015e5f29cb84b18b1"
+    },
+    "suite_02_arithmetic_single_step": {
+      "path": "data/ultimate_improvement/eval_suite/suite_02_arithmetic_single_step.jsonl",
+      "sha256": "c119c9f5fa4a604b66841ebd28e6d175f50c84e325d0ae95512151c17f82cec9"
+    },
+    "suite_03_arithmetic_multi_step": {
+      "path": "data/ultimate_improvement/eval_suite/suite_03_arithmetic_multi_step.jsonl",
+      "sha256": "dc98ad664e5cb80761488bd35fa1f2ed98637758cfdc98d9b6c78cec3074e1bf"
+    },
+    "suite_04_python_tasks": {
+      "path": "data/ultimate_improvement/eval_suite/suite_04_python_tasks.jsonl",
+      "sha256": "1a30814510c1fab4dc3b30ee43c13af43ee1a69e11f085f4fa084e148beb1729"
+    },
+    "suite_05_concepts": {
+      "path": "data/ultimate_improvement/eval_suite/suite_05_concepts.jsonl",
+      "sha256": "234427305c28ca30c8eb8fc8a3890c5b0fc859bbcde9b942464aad6965a40073"
+    },
+    "suite_06_factual_qa": {
+      "path": "data/ultimate_improvement/eval_suite/suite_06_factual_qa.jsonl",
+      "sha256": "5d0e417f5be985478f1567c27d08f870c4d9be13092684e9eb835a31e91c0e9e"
+    },
+    "suite_07_instruction_following": {
+      "path": "data/ultimate_improvement/eval_suite/suite_07_instruction_following.jsonl",
+      "sha256": "354f1bac15c4ba8472db692fb701b3247e7a7b93b9336bd958e8922e4cb54e68"
+    },
+    "suite_08_structured_answers": {
+      "path": "data/ultimate_improvement/eval_suite/suite_08_structured_answers.jsonl",
+      "sha256": "830fc6a5707eb235b1f27e1e2330f80d9b6077dd3141978022ca1d369a8b8352"
+    },
+    "suite_09_multiturn": {
+      "path": "data/ultimate_improvement/eval_suite/suite_09_multiturn.jsonl",
+      "sha256": "a5dfb39c537119830481000d154c1720a45377349305b571038bd64e55145882"
+    },
+    "suite_10_refusal_uncertainty": {
+      "path": "data/ultimate_improvement/eval_suite/suite_10_refusal_uncertainty.jsonl",
+      "sha256": "39cc583690dd67dc5627540fff60e0e13a7484b52849a72f7743cfa999a01740"
+    },
+    "suite_11_robustness_malformed": {
+      "path": "data/ultimate_improvement/eval_suite/suite_11_robustness_malformed.jsonl",
+      "sha256": "1f49849ee7a824e4717cbc32a4b41c17cb16b9c9e46f6b53659c200e2a4152cf"
+    },
+    "suite_12_context_boundary": {
+      "path": "data/ultimate_improvement/eval_suite/suite_12_context_boundary.jsonl",
+      "sha256": "c13b1e90dff4e4ad7ad309fefd678d706089db90028a1b2e18443970da94cc8d"
+    }
+  },
+  "scripts": {
+    "evaluate_comprehensive": {
+      "path": "src/ultimate_improvement/evaluate_comprehensive.py",
+      "sha256": "02dd25da81a7eb34d1a4f244755d01dbbd1b20eeee7971b7566202bc294e9909"
+    },
+    "train_ultimate": {
+      "path": "src/ultimate_improvement/train_ultimate.py",
+      "sha256": "464c3dbf2c79acd88c219eb39d953ccb12d94c671441f18bb5ac8231aac2c468"
+    },
+    "chat_application": {
+      "path": "src/chat.py",
+      "sha256": "cb6da3b30bc7b4bd229cf00fe0a6f41c925510b58c284206e108fc74fe97dc13"
+    },
+    "smoke_test": {
+      "path": "src/ultimate_improvement/smoke_test_chat.py",
+      "sha256": "805ec429b9b0c3b9eb306b3edde06f872a809684ee29f9e909667ccbb2be846c"
+    }
+  }
+}

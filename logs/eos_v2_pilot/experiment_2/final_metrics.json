@@ -1,0 +1,113 @@
+import json
+from pathlib import Path
+
+PROJECT_DIR = Path("D:/DEEP-LEARNING-PROJECT")
+OUT_JSON = PROJECT_DIR / "logs" / "eos_v2_pilot" / "experiment_2" / "final_metrics.json"
+
+metrics = {
+    "experiment": "Experiment 2: Targeted Knowledge-Dense SFT Mixture",
+    "status": "COMPLETED",
+    "hardware": {
+        "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+        "vram_gb": 6.00,
+        "cuda_capability": "8.6",
+        "pytorch": "2.14.0+cu130",
+        "python": "3.12.10",
+        "os": "Windows 11"
+    },
+    "checkpoints": {
+        "reference": {
+            "path": "checkpoints/eos_v2_pilot/best.pt",
+            "size_bytes": 169528681,
+            "sha256": "a55faea054b393c890793e128f70f1c4fde2254d21ade1ab8407e0a36bff491e"
+        },
+        "experiment_2_best": {
+            "path": "checkpoints/experiment_2/best.pt",
+            "update_step": 1750,
+            "size_bytes": 169528489,
+            "sha256": "f717e5efff9dc6d58b0fc1d4872e74b0b03bd734029715a3ae14aa549b5b4ab1"
+        },
+        "experiment_2_latest": {
+            "path": "checkpoints/experiment_2/latest.pt",
+            "update_step": 2000,
+            "size_bytes": 169537949,
+            "sha256": "c6e57aaa73a2c558c91ff2be8cfeb3960097dba00071f475a31a2650e9c344f4"
+        }
+    },
+    "training": {
+        "updates_completed": 2000,
+        "epochs": 4.31,
+        "wall_clock_minutes": 28.49,
+        "peak_lr": 8e-5,
+        "min_lr": 8e-6,
+        "effective_batch_size": 16,
+        "weight_decay": 0.05,
+        "gradient_clip": 1.0,
+        "best_update": 1750,
+        "composite_loss_baseline": 3.8536,
+        "composite_loss_best": 3.6421,
+        "composite_loss_reduction": -0.2115
+    },
+    "validation_losses": {
+        "curriculum_suite": {
+            "sequences": 550,
+            "baseline_loss": 3.7451,
+            "baseline_ppl": 42.31,
+            "best_loss": 3.2623,
+            "best_ppl": 26.11,
+            "loss_reduction": -0.4828,
+            "ppl_reduction_pct": -38.29
+        },
+        "oasst1_full_split": {
+            "sequences": 1989,
+            "baseline_loss": 3.9620,
+            "baseline_ppl": 52.56,
+            "best_loss": 4.0219,
+            "best_ppl": 55.81,
+            "loss_delta": 0.0599,
+            "conversational_retention": "PRESERVED"
+        }
+    },
+    "functional_evaluation": {
+        "benchmark_prompts_8": {
+            "greedy_eos_termination_baseline": "4/8 (50.0%)",
+            "greedy_eos_termination_exp2": "8/8 (100.0%)",
+            "repetition_loops_baseline": "3/8 (37.5%)",
+            "repetition_loops_exp2": "0/8 (0.0%)",
+            "concept_recall_monopsony": "Fully accurate factual definition (previously degenerate repetition loop)",
+            "concept_recall_ai": "Accurate formal definition (previously hallucinated refusal disclaimer)"
+        },
+        "untouched_arithmetic_100": {
+            "total_questions": 100,
+            "contamination": "0.0% (strictly disjoint numerical pairs and prompts)",
+            "accuracy_baseline": "1/100 (1.00%)",
+            "accuracy_exp2": "6/100 (6.00%)",
+            "tier1_1digit_acc_baseline": "0/15 (0.00%)",
+            "tier1_1digit_acc_exp2": "5/15 (33.33%)",
+            "tier2_2digit_1digit_acc_baseline": "0/20 (0.00%)",
+            "tier2_2digit_1digit_acc_exp2": "1/20 (5.00%)",
+            "tier3_through_6_acc_exp2": "0/65 (0.00%)",
+            "generalization_finding": "Significant generalization on elementary 1-digit arithmetic (0% -> 33.3%), but multi-digit mental arithmetic exceeds direct 14M zero-shot capacity without chain-of-thought."
+        },
+        "untouched_python_30": {
+            "total_tasks": 30,
+            "executable_tasks": 15,
+            "syntax_valid_baseline": "0/15 (0.0%)",
+            "syntax_valid_exp2": "1/15 (6.7%)",
+            "func_correct_exp2": "0/15 (0.0%)",
+            "generalization_finding": "Model learned Python function scaffolding and docstring syntax, but generating novel algorithms passing unit tests zero-shot remains beyond 14M capacity."
+        },
+        "untouched_concepts_30": {
+            "total_questions": 30,
+            "total_key_points": 97,
+            "key_point_recall_baseline": "22/97 (22.68%)",
+            "key_point_recall_exp2": "29/97 (29.90%)",
+            "generalization_finding": "Positive transfer to unseen conceptual topics across economics, AI, and science."
+        }
+    }
+}
+
+OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+with open(OUT_JSON, "w", encoding="utf-8") as f:
+    json.dump(metrics, f, indent=2, ensure_ascii=False)
+print(f"Saved: {OUT_JSON}")

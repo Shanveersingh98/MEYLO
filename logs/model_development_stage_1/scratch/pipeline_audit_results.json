@@ -1,0 +1,235 @@
+{
+  "independent_validation_loss": {
+    "curriculum_heldout_loss": 0.3721,
+    "curriculum_heldout_ppl": 1.45,
+    "curriculum_heldout_seqs": 110,
+    "oasst1_eos_v2_loss": 4.0206,
+    "oasst1_eos_v2_ppl": 55.73,
+    "oasst1_eos_v2_seqs": 1989,
+    "composite_loss": 2.1963,
+    "checkpoint_reported_loss": 2.196330417183178,
+    "loss_match": true
+  },
+  "duplicate_analysis": {
+    "ultimate_improvement": {
+      "n_train": 6000,
+      "n_val": 110,
+      "exact_duplicates": 60,
+      "duplicate_pct": 54.55,
+      "sample_duplicate_indices": [
+        [
+          0,
+          5698
+        ],
+        [
+          2,
+          5909
+        ],
+        [
+          3,
+          5852
+        ],
+        [
+          4,
+          5885
+        ],
+        [
+          5,
+          5698
+        ]
+      ]
+    },
+    "oasst1_eos_v2": {
+      "n_train": 17683,
+      "n_val": 1989,
+      "exact_duplicates": 0,
+      "duplicate_pct": 0.0,
+      "sample_duplicate_indices": []
+    },
+    "experiment_2": {
+      "n_train": 7422,
+      "n_val": 550,
+      "exact_duplicates": 0,
+      "duplicate_pct": 0.0,
+      "sample_duplicate_indices": []
+    }
+  },
+  "mask_statistics": {
+    "ultimate_train": {
+      "dataset_name": "ultimate_train",
+      "num_sequences": 6000,
+      "total_tokens": 6144000,
+      "active_tokens": 1112592,
+      "inactive_tokens": 5031408,
+      "active_pct": 18.11,
+      "pad_token_count": 4776213,
+      "pad_pct": 77.74,
+      "eos_count": 7362,
+      "user_count": 7362,
+      "asst_count": 7362,
+      "sample_mean_active_per_seq": 197.7,
+      "sample_min_active": 6,
+      "sample_max_active": 880
+    },
+    "ultimate_heldout": {
+      "dataset_name": "ultimate_heldout",
+      "num_sequences": 110,
+      "total_tokens": 112640,
+      "active_tokens": 6784,
+      "inactive_tokens": 105856,
+      "active_pct": 6.02,
+      "pad_token_count": 102178,
+      "pad_pct": 90.71,
+      "eos_count": 119,
+      "user_count": 119,
+      "asst_count": 119,
+      "sample_mean_active_per_seq": 61.7,
+      "sample_min_active": 6,
+      "sample_max_active": 107
+    },
+    "oasst1_train": {
+      "dataset_name": "oasst1_train",
+      "num_sequences": 17683,
+      "total_tokens": 18107392,
+      "active_tokens": 5911978,
+      "inactive_tokens": 12195414,
+      "active_pct": 32.65,
+      "pad_token_count": 11024420,
+      "pad_pct": 60.88,
+      "eos_count": 28084,
+      "user_count": 29076,
+      "asst_count": 29010,
+      "sample_mean_active_per_seq": 366.3,
+      "sample_min_active": 9,
+      "sample_max_active": 997
+    },
+    "oasst1_val": {
+      "dataset_name": "oasst1_val",
+      "num_sequences": 1989,
+      "total_tokens": 2036736,
+      "active_tokens": 659864,
+      "inactive_tokens": 1376872,
+      "active_pct": 32.4,
+      "pad_token_count": 1246232,
+      "pad_pct": 61.19,
+      "eos_count": 3164,
+      "user_count": 3260,
+      "asst_count": 3255,
+      "sample_mean_active_per_seq": 341.3,
+      "sample_min_active": 7,
+      "sample_max_active": 1005
+    }
+  },
+  "jsonl_statistics": {
+    "ultimate_train.jsonl": {
+      "exists": true,
+      "file_name": "ultimate_train.jsonl",
+      "file_size_bytes": 5999111,
+      "record_count": 6000,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 534.3,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "ultimate_heldout.jsonl": {
+      "exists": true,
+      "file_name": "ultimate_heldout.jsonl",
+      "file_size_bytes": 36745,
+      "record_count": 110,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 136.0,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category1_oasst1_cleaned.jsonl": {
+      "exists": true,
+      "file_name": "category1_oasst1_cleaned.jsonl",
+      "file_size_bytes": 5807092,
+      "record_count": 2972,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 967.4,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category2_arithmetic_train.jsonl": {
+      "exists": true,
+      "file_name": "category2_arithmetic_train.jsonl",
+      "file_size_bytes": 473651,
+      "record_count": 1800,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 44.9,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category2_arithmetic_heldout.jsonl": {
+      "exists": true,
+      "file_name": "category2_arithmetic_heldout.jsonl",
+      "file_size_bytes": 56455,
+      "record_count": 200,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 49.4,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category3_python_train.jsonl": {
+      "exists": true,
+      "file_name": "category3_python_train.jsonl",
+      "file_size_bytes": 1005442,
+      "record_count": 1800,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 303.0,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category3_python_heldout.jsonl": {
+      "exists": true,
+      "file_name": "category3_python_heldout.jsonl",
+      "file_size_bytes": 100992,
+      "record_count": 200,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 274.9,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category4_concepts_train.jsonl": {
+      "exists": true,
+      "file_name": "category4_concepts_train.jsonl",
+      "file_size_bytes": 619527,
+      "record_count": 850,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 453.0,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "category4_concepts_heldout.jsonl": {
+      "exists": true,
+      "file_name": "category4_concepts_heldout.jsonl",
+      "file_size_bytes": 98492,
+      "record_count": 150,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 391.7,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "train_paths.jsonl": {
+      "exists": true,
+      "file_name": "train_paths.jsonl",
+      "file_size_bytes": 34795146,
+      "record_count": 17683,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 788.6,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    },
+    "validation_paths.jsonl": {
+      "exists": true,
+      "file_name": "validation_paths.jsonl",
+      "file_size_bytes": 3887446,
+      "record_count": 1989,
+      "mean_user_chars": 0,
+      "mean_asst_chars": 785.9,
+      "empty_user_count": 0,
+      "empty_asst_count": 0
+    }
+  }
+}

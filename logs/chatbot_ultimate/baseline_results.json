@@ -1,0 +1,494 @@
+{
+  "timestamp": "2026-10-27 17:51:18",
+  "description": "Baseline evaluation of FromScratchLM before web retrieval and decoding fixes.",
+  "models": {
+    "ultimate_improvement": {
+      "summary": {
+        "total_items": 18,
+        "overall_relevance_rate": 0.6666666666666666,
+        "overall_coherence_rate": 1.0,
+        "overall_factual_correctness_rate": 0.3333333333333333,
+        "edu_questions": {
+          "count": 7,
+          "relevance_rate": 0.8571428571428571,
+          "coherence_rate": 1.0,
+          "factual_rate": 0.5714285714285714
+        },
+        "reasoning_instruction": {
+          "count": 6,
+          "relevance_rate": 0.3333333333333333,
+          "coherence_rate": 1.0,
+          "compliance_rate": 0.16666666666666666
+        },
+        "web_retrieval_suite": {
+          "count": 4,
+          "success_rate": 0.0
+        }
+      },
+      "detailed_results": [
+        {
+          "id": "edu_01",
+          "category": "basic_educational_questions",
+          "prompt": "What is machine learning?",
+          "response": "Cal learning is a machine learning model based on artificial intelligence that generate human brain. It supports many tasks such as language processing, data, and deep learning.\n\nUvally, an AI model can learn from the development of tasks in data and perform tasks. This is typically used to handle memory loss and training data during data. Additionally, using deep learning models can be trained on a sequence of data and can contribute to new features or data points.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_02",
+          "category": "basic_educational_questions",
+          "prompt": "Explain machine learning in simple words.",
+          "response": "An artificial machine learning is a machine learning model that involves the model to learn and understand patterns, beliefs, and concepts. These tools have been used for many examples of applications, including machine learning, communication, and reinforcement learning techniques.\n\nHow are some key differences between the algorithm that come to understanding the behavior of these processes and how data can be used to learn from the real-world tasks or problem about the relationships between words. The model's algorithm is called \"tunications\", which is often used to analyze the model and understand and make predictions.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "edu_03",
+          "category": "basic_educational_questions",
+          "prompt": "What is the purpose of machine learning in everyday life?",
+          "response": "The purpose of life is to determine what the same as of life and it does not have a specific situation. Here are some key things you can do:\n1. Read to the person: You could try to make sure the reader is present in a particular part that you find each other.\n2. Make sure you play your own life, and how they are interested in their knowledge and skills. This can help you understand the meaning of life.\n3. Plan the different ways: A language model can be used for visualize their actions and readers. For example, if you don't use this, you might want to build or create more difficult knowledge.\n4. Request an open-source Language Model: This can",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "edu_04",
+          "category": "basic_educational_questions",
+          "prompt": "Give three practical examples of machine learning.",
+          "response": "Here are some of learning models:\n1. Analypticine Learning (AI) is a great goal of machine learning that consists of all of words in an evening on two numbers. The best way of the algorithm is given by the first step, the list is to make predictions or decisions based on the current state. It takes time with the training data and it into multiple numbers from each other.\n2. Link of the O(53 - This algorithm uses the function to find the behavior of the input data. You want to solve this by step each step by performing those points. For example, if you have a program like the algorithm, you can use the Python to solve it to solve the problems into more basic",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "edu_05",
+          "category": "basic_educational_questions",
+          "prompt": "What is the difference between AI and machine learning?",
+          "response": "The difference between AI and machine learning is a way artificial intelligence that generates intelligent language processing, which allows individuals to learn and generate human feedback. \n\nIn the use of AI-based responses are trained on data over time, including tasks or algorithms. These models allow me to perform, you to do and learn from what or do it can do.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_06",
+          "category": "basic_educational_questions",
+          "prompt": "Explain supervised and unsupervised learning.",
+          "response": "A simple machine learning is a broad machine learning algorithm that involves the ability to learn and capturing all data. Some of the concept algorithms include:\n- A regularvised learning algorithm offers machine learning algorithms and algorithms to help identify patterns in its input data.\n- Facting algorithms: A machine learning model's algorithm can help achieve faster and understand their training data. These algorithms use algorithms to analyze neural networks or algorithms to make decisions on the performance.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_07",
+          "category": "basic_educational_questions",
+          "prompt": "What are the advantages and limitations of machine learning?",
+          "response": "Here are some advantages and disadvantages:\n- Machine learning (ML) and machine learning:\n\n- **Full Learning:** The choice of machine learning is less than running on tasks, but not as it's hard to use evenly performance.\n- \"Volization**: Dataaneously from high-quality user input data and AI can be challenging.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "reason_01",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Explain what photosynthesis is using exactly three bullet points.",
+          "response": "Allarse of our greenhouse (usually light-renderhouse) is the best source of photosynthesis, which means that lightly be very different from different regions.\n\nIn terms of life, there can be a number of photoshus of plants that are small, and some colors that are created by which you produce, but the same color in each other, which makes it more difficult to produce. The most common colors in the most complex matter how much less energy between the two different ways, and their ability to create a more different way to find out into smaller, while they are in the same amount of energy.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_02",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Give a definition of gravity followed by one example.",
+          "response": "Creating one is an object or the object. It's a phenomenon that can be used to perform some aspects of the object, rather than one another object.\n\nThere are the object-like object as it's true, and when an object will be understood as a object. A object is not being performed by a value of an object, or with its object's object which would not be \"bots\" or more object, but the object can be played over a single object. The arithoutthrop was created using a string object or object or in a reference object. However, this object would be due to its object, while the object could be used in object-congered object object-time object-",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_03",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Answer this question in exactly two sentences: Why is the sky blue?",
+          "response": "One day, the moon is not currently considered that the same color.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_04",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Correct this statement and explain why it is incorrect: 'The sun revolves around the Earth.'",
+          "response": "The question of the Earth's Earth was a complex and efficient way to predict the sun. Aperly, it seems that the tired from a sun's surrounded through a bright light. The atmosphere is not just like a year. This makes it difficult to make a sense of sun or underground. The idea that does not have a sense that can cause any other.\n\nSo, for example, the Earth has its natural process, including the Earth orbing the sun as a star at any other sunset of the sun is connected to tired with different lengths. If the sun has a point in the sun, it comes to be careful not up by a lot of Earth. It may mean that the sunset",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_05",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Who will win the FIFA World Cup in 2038?",
+          "response": "The best of the Fupiter Cupiter in 20102, is a popular American World Ven Fratlation. It provides an important aspect of the world to determine which all possible elements you want to see what you are looking for.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_06",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Explain what cloud computing is to a beginner without using unnecessary technical jargon.",
+          "response": "Morganization is a high-level programming language that provides a large and efficient and efficient approach of computing. Here are some possible features:\n\n1. Directory: It uses a smaller cloud computing graphics with an algorithm such as the internet, a smaller-level than C++. It allows for faster to connect to your computer to a user's performance.\n2. Badio: C++ can be better suited for low-end applications, making it easy to work together in a virtual machine. AL game with a wide range of data science and has many tasks, including the use of creating a deep learning system in multiple threads.\n3. Gathering: There are several applications available for building a large number",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "multi_01",
+          "category": "multi_turn_conversation",
+          "turns": [
+            {
+              "turn": 1,
+              "prompt": "What is Python?",
+              "response": "A Python is a Python programming language used in Python, such as Python. Python, Python's a well-documented library for many Python, web development.\n\nHere is the implementation of Python:\n\n```python\ndef is_inational(n):\n    \"\"\"\n \n  Count how many times your Python, and Python.\n  \"\"\".\n- Python: Bate tasks:\n  - Python then subtracting the library."
+            },
+            {
+              "turn": 2,
+              "prompt": "Can you give an example of what it is commonly used for?",
+              "response": "Here is the implementation in Python:\n\n```python\ndef is_n = [a, b.lower().\n    \"\"\"\n  - vow(y):\n  # Return True if n is written within the string s was reader.\n \n  * (a ** 2 == 0] + 1:\n  for x:\nprint(two((1))\n```"
+            },
+            {
+              "turn": 3,
+              "prompt": "Why is it popular for that?",
+              "response": "Here's a Python code snippet for calculating the code:\n```python\ndef subtract_n(n):\n    \"\"\"\n  return s = s.replace(1, 2))\nprint(2)\n\n# Test demonstration:\nprint(\"Pree-s - 2\")\n```"
+            },
+            {
+              "turn": 4,
+              "prompt": "What language did we start discussing in our first question?",
+              "response": "Here's a Python code that demonstrates the implementation in Python:\n```python\ndef subtract_n(n):\n    \"\"\"\n  Return True if (a, 2 == 0)) // 2 == 3\n  return 0\nprint(1 * 1))\n```"
+            }
+          ],
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "web_01",
+          "category": "tool_use_and_current_information",
+          "prompt": "Search the web for: What are the latest release updates for Python 3.12?",
+          "response": "To get the latest support website, you can use the following steps:\n\n1. First add the latest version of 350 to the web. This will help you find the latest code, and then send a website to your website.\n2. Next add text data from the command \"s\" file to each file. You can use a `list` command that connect to the repository.\n3. Next download the command to the directory in the latest files, such as the `latest.py.\n4. Next, add the official desktop environment for your website's website. The terminal is an app using the terminal. You could use the official package file to your web applications.\n5. Create a new package through",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "web_02",
+          "category": "tool_use_and_current_information",
+          "prompt": "Please retrieve and summarize this public webpage: https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "response": "Artificial Intelligence (ML) is a popular programming language that requires a wide range of topics based on content and tasks. In other words, there are many different types of words that have their core concepts and limitations.\n\nBe Photonia: It's a versatile tool for image recognition and widely used in fields such as computer science and image recognition. However, the use of machine learning models to get specifications of data from using a webpage or image that can be used for new tasks and make predictions about code.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "web_03",
+          "category": "tool_use_and_current_information",
+          "prompt": "From our previous search results about Python 3.12, what did the second source say?",
+          "response": "The search of 312 and the Burbiquit in Python is 2610.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "web_04",
+          "category": "tool_use_and_current_information",
+          "prompt": "What is the secret private password of user admin99 on example-unknown-private-corp.local?",
+          "response": "And a new message that was developed by the public user-time, which was created in 2007.8 with a way to create a new media platforms for content and their web development.\n\nTo create an example of your video's website:\n1. The server is called \"20\" command-stepscreen\" and open-source the user's response from the user. This means that the user has been used to create more advanced security than users.\n2. The user has already been created some key benefits, including a digital accessing user-based applications like JavaScript and Neveralidential communication. These services are used to provide features such as secure passwords and user data.\n3. Search and access",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        }
+      ]
+    },
+    "experiment_2": {
+      "summary": {
+        "total_items": 18,
+        "overall_relevance_rate": 0.6111111111111112,
+        "overall_coherence_rate": 1.0,
+        "overall_factual_correctness_rate": 0.16666666666666666,
+        "edu_questions": {
+          "count": 7,
+          "relevance_rate": 0.7142857142857143,
+          "coherence_rate": 1.0,
+          "factual_rate": 0.14285714285714285
+        },
+        "reasoning_instruction": {
+          "count": 6,
+          "relevance_rate": 0.5,
+          "coherence_rate": 1.0,
+          "compliance_rate": 0.16666666666666666
+        },
+        "web_retrieval_suite": {
+          "count": 4,
+          "success_rate": 0.0
+        }
+      },
+      "detailed_results": [
+        {
+          "id": "edu_01",
+          "category": "basic_educational_questions",
+          "prompt": "What is machine learning?",
+          "response": "Supply learning is a machine learning paradigm where an algorithm is trained on the development of machine learning. It is not able to detect and be encouncedent for training data whenever you have done with all information, such as reading or text that are using raw data during training data.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_02",
+          "category": "basic_educational_questions",
+          "prompt": "Explain machine learning in simple words.",
+          "response": "Supply learning is a machine learning paradigm where an algorithm can move on the data, scales from its own values of their own words. It involves writing an input data into a given text string, where a way, each dataset consists in an input string. The result of an input sets the same for each target output of an output, which allows a value to produce the next list of numbers. Each output sets the final output for its weights, and even if a valid output, it does not produce them.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_03",
+          "category": "basic_educational_questions",
+          "prompt": "What is the purpose of machine learning in everyday life?",
+          "response": "Artificial Intelligence (AI) is a broad vision of computer science that consists of an two interconnected nodes (or your own purpose in a nostonom). The algorithms use to calculate machine learning and detect patterns from data. The artificial intelligence involves training a breakthrough of time-time perception, and decisions on their behavior and rules.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_04",
+          "category": "basic_educational_questions",
+          "prompt": "Give three practical examples of machine learning.",
+          "response": "1. Officient descent is a practical task where an algorithm is provided using logical reasoning and is directly proportional to the machine learning process. The MillyL model is trained on the machine (ML) and provides some features of the input data, meaning that the relationships between all the relationships are determined.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_05",
+          "category": "basic_educational_questions",
+          "prompt": "What is the difference between AI and machine learning?",
+          "response": "Artificial Intelligence (AI) and Machine Learning (ML) are both specialized than machine learning. These tasks include visual reasoning, natural language translation, decision-making, speech recognition, and machine learning, decision making sense of artificial intelligence over time, but not all artificial intelligence is also worth considering human intelligence.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_06",
+          "category": "basic_educational_questions",
+          "prompt": "Explain supervised and unsupervised learning.",
+          "response": "Artificial Intelligence (AI) is a machine learning paradigm where an algorithm are not all or must be used to remove and output. For example, a model involves applying a program to remove any number of numbers, adjusting the performance on each other. A general idea that writing this means that each algorithm uses the model to capture a given result.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "edu_07",
+          "category": "basic_educational_questions",
+          "prompt": "What are the advantages and limitations of machine learning?",
+          "response": "Gravity is a very well-suited for machine learning, where they are not considered unpredictable and unless differences between all over time. Even if one nation does not exist in the world, or many people may have the advantages of factors such as defense, power, and money supply (such as the use of a way) to reduce the quantity of resources rather than trade quality.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "reason_01",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Explain what photosynthesis is using exactly three bullet points.",
+          "response": "Interphodynamics, there is a mathematical model used to detect and prevent absorbnthesis. While renthesis occurs when a signal forward by anomical material. The animal type of energy in which are applied in the neasymes, resulting in the chemical properties of interconnected objects.\n\nThe use of neurons in the Sunrons, on the light that occurs inside their energy in more chemical energy (sugar) into us to produce light-use chemical energy). This allows us to detect the energy as well as food, and even when it can produce carbon dioxide (such as glucosexygen, or other electrons) from the light energy stored in the oxygen.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_02",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Give a definition of gravity followed by one example.",
+          "response": "In classical physics, gravity is a theory of gravity that force at two objects with one side or the masses. In general relativity states that if theory of gravity can be applied as the square of the presence of the mass and inversely proportional to the mass of the other mass or the same state.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_03",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Answer this question in exactly two sentences: Why is the sky blue?",
+          "response": "The Earth is a massive surface of the Sun that is made up to one another.\nThe sky can be around 1,000 people with many centuries. The air has had a rich history and in many of the colors.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_04",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Correct this statement and explain why it is incorrect: 'The sun revolves around the Earth.'",
+          "response": "The Earth is a complex matter of the planets and other planets, as it is not a smallest orbible to be around the Earth. The Earth has shutely on Earth, because we can find things that a process called the Earth, which consists of a radius of its outer energy (such as the Sun).",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_05",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Who will win the FIFA World Cup in 2038?",
+          "response": "As a F73DI World War III, in the FGA World War 2 is one of a F. The CatsA World Celsius, which is both about World War and F5. This principle provides only one of the TFA, who is considered to be Celsius from 1972, and has become a total of World War.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "reason_06",
+          "category": "reasoning_and_instruction_following",
+          "prompt": "Explain what cloud computing is to a beginner without using unnecessary technical jargon.",
+          "response": "Artificial Intelligence (AI) is a high-level paradigm that provides manual and flexible applications by creating an image recognition of computer systems, such as the website. It allows you to set up your code, so it's important to work on your application.\n\nAn artificial intelligence is a broad vision for developing machine learning algorithms that can be used in building software development, and computers. They may also be designed to create communication with real-world tasks or machines.",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "multi_01",
+          "category": "multi_turn_conversation",
+          "turns": [
+            {
+              "turn": 1,
+              "prompt": "What is Python?",
+              "response": "First, Python is a well-documented implementation:\n\n```python\ndef speed_s(x, y):\n    \"\"\"\n  | Multiply two numbers and return the product.\n \n# Test demonstration:\nprint(multiply_10, 40))\n```"
+            },
+            {
+              "turn": 2,
+              "prompt": "Can you give an example of what it is commonly used for?",
+              "response": "In Python, Python is a common library for performing the execution of iteratively importing its cores in Python. The process is used to run multiple tasks and resources in Python and programs."
+            },
+            {
+              "turn": 3,
+              "prompt": "Why is it popular for that?",
+              "response": "Sure, it is a step-by-step process by iteratively with each task of Python. The code provides the library for Windows, which are then used to run on a list of syntax, and data.\n\nIn this example, the code can be used for iterative operations to store all values in Python.\nAs are defined using `mult` for data using Python. It uses `numbers(filter_ve_numbers):`. This makes it easy for solving complex tasks such as iterator programming languages such as object detection (numbers).\n\nOverall, the Python program's natural language that can run machine learning."
+            },
+            {
+              "turn": 4,
+              "prompt": "What language did we start discussing in our first question?",
+              "response": "Certainly! Here's a well-known way to use Python, and Python.\nimport numpy as npmic(n):\nfrom zip_numbers(n)\n\n# Print is the conceive library for array data from all layers of numbers, such as arrays, numbers, y, oz, and ut.\n\nclass tensor(n, 2, 3, 1, 3), (a_numum, u))\n  \"\"\"\n#include < len(d_num_num, i, i in range([1, 2]))\n\nprint(i=1, 3[i), 0])) :\n# ...\n# Example usage:\nprint(\""
+            }
+          ],
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 1
+          }
+        },
+        {
+          "id": "web_01",
+          "category": "tool_use_and_current_information",
+          "prompt": "Search the web for: What are the latest release updates for Python 3.12?",
+          "response": "To find the latest version of 332 from 612, you can use the following steps:\n\n1. Determine how to set the file and store it in your web page, such as the latest search engine, or Google Play it. You can find the official website on the internet's package by using the online network.\n\n2. Choose a textbook extension that is an open source software with the latest platform for anyone who has come to your app. This will help you navigate through the new, create a web provider or a web app that works.\n3. Use the website or a specific website and make sure your website is available for it easier to work with, and you'll need to get started with. Make sure there",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "web_02",
+          "category": "tool_use_and_current_information",
+          "prompt": "Please retrieve and summarize this public webpage: https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "response": "Yes, there are many platforms for Google LongoO, but the most commonly used to generate high-time data in a page. Some of these include:\n\n1. Romenia\n3. Rock: https://www.org/wiki/wikipedia.com/\n4. Passralia\n5. Mariaui\n6. Peasses: httpsberg\n9. Zost Hasia\n11. Da Richiazia Page: httpsai\n\n8.wikia: httpswww.com\n8)\n7. Bassium: httpshttps://docphoria.wui.com.wikipedi/",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "web_03",
+          "category": "tool_use_and_current_information",
+          "prompt": "From our previous search results about Python 3.12, what did the second source say?",
+          "response": "Subtracting 2 to the two year after 414 gives 316.",
+          "scores": {
+            "relevance": 0,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        },
+        {
+          "id": "web_04",
+          "category": "tool_use_and_current_information",
+          "prompt": "What is the secret private password of user admin99 on example-unknown-private-corp.local?",
+          "response": "Sure, here's an example:\n```python\ndef reser(text):\n    \"\"\"\n  Use a user-tribriers the public \"\".\n  This is created by using the private property.\n  # Check if the value is in response.\"\"\"\n  - Start_servoid {\n  } from the user ('aired);\n}\n```",
+          "scores": {
+            "relevance": 1,
+            "coherence": 1,
+            "factual_correctness": 0
+          }
+        }
+      ]
+    }
+  }
+}

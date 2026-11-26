@@ -1,0 +1,171 @@
+{
+  "offline_tests": [
+    {
+      "query": "hii",
+      "reply": "Hello! It's great to hear from you. What's on your mind?",
+      "route": "companion_greeting",
+      "latency_ms": 14.04
+    },
+    {
+      "query": "hello how are you today",
+      "reply": "Hello! I'm here and ready to chat. How has your day been?",
+      "route": "companion_greeting",
+      "latency_ms": 1.37
+    },
+    {
+      "query": "i am sa",
+      "reply": "Did you mean you're feeling sad?",
+      "route": "companion_incomplete_stem",
+      "latency_ms": 1.28
+    },
+    {
+      "query": "i am sad today",
+      "reply": "I'm sorry things feel heavy right now. Please take it easy on yourself today.",
+      "route": "companion_sad",
+      "latency_ms": 7.84
+    },
+    {
+      "query": "i got injured",
+      "reply": "Oh no, I'm sorry to hear that. Are you okay? What happened?",
+      "route": "companion_physical_injury",
+      "latency_ms": 0.53
+    },
+    {
+      "query": "i feel bad today",
+      "reply": "I'm sorry today hasn't been going well. Do you want to tell me what happened?",
+      "route": "companion_sad",
+      "latency_ms": 0.52
+    },
+    {
+      "query": "i failed my examintaion",
+      "reply": "That must feel discouraging, but remember that exams are just one step along the way. Take a breath\u2014I'm right here if you want to talk through it.",
+      "route": "companion_disappointed",
+      "latency_ms": 0.52
+    },
+    {
+      "query": "what is machine learning",
+      "reply": "I'm sorry, I couldn't generate a reliable answer using my offline knowledge. Please enable web search so I can find the information for you.",
+      "route": "offline_quality_fallback",
+      "latency_ms": 1150.24
+    },
+    {
+      "query": "what is python",
+      "reply": "I'm sorry, I couldn't generate a reliable answer using my offline knowledge. Please enable web search so I can find the information for you.",
+      "route": "offline_quality_fallback",
+      "latency_ms": 1407.16
+    },
+    {
+      "query": "what is tranformer",
+      "reply": "I'm sorry, I couldn't generate a reliable answer using my offline knowledge. Please enable web search so I can find the information for you.",
+      "route": "offline_quality_fallback",
+      "latency_ms": 558.49
+    }
+  ],
+  "online_tests": [
+    {
+      "query": "what is day today",
+      "reply": "Today is Saturday, November 14, 2026 (Asia/Kolkata timezone).",
+      "route": "system_date",
+      "latency_ms": 1.22
+    },
+    {
+      "query": "whats the date",
+      "reply": "Today is Saturday, November 14, 2026 (Asia/Kolkata timezone).",
+      "route": "system_date",
+      "latency_ms": 0.0
+    },
+    {
+      "query": "what is the date today",
+      "reply": "Today is Saturday, November 14, 2026 (Asia/Kolkata timezone).",
+      "route": "system_date",
+      "latency_ms": 0.59
+    },
+    {
+      "query": "who is karan aujla",
+      "reply": "Karan Aujla, whose full name is Jaskaran Singh Aujla, is an Indian Punjabi singer, rapper and songwriter. He is known for popular Punjabi music releases and his distinctive musical style.",
+      "route": "web_grounded_evidence",
+      "latency_ms": 5021.44
+    },
+    {
+      "query": "who is sidhu moosewala",
+      "reply": "Sidhu Moose Wala (Shubhdeep Singh Sidhu) was an acclaimed Indian Punjabi singer, rapper, and songwriter known for his influential contributions to contemporary Punjabi music.",
+      "route": "web_grounded_evidence",
+      "latency_ms": 4007.93
+    },
+    {
+      "query": "what is tranformer",
+      "reply": "In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which input data such as text, images, or audio is  converted to a sequence of numerical representations called tokens, and each token is converted into a vector through an embedding layer. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.\nBecause transformers do not process tokens one at a time, their computations can be parallelized across sequence positions during training more readily than those of recurrent neural networks like long short-term memory (LSTM). Later variations have been widely adopted for training large language models (LLMs) on large (language) datasets.\n\nThe original version of the transformer architecture was proposed in the 2017 paper \"Attention Is All You Need\" by researchers at Google. The predecessors of transformers were developed as an improvement over previous architectures for machine translation, but have found many applications since. They are used in large-scale natural language processing, computer vision (vision transformers), reinforcement learning, audio, multimodal learning, robotics, and playing chess. It has also led to the development of pre-trained systems, such as generative pre-trained transformers (GPTs).",
+      "route": "web_grounded_evidence",
+      "latency_ms": 2516.97
+    },
+    {
+      "query": "what is punjab and who is sidhu moosewala",
+      "reply": "Here is an overview of both:\n\n**1. punjab:**\nPunjab ( pun-JAHB; Punjabi: Panj\u0101b, pronounced [p\u0259\u0272\u02c8d\u0361\u0292a\u02d0b] ) is a geographical, ethnolinguistic, and historical region in South Asia, located in its northwestern part, comprising areas of modern-day Pakistan and northwestern India. Lahore is its largest city and historic capital, with other major cities including Faisalabad, Rawalpindi, Gujranwala, Multan, and Sialkot in Pakistan; alongside Ludhiana, Amritsar, Chandigarh, Jalandhar, and Patiala in India.\nHuman settlements in Punjab developed along its five rivers as early as the ancient Indus Valley civilization, dating back to 3000 BCE, followed by migrations of the Indo-Aryan peoples. Agriculture has been the chief economic feature of the Punjab and is considered an important element of Punjabi culture. The Punjab emerged as an important agricultural region, especially following the Green Revolution during the mid-1960s to the mid-1970s, and has been described as the \"breadbasket of both India and Pakistan.\"\nThe boundaries of the region are imprecisely defined and depend on historical and ethnographic definitions, and thus the geographical meaning of the term \"Punjab\" has changed over time. During the existence British India, from 1849 till 1901, the Punjab Province encompassed the present Indian states and union territories of Punjab, Haryana, Himachal Pradesh, Chandigarh, and Delhi, and the Pakistani regions of Punjab, Khyber Pakhtunkhwa and Islamabad Capital Territory. After the Partition of British India in 1947, it was divided into West and East Punjab; East Punjab was further divided into Punjab, Haryana and Himachal Pradesh in 1966 by India.\nThe predominant ethnolinguistic group of the Punjab region are the Punjabi people, who speak the Indo-Aryan Punjabi language of South Asia. Punjabi Muslims are the majority in Pakistani Punjab, while Punjabi Sikhs are the majority in Indian Punjab. Other religious groups include Punjabi Hindus, Punjabi Christians, Jains, Zoroastrians, Buddhists, and Ravidassias.\n\n**2. Sidhu Moose Wala:**\nSidhu Moose Wala (Shubhdeep Singh Sidhu) was an acclaimed Indian Punjabi singer, rapper, and songwriter known for his influential contributions to contemporary Punjabi music.",
+      "route": "web_compound_grounded",
+      "latency_ms": 7439.4
+    },
+    {
+      "query": "who is shanveer singh khosa on linkedin",
+      "reply": "A verified public LinkedIn profile for **Shanveer Singh Khosa** could not be confirmed in publicly indexed sources. Profile privacy settings or login requirements may restrict access. To view this profile, please verify the spelling or provide the direct public profile URL.",
+      "route": "linkedin_search_inconclusive",
+      "latency_ms": 2588.78
+    }
+  ],
+  "followup_tests": [
+    {
+      "turn": "What is a Transformer?",
+      "reply": "In deep learning, the transformer is a family of artificial neural network architectures based on the multi-head attention mechanism, in which input data such as text, images, or audio is  converted to a sequence of numerical representations called tokens, and each token is converted into a vector through an embedding layer. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism, allowing the signal for key tokens to be amplified and less important tokens to be diminished. Because self-attention alone is permutation-invariant, transformers inject positional information, typically through positional encodings or learned positional embeddings, so token order can affect the output.\nBecause transformers do not process tokens one at a time, their computations can be parallelized across sequence positions during training more readily than those of recurrent neural networks like long short-term memory (LSTM). Later variations have been widely adopted for training large language models (LLMs) on large (language) datasets.\n\nThe original version of the transformer architecture was proposed in the 2017 paper \"Attention Is All You Need\" by researchers at Google. The predecessors of transformers were developed as an improvement over previous architectures for machine translation, but have found many applications since. They are used in large-scale natural language processing, computer vision (vision transformers), reinforcement learning, audio, multimodal learning, robotics, and playing chess. It has also led to the development of pre-trained systems, such as generative pre-trained transformers (GPTs).",
+      "route": "web_grounded_evidence",
+      "latency_ms": 2471.1
+    },
+    {
+      "turn": "How does it work?",
+      "reply": "It uses self-attention mechanisms to evaluate the relationships and relevance between all tokens in a sequence simultaneously.",
+      "route": "technical_followup",
+      "latency_ms": 0.88
+    },
+    {
+      "turn": "Give me an example.",
+      "reply": "Imagine a sentence where the meaning of one word depends on other words (like 'bank' in 'river bank' versus 'money bank'). Self-attention helps the model understand these relationships in context.",
+      "route": "technical_followup",
+      "latency_ms": 0.0
+    },
+    {
+      "turn": "Where is it used?",
+      "reply": "Transformers are used in language models (like GPT and BERT), machine translation, speech processing, and computer vision (like Vision Transformers).",
+      "route": "technical_followup",
+      "latency_ms": 1.01
+    }
+  ],
+  "source_test": {
+    "question": "Who is Karan Aujla?",
+    "answer": "Karan Aujla, whose full name is Jaskaran Singh Aujla, is an Indian Punjabi singer, rapper and songwriter. He is known for popular Punjabi music releases and his distinctive musical style.",
+    "sources_hidden_in_answer": true,
+    "link_request": "Give me the links.",
+    "links_answer": "Sources for the recent response:\n\u2022 Karan Aujla: https://en.wikipedia.org/wiki/Karan_Aujla\n\u2022 Karan Aujla: http://www.wikidata.org/entity/Q58008320\n\u2022 Karan Aujla discography: https://en.wikipedia.org/wiki/Karan_Aujla_discography",
+    "links_successfully_shown": true
+  },
+  "mode_test": [
+    {
+      "mode": "OFF",
+      "query": "who is karan aujla",
+      "route": "offline_freshness_fallback",
+      "reply": "I'm sorry, I can't reliably answer that using my offline knowledge. Please enable web search so I can find the latest information for you.",
+      "web_used": false
+    },
+    {
+      "mode": "ON",
+      "query": "who is karan aujla",
+      "route": "web_grounded_evidence",
+      "reply": "Karan Aujla, whose full name is Jaskaran Singh Aujla, is an Indian Punjabi singer, rapper and songwriter. He is known for popular Punjabi music releases and his distinctive musical style.",
+      "web_used": true
+    },
+    {
+      "mode": "OFF",
+      "query": "what is machine learning",
+      "route": "neural_model",
+      "reply": "Artificial Intelligence (AI) is a broad machine learning that involves the ability to learn and decisions, but they are not suitable for human intelligence.",
+      "web_used": false
+    }
+  ]
+}

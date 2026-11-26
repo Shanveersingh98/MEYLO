@@ -1,0 +1,48 @@
+{
+  "timestamp": 1793452653.7072484,
+  "total": 6,
+  "results": [
+    {
+      "query": "Explain the second source in simpler words.",
+      "route": "web_cache_followup",
+      "context_retention": true,
+      "answer_preview": "**Source [2] (Reinforcement learning) Explained Simply:**  In machine learning and optimal control, reinforcement learning (RL) (also known as approximate dynamic programming) is concerned with how an intelligent agent should take actions in a dynami",
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "route": "web_cache_followup",
+      "context_retention": true,
+      "answer_preview": "Only one source was provided in the previous answer. Would you like me to simplify that source?",
+      "passed": true
+    },
+    {
+      "query": "What is supervised learning?",
+      "route": "web_grounded_evidence",
+      "context_retention": false,
+      "answer_preview": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labele",
+      "passed": true
+    },
+    {
+      "query": "Explain that more simply.",
+      "route": "web_cache_followup",
+      "context_retention": true,
+      "answer_preview": "**Supervised learning Explained Simply:**  In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs.  **Analogy:** Imagin",
+      "passed": true
+    },
+    {
+      "query": "Give an example of the same concept.",
+      "route": "neural_model",
+      "context_retention": true,
+      "answer_preview": "Sure! Here's a step-by-step guide on how to learn about the input data:  - We use a model for the model using a given text. For example, we can use a machine learning algorithm that uses a machine and a tool to generate a sequence of words. - The mod",
+      "passed": true
+    },
+    {
+      "query": "What did I ask you earlier?",
+      "route": "web_cache_followup",
+      "context_retention": true,
+      "answer_preview": "In your previous message, you asked: \"Give an example of the same concept.\"",
+      "passed": true
+    }
+  ]
+}

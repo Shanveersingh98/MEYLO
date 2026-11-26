@@ -1,0 +1,11 @@
+{
+  "dataset_name": "OpenAI GSM8K",
+  "huggingface_id": "openai/gsm8k",
+  "official_source": "https://github.com/openai/grade-school-math",
+  "license": "MIT License",
+  "intended_purpose": "Step-by-step arithmetic and multi-step reasoning with natural language solution traces",
+  "raw_files": [
+    "D:\\DEEP-LEARNING-PROJECT\\data\\stage_2_candidates\\raw\\gsm8k\\train.jsonl",
+    "D:\\DEEP-LEARNING-PROJECT\\data\\stage_2_candidates\\raw\\gsm8k\\test.jsonl"
+  ]
+}

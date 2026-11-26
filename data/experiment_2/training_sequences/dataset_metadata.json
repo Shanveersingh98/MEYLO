@@ -1,0 +1,92 @@
+{
+  "dataset_name": "experiment_2_targeted_curriculum",
+  "format_version": "EOS_v2_Targeted_SFT",
+  "created_at": "2026-10-19T18:52:50.595957",
+  "created_by": "src/experiment_2/build_experiment_2_sequences.py",
+  "context_length": 1024,
+  "vocab_size": 8000,
+  "special_tokens": {
+    "PAD": 0,
+    "UNK": 1,
+    "BOS": 2,
+    "EOS": 3,
+    "USER": 4,
+    "ASSISTANT": 5
+  },
+  "curriculum_category_counts": {
+    "train": {
+      "oasst1_cleaned": 2972,
+      "arithmetic": 1800,
+      "python": 1800,
+      "concepts": 850
+    },
+    "heldout": {
+      "arithmetic_heldout": 200,
+      "python_heldout": 200,
+      "concepts_heldout": 150
+    }
+  },
+  "train_statistics": {
+    "output_sequences": 7422,
+    "context_length": 1024,
+    "total_sequence_capacity": 7600128,
+    "real_tokens": 1694584,
+    "real_tokens_pct": 22.296782369981138,
+    "pad_tokens": 5905544,
+    "pad_tokens_pct": 77.70321763001886,
+    "truncated_sequences": 0,
+    "untruncated_sequences": 7422,
+    "loss_tokens_mask_1": 1425125,
+    "loss_tokens_mask_1_pct": 18.751328924986527,
+    "special_token_frequencies": {
+      "PAD": 5905544,
+      "BOS": 7422,
+      "EOS": 8702,
+      "USER": 8702,
+      "ASSISTANT": 8702
+    },
+    "tokens_file_bytes": 15200256,
+    "mask_file_bytes": 7600128,
+    "elapsed_seconds": 4.95
+  },
+  "heldout_statistics": {
+    "output_sequences": 550,
+    "context_length": 1024,
+    "total_sequence_capacity": 563200,
+    "real_tokens": 54229,
+    "real_tokens_pct": 9.628728693181818,
+    "pad_tokens": 508971,
+    "pad_tokens_pct": 90.37127130681817,
+    "truncated_sequences": 0,
+    "untruncated_sequences": 550,
+    "loss_tokens_mask_1": 41994,
+    "loss_tokens_mask_1_pct": 7.456321022727273,
+    "special_token_frequencies": {
+      "PAD": 508971,
+      "BOS": 550,
+      "EOS": 550,
+      "USER": 550,
+      "ASSISTANT": 550
+    },
+    "tokens_file_bytes": 1126400,
+    "mask_file_bytes": 563200,
+    "elapsed_seconds": 0.19
+  },
+  "automated_checks": {
+    "all_passed": true,
+    "checks": [
+      {
+        "check": "File Sizes Match Sequence Count Exactly",
+        "passed": true
+      },
+      {
+        "check": "Zero Truncation in Synthetic Categories",
+        "passed": true
+      },
+      {
+        "check": "BOS and Assistant Supervision Integrity",
+        "passed": true
+      }
+    ]
+  }
+}

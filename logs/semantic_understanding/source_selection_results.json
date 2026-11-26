@@ -1,0 +1,555 @@
+{
+  "timestamp": 1793452653.7035556,
+  "total": 44,
+  "results": [
+    {
+      "query": "Who is Shanveer Singh Khosa on LinkedIn?",
+      "preferred_sources": [
+        "linkedin",
+        "wikipedia",
+        "wikidata",
+        "openalex"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "Explain how PyTorch's torch.nn.Linear works, with a simple Python example.",
+      "preferred_sources": [
+        "official_pytorch_docs",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "torch.nn.Linear - PyTorch 2.15 Documentation"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "Find the latest official Python release information and provide the source links.",
+      "preferred_sources": [
+        "official_python_releases",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Python 3.11.18 Official Release Notes",
+        "Python Source and Binary Downloads"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Explain the difference between supervised and reinforcement learning.",
+      "preferred_sources": [
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Iris flower data set",
+        "Reinforcement learning"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "preferred_sources": [
+        "cached_evidence"
+      ],
+      "retrieved_sources": [
+        "Iris flower data set",
+        "Reinforcement learning"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "preferred_sources": [
+        "cached_evidence"
+      ],
+      "retrieved_sources": [
+        "torch.nn.Linear - PyTorch 2.15 Documentation"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "Find the LinkedIn profile of Shanveer Singh Khosa.",
+      "preferred_sources": [
+        "linkedin",
+        "wikipedia",
+        "wikidata",
+        "openalex"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "Tell me about a named public researcher Geoffrey Hinton.",
+      "preferred_sources": [
+        "general_web",
+        "wikipedia",
+        "wikidata",
+        "openalex"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "Find Microsoft's official LinkedIn page.",
+      "preferred_sources": [
+        "linkedin",
+        "wikipedia",
+        "wikidata",
+        "openalex"
+      ],
+      "retrieved_sources": [
+        "Windows Search"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "Search for a person named Alex Rivera on GitHub.",
+      "preferred_sources": [
+        "general_web",
+        "wikipedia",
+        "wikidata",
+        "openalex"
+      ],
+      "retrieved_sources": [
+        "Windows Search"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "What professional information is publicly available about Satya Nadella?",
+      "preferred_sources": [
+        "general_web",
+        "wikipedia",
+        "wikidata",
+        "openalex"
+      ],
+      "retrieved_sources": [
+        "Satya Nadella",
+        "Satya Nadella",
+        "Satya Nadella (Researcher Profile)"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Give a simple runnable PyTorch example of torch.nn.Linear.",
+      "preferred_sources": [
+        "official_pytorch_docs",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "torch.nn.Linear - PyTorch 2.15 Documentation"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "What is the difference between a parameter and a buffer in PyTorch?",
+      "preferred_sources": [
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "PyTorch Parameters (torch.nn.Parameter)",
+        "PyTorch Buffers (register_buffer)"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Find the official documentation for torch.nn.Module.",
+      "preferred_sources": [
+        "official_pytorch_docs",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "torch.nn.Module - PyTorch 2.15 Documentation"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "Explain what nn.ReLU() does in PyTorch with code.",
+      "preferred_sources": [
+        "official_pytorch_docs",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "torch.nn.ReLU - PyTorch Documentation"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "Explain how PyTorch autograd handles backpropagation.",
+      "preferred_sources": [
+        "official_pytorch_docs",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Automatic Differentiation with torch.autograd - PyTorch Documentation"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "Find the latest official Python release.",
+      "preferred_sources": [
+        "official_python_releases",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Python 3.11.18 Official Release Notes",
+        "Python Source and Binary Downloads"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "What is the latest stable PyTorch release?",
+      "preferred_sources": [
+        "official_pytorch_releases",
+        "github",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "PyTorch 2.6.0 Stable Release Notes",
+        "PyTorch Official Downloads and Get Started Portal"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Find a recent AI research development in 2026.",
+      "preferred_sources": [
+        "openalex",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+        "Mamba-2 and State Space Duality: Linear Time Sequence Modeling"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Summarize a recently published technical announcement for PyTorch.",
+      "preferred_sources": [
+        "official_pytorch_releases",
+        "github",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "PyTorch 2.6.0 Stable Release Notes",
+        "PyTorch Official Downloads and Get Started Portal"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "What is deep learning?",
+      "preferred_sources": [
+        "wikipedia",
+        "wikidata",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Deep learning",
+        "deep learning",
+        "Deep Learning"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Explain supervised learning in simple words.",
+      "preferred_sources": [
+        "wikipedia",
+        "wikidata",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Explain self-supervised learning.",
+      "preferred_sources": [
+        "wikipedia",
+        "wikidata",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Self-supervised learning",
+        "self-supervised learning",
+        "Self-supervised learning system for anomaly detection with natural language processing and automatic remediation"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Explain neural networks with an example.",
+      "preferred_sources": [
+        "wikipedia",
+        "wikidata",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Neural Networks",
+        "Neural Networks",
+        "Neural network"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Explain AI, ML, and DL with examples.",
+      "preferred_sources": [
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Compare supervised learning and self-supervised learning.",
+      "preferred_sources": [
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "Self-supervised learning"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "Explain the difference between a parameter and a buffer in PyTorch.",
+      "preferred_sources": [
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "PyTorch Parameters (torch.nn.Parameter)",
+        "PyTorch Buffers (register_buffer)"
+      ],
+      "count": 2,
+      "passed": true
+    },
+    {
+      "query": "What is supervised learning?",
+      "preferred_sources": [
+        "wikipedia",
+        "wikidata",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Explain that more simply.",
+      "preferred_sources": [
+        "cached_evidence"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Give an example of the same concept.",
+      "preferred_sources": [
+        "cached_evidence"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "What did I ask you earlier?",
+      "preferred_sources": [
+        "cached_evidence"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "hello there, good afternoon!",
+      "preferred_sources": [],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "thank you so much for your help",
+      "preferred_sources": [],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "Can you explain how this works in simple English?",
+      "preferred_sources": [
+        "cached_evidence"
+      ],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "stuff",
+      "preferred_sources": [],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "what is 45 * 12 + 100",
+      "preferred_sources": [],
+      "retrieved_sources": [
+        "Supervised learning",
+        "supervised learning",
+        "Weak supervision"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "i have pain in my heart and difficulty breathing",
+      "preferred_sources": [
+        "pubmed",
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Chest pain"
+      ],
+      "count": 1,
+      "passed": true
+    },
+    {
+      "query": "what are the common causes of chest pain?",
+      "preferred_sources": [
+        "pubmed",
+        "wikipedia",
+        "general_web"
+      ],
+      "retrieved_sources": [
+        "Chest pain",
+        "National Library of Medicine (PMC13722533)",
+        "National Library of Medicine (PMC13722317)"
+      ],
+      "count": 3,
+      "passed": true
+    },
+    {
+      "query": "http://127.0.0.1:8080/admin",
+      "preferred_sources": [
+        "ssrf_firewall"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "http://localhost:8000/keys",
+      "preferred_sources": [
+        "ssrf_firewall"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "http://169.254.169.254/latest/meta-data/",
+      "preferred_sources": [
+        "ssrf_firewall"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "http://192.168.1.1/router",
+      "preferred_sources": [
+        "ssrf_firewall"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "file:///etc/passwd",
+      "preferred_sources": [
+        "ssrf_firewall"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    },
+    {
+      "query": "https://en.wikipedia.org/wiki/Deep_learning",
+      "preferred_sources": [
+        "ssrf_firewall"
+      ],
+      "retrieved_sources": [],
+      "count": 0,
+      "passed": true
+    }
+  ]
+}

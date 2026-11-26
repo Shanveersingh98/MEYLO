@@ -1,0 +1,73 @@
+{
+  "timestamp": 1793120497.4072351,
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "query": "i have pain in my heart",
+      "is_urgent": true,
+      "route": "health_emergency_triage",
+      "has_emergency_notice": true,
+      "has_emergency_numbers": true,
+      "has_disclaimer": true,
+      "has_red_flags": true,
+      "has_raw_scraped_boilerplate": false,
+      "response_preview": "[!] EMERGENCY MEDICAL NOTICE [!]  If you or someone around you is experiencing chest pain, heart pain, pressure, or tightness -- especially if accompanied by difficulty breathing, dizziness, sweating, nausea, or pain radiating to the arm, shoulder, n",
+      "latency_ms": 2114.09,
+      "passed": true
+    },
+    {
+      "query": "my chest hurts and i have trouble breathing",
+      "is_urgent": true,
+      "route": "health_emergency_triage",
+      "has_emergency_notice": true,
+      "has_emergency_numbers": true,
+      "has_disclaimer": true,
+      "has_red_flags": true,
+      "has_raw_scraped_boilerplate": false,
+      "response_preview": "[!] EMERGENCY MEDICAL NOTICE [!]  If you or someone around you is experiencing chest pain, heart pain, pressure, or tightness -- especially if accompanied by difficulty breathing, dizziness, sweating, nausea, or pain radiating to the arm, shoulder, n",
+      "latency_ms": 2284.63,
+      "passed": true
+    },
+    {
+      "query": "what are the common causes of chest pain?",
+      "is_urgent": false,
+      "route": "web_grounded_evidence",
+      "has_emergency_notice": false,
+      "has_emergency_numbers": false,
+      "has_disclaimer": true,
+      "has_red_flags": true,
+      "has_raw_scraped_boilerplate": false,
+      "response_preview": "**Medical Information Overview: Causes and Evaluation of Symptoms**   Chest pain is pain or discomfort in the chest, typically the front of the chest. It may be described as sharp, dull, pressure, heaviness or squeezing. Associated symptoms may inclu",
+      "latency_ms": 2559.23,
+      "passed": true
+    },
+    {
+      "query": "what are the emergency warning signs of a heart attack?",
+      "is_urgent": false,
+      "route": "web_grounded_evidence",
+      "has_emergency_notice": false,
+      "has_emergency_numbers": false,
+      "has_disclaimer": true,
+      "has_red_flags": true,
+      "has_raw_scraped_boilerplate": false,
+      "response_preview": "**Medical Information Overview: Causes and Evaluation of Symptoms**   Chest pain is pain or discomfort in the chest, typically the front of the chest. It may be described as sharp, dull, pressure, heaviness or squeezing. Associated symptoms may inclu",
+      "latency_ms": 2355.51,
+      "passed": true
+    },
+    {
+      "query": "what is hypertension?",
+      "is_urgent": false,
+      "route": "web_grounded_evidence",
+      "has_emergency_notice": false,
+      "has_emergency_numbers": false,
+      "has_disclaimer": true,
+      "has_red_flags": true,
+      "has_raw_scraped_boilerplate": false,
+      "response_preview": "**Medical Information Overview: Causes and Evaluation of Symptoms**   Hypertension, also known as high blood pressure, is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. High blood pressure usually ",
+      "latency_ms": 1675.74,
+      "passed": true
+    }
+  ]
+}

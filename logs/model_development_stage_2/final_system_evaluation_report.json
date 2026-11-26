@@ -1,0 +1,218 @@
+{
+  "A_casual": [
+    {
+      "q": "Hello.",
+      "reply": "Hello there! Great to chat with you. How's everything going?",
+      "route": "companion_greeting",
+      "latency_ms": 31.5
+    },
+    {
+      "q": "How are you?",
+      "reply": "I'm here and ready to chat! How are you feeling today?",
+      "route": "companion_casual_conversation",
+      "latency_ms": 3.5
+    },
+    {
+      "q": "What are you doing?",
+      "reply": "I'm here ready to answer questions or just keep you company. How about you?",
+      "route": "companion_casual_conversation",
+      "latency_ms": 4.3
+    },
+    {
+      "q": "Can we talk?",
+      "reply": "Absolutely! We can talk about whatever you'd like.",
+      "route": "companion_casual_conversation",
+      "latency_ms": 3.7
+    },
+    {
+      "q": "How was your day?",
+      "reply": "My day is always brightened by a good chat! Did anything interesting happen in yours?",
+      "route": "companion_casual_conversation",
+      "latency_ms": 1.7
+    }
+  ],
+  "B_emotional": [
+    {
+      "q": "I passed my examination.",
+      "reply": "That is fantastic! Hard work really pays off.",
+      "route": "companion_happy",
+      "latency_ms": 4.4
+    },
+    {
+      "q": "I failed my examination.",
+      "reply": "I'm sorry things feel heavy right now. Please take it easy on yourself today.",
+      "route": "companion_sad",
+      "latency_ms": 8.3
+    },
+    {
+      "q": "I am feeling sad.",
+      "reply": "Oh, I'm really sorry you're going through that. It's okay to feel down sometimes.",
+      "route": "companion_sad",
+      "latency_ms": 1.7
+    },
+    {
+      "q": "I am stressed about my future.",
+      "reply": "I understand how overwhelming stress can be. Let's break the problem into smaller parts.",
+      "route": "companion_stressed",
+      "latency_ms": 1.1
+    },
+    {
+      "q": "I am confused.",
+      "reply": "Don't worry! Which part felt unclear? We can walk through it together.",
+      "route": "companion_confused",
+      "latency_ms": 2.1
+    },
+    {
+      "q": "I feel lonely.",
+      "reply": "I'm here to listen. What's been on your mind lately?",
+      "route": "companion_lonely",
+      "latency_ms": 1.7
+    },
+    {
+      "q": "I am angry because nothing is working.",
+      "reply": "I understand why that might upset you. Let's look at it calmly together.",
+      "route": "companion_angry",
+      "latency_ms": 1.2
+    }
+  ],
+  "C_offline": [
+    {
+      "q": "What is Python?",
+      "reply": "I'm sorry, I couldn't generate a reliable answer using my offline knowledge. Please enable web search so I can look up the information for you.",
+      "route": "offline_quality_fallback",
+      "latency_ms": 3570.5
+    },
+    {
+      "q": "What is Machine Learning?",
+      "reply": "Artificial Intelligence (AI) is a broad field of computer science that can be used to learn and understand patterns. It's an artificial intelligence, but it's not one of the ability to make predictions or decisions based on their own experiences.",
+      "route": "neural_model",
+      "latency_ms": 3087.9
+    },
+    {
+      "q": "What is a CNN?",
+      "reply": "No, a CNNNFNN and is a concept of the CNA. It is an important role in which one of the world where the universe are not directly from a single NNN-NN, but it does not have to be considered unintended or unclearseened by the RNNNs. Theory of CNealNN is based on the theory of a theory of understanding of physics that states that there are no directions between the universe.",
+      "route": "neural_model",
+      "latency_ms": 6115.6
+    },
+    {
+      "q": "What is a Transformer?",
+      "reply": "A Transformer is a Transformer architecture that uses a sequence of transformers (LM) and Transformer. It uses the model to generate text data in a wide range of layers, such as sequential Transformer and Transformers.",
+      "route": "neural_model",
+      "latency_ms": 2300.3
+    },
+    {
+      "q": "What is supervised learning?",
+      "reply": "Artificial Intelligence (AI) is a broader of artificial intelligence that involves the ability to learn and decisions. It's a machine learning model that can be used for tasks, but they are not being able to use.",
+      "route": "neural_model",
+      "latency_ms": 2186.3
+    },
+    {
+      "q": "What are the latest AI developments?",
+      "reply": "I'm sorry, I can't reliably answer that using my offline knowledge. Please enable web search so I can find the latest information for you.",
+      "route": "offline_freshness_fallback",
+      "latency_ms": 2.9
+    }
+  ],
+  "D_web_search": [
+    {
+      "q": "What is Punjab?",
+      "reply": "Punjab ( pun-JAHB; Punjabi: Panj\u0101b, pronounced [p\u0259\u0272\u02c8d\u0361\u0292a\u02d0b] ) is a geographical, ethnolinguistic, and historical region in South Asia, located in its northwestern part, comprising areas of modern-day Pakistan and northwestern India. Lahore is its largest city and historic capital, with other major cities including Faisalabad, Rawalpindi, Gujranwala, Multan, and Sialkot in Pakistan; alongside Ludhiana, Amritsar, Chandigarh, Jalandhar, and Patiala in India.\nHuman settlements in Punjab developed along its five rivers as early as the ancient Indus Valley civilization, dating back to 3000 BCE, followed by migrations of the Indo-Aryan peoples. Agriculture has been the chief economic feature of the Punjab and is considered an important element of Punjabi culture. The Punjab emerged as an important agricultural region, especially following the Green Revolution during the mid-1960s to the mid-1970s, and has been described as the \"breadbasket of both India and Pakistan.\"\nThe boundaries of the region are imprecisely defined and depend on historical and ethnographic definitions, and thus the geographical meaning of the term \"Punjab\" has changed over time. During the existence British India, from 1849 till 1901, the Punjab Province encompassed the present Indian states and union territories of Punjab, Haryana, Himachal Pradesh, Chandigarh, and Delhi, and the Pakistani regions of Punjab, Khyber Pakhtunkhwa and Islamabad Capital Territory. After the Partition of British India in 1947, it was divided into West and East Punjab; East Punjab was further divided into Punjab, Haryana and Himachal Pradesh in 1966 by India.\nThe predominant ethnolinguistic group of the Punjab region are the Punjabi people, who speak the Indo-Aryan Punjabi language of South Asia. Punjabi Muslims are the majority in Pakistani Punjab, while Punjabi Sikhs are the majority in Indian Punjab. Other religious groups include Punjabi Hindus, Punjabi Christians, Jains, Zoroastrians, Buddhists, and Ravidassias.",
+      "route": "web_grounded_evidence",
+      "sources_hidden_by_default": true,
+      "latency_ms": 4216.6
+    },
+    {
+      "q": "Who is Sidhu Moose Wala?",
+      "reply": "### Public Professional Profile Information: Sidhu Moose Wala\n\n- **Subject**: Sidhu Moose Wala\n- **Platform**: Web\n- **Primary Indexed Reference**: https://en.wikipedia.org/wiki/Sidhu_Moose_Wala\n\n**Verified Public Profile Highlights:**\n- Shubhdeep Singh Sidhu (11 June 1993 \u2013 29 May 2022), known professionally as Sidhu Moose Wala, was an Indian singer and rapper.\n- Working predominantly in Punjabi-language music and cinema, Moose Wala is considered to be one of the most influential and successful Punjabi rappers of all time and to many, among the greatest Indian musicians of his generation.\n- Moose Wala's lyrics and themes promoting gun culture and violence were often seen as controversial in India.\n\n*Data Privacy & Verification Note: Only publicly indexed information is displayed. Private contact details, phone numbers, and unverified credentials are never fabricated.*",
+      "route": "web_grounded_evidence",
+      "sources_hidden_by_default": false,
+      "latency_ms": 10918.4
+    },
+    {
+      "q": "Who is Diljit Dosanjh?",
+      "reply": "1. The HREMA: The DEGHERSEVIDIY PATOD, TEXTERNET, and the RADLEMERZRKENT?\n2. The SPORTUEEEX YEWARFERRINTERE, which is a popular choice for both music and social media platforms. It's important to note that these are not widely used in many other media, but it may be helpful to consider the specific needs of your needs and preferences of the best fits your requirements.\n\n2) The LEMARTRAME, VAL, and its popularity may have some examples of the same quality and preferences you want to get started",
+      "route": "local_model_web_grounded",
+      "sources_hidden_by_default": true,
+      "latency_ms": 7171.7
+    },
+    {
+      "q": "What are the latest AI developments?",
+      "reply": "These are the ability to learn and make decisions based on AI systems. In contrast, the model is not a specific task that can be used in real-world problems such as machine learning, or problem-solving, but it's important to note that these models may have been trained with human intelligence and ethical issues. It has many techniques for tasks and algorithms that are designed to develop their performance and improve performance.\n\nAnother approach to research: The training data is to generate text data and perform complex patterns of data and representations by incorporating predictions, which could be applied to different aspects of language processing. This involves using deep neural networks, including visualization, speech recognition, and generalizing.",
+      "route": "local_model_web_grounded",
+      "sources_hidden_by_default": true,
+      "latency_ms": 4805.5
+    },
+    {
+      "q": "What is Punjab and who is Sidhu Moose Wala?",
+      "reply": "Here is an overview of both:\n\n**1. Punjab:**\nPunjab ( pun-JAHB; Punjabi: Panj\u0101b, pronounced [p\u0259\u0272\u02c8d\u0361\u0292a\u02d0b] ) is a geographical, ethnolinguistic, and historical region in South Asia, located in its northwestern part, comprising areas of modern-day Pakistan and northwestern India. Lahore is its largest city and historic capital, with other major cities including Faisalabad, Rawalpindi, Gujranwala, Multan, and Sialkot in Pakistan; alongside Ludhiana, Amritsar, Chandigarh, Jalandhar, and Patiala in India.\nHuman settlements in Punjab developed along its five rivers as early as the ancient Indus Valley civilization, dating back to 3000 BCE, followed by migrations of the Indo-Aryan peoples. Agriculture has been the chief economic feature of the Punjab and is considered an important element of Punjabi culture. The Punjab emerged as an important agricultural region, especially following the Green Revolution during the mid-1960s to the mid-1970s, and has been described as the \"breadbasket of both India and Pakistan.\"\nThe boundaries of the region are imprecisely defined and depend on historical and ethnographic definitions, and thus the geographical meaning of the term \"Punjab\" has changed over time. During the existence British India, from 1849 till 1901, the Punjab Province encompassed the present Indian states and union territories of Punjab, Haryana, Himachal Pradesh, Chandigarh, and Delhi, and the Pakistani regions of Punjab, Khyber Pakhtunkhwa and Islamabad Capital Territory. After the Partition of British India in 1947, it was divided into West and East Punjab; East Punjab was further divided into Punjab, Haryana and Himachal Pradesh in 1966 by India.\nThe predominant ethnolinguistic group of the Punjab region are the Punjabi people, who speak the Indo-Aryan Punjabi language of South Asia. Punjabi Muslims are the majority in Pakistani Punjab, while Punjabi Sikhs are the majority in Indian Punjab. Other religious groups include Punjabi Hindus, Punjabi Christians, Jains, Zoroastrians, Buddhists, and Ravidassias.\n\n**2. Sidhu Moose Wala:**\n### Public Professional Profile Information: Sidhu Moose Wala\n\n- **Subject**: Sidhu Moose Wala\n- **Platform**: Web\n- **Primary Indexed Reference**: https://en.wikipedia.org/wiki/Sidhu_Moose_Wala\n\n**Verified Public Profile Highlights:**\n- Shubhdeep Singh Sidhu (11 June 1993 \u2013 29 May 2022), known professionally as Sidhu Moose Wala, was an Indian singer and rapper.\n- Working predominantly in Punjabi-language music and cinema, Moose Wala is considered to be one of the most influential and successful Punjabi rappers of all time and to many, among the greatest Indian musicians of his generation.\n- Moose Wala's lyrics and themes promoting gun culture and violence were often seen as controversial in India.\n\n*Data Privacy & Verification Note: Only publicly indexed information is displayed. Private contact details, phone numbers, and unverified credentials are never fabricated.*",
+      "route": "web_compound_grounded",
+      "sources_hidden_by_default": false,
+      "latency_ms": 6779.3
+    }
+  ],
+  "E_multi_turn": {
+    "transformer_chain": [
+      {
+        "q": "What is a Transformer?",
+        "reply": "The LEARTRMEND RIDIX PADERNAME, which is a deep learning model that uses the Transformer to generate text and perform complex tasks. The FHALL function takes in a sequence of words and outputs on the training data, such as image processing, text, or ",
+        "route": "local_model_web_grounded"
+      },
+      {
+        "q": "How does it work?",
+        "reply": "The Transformer model is a subset of text that uses the transformer to generate an input data in a sequence of the output. The models are trained on a high-level architecture, which makes it easy to generate a wide range of images and features such a",
+        "route": "local_model_web_grounded"
+      },
+      {
+        "q": "Give me an example.",
+        "reply": "Sure! Here's an example of the text from a Transformer:\n```python\ndef generate_dat(text, 'to_name', ''])\n# Create an image with the input data\ndef filter_of_twave_doc = ['], max_data_value(item)\n   \"\"\"\n  # In this case, we use `numbers` to generate a",
+        "route": "local_model_web_grounded"
+      },
+      {
+        "q": "Where is it used?",
+        "reply": "Sure! Here's a step-by-step guide on the text data:\n\n```python\ndef generate_dat_of_all(s): The model is used to generate text and generate text input.\n\n# Define the output of the Transformer_to_f\"])\nprint(\"Building\"",
+        "route": "local_model_web_grounded"
+      }
+    ],
+    "pronoun_chain": [
+      {
+        "q": "Who is Diljit Dosanjh?",
+        "reply": "### Public Professional Profile Information: Diljit Dosanjh\n\n- **Subject**: Diljit Dosanjh\n- **Platform**: Web\n- **Primary Indexed Reference**: https://en.wikipedia.org/wiki/Diljit_Dosanjh\n\n**Verified Public Profile Highlights:**\n- Diljit Dosanjh (Pu",
+        "route": "web_grounded_evidence"
+      },
+      {
+        "q": "What about his songs?",
+        "reply": "Indian singer Diljit Dosanjh has released 13 studio albums, 1 extended play, and 41 singles. In 2020, he entered the Social 50 chart by Billboard, following the release of his 11th album G.O.A.T. The album also entered the top 20 in the Canadian Albu",
+        "route": "web_grounded_evidence"
+      }
+    ]
+  },
+  "F_spelling": [
+    {
+      "q": "tell me hw are yuo",
+      "web_on": false,
+      "reply": "All systems ready and happy to chat with you! How's your day been?",
+      "route": "companion_casual_conversation"
+    },
+    {
+      "q": "wat is mashine lerning",
+      "web_on": false,
+      "reply": "Poping learning is a machine learning algorithm that involves training data and make predictions or decisions. It can be used to learn patterns, or problem-solving skills.",
+      "route": "neural_model"
+    },
+    {
+      "q": "who is sidhumoosewala",
+      "web_on": true,
+      "reply": "The Rockersey HVIDTHEXTSA: This book is a popular and challenging task that has been used for its own unique experience, including music, art, and culture. It's important to note that this process is not just a good idea of the most common ones you a",
+      "route": "local_model_web_grounded"
+    }
+  ],
+  "G_source_display": {
+    "answer_hidden_sources": "Acture, I'm sorry to hear that your question is not a good idea. You can't have any other questions or questions about this topic, and I would recommend you with the best information on?",
+    "links_request_output": "Sources for the recent response:\n\u2022 Sidhu Moose Wala: https://en.wikipedia.org/wiki/Sidhu_Moose_Wala\n\u2022 Sidhu Moose Wala: http://www.wikidata.org/entity/Q55759824\n\u2022 Sidhu Moose Wala discography: https://en.wikipedia.org/wiki/Sidhu_Moose_Wala_discography"
+  },
+  "H_mode_switching": {
+    "turn_1_offline": "Artificial Intelligence (AI) is a broad vision of computer science that involves the development of machine learning and machines that can be used to ",
+    "turn_2_online": "MArtificial Intelligence (AI) is a complex and artificial intelligence algorithm that can be used to analyze data, but it's important to note that AI ",
+    "turn_3_offline": "I'm sorry, I can't reliably answer that using my offline knowledge. Please enable web search so I can find the latest information for you."
+  }
+}

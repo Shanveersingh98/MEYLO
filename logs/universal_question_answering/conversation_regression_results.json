@@ -1,0 +1,80 @@
+{
+  "timestamp": 1793120515.4189942,
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "turn": 1,
+      "input": "What is supervised learning?",
+      "expected_route": "web_grounded_evidence",
+      "actual_route": "web_grounded_evidence",
+      "response_preview": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process ",
+      "latency_ms": 2305.79,
+      "passed": true
+    },
+    {
+      "turn": 2,
+      "input": "Explain that in simpler words.",
+      "expected_route": "web_cache_followup",
+      "actual_route": "web_cache_followup",
+      "response_preview": "**Supervised learning Explained Simply:**  In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based o",
+      "latency_ms": 0.89,
+      "passed": true
+    },
+    {
+      "turn": 3,
+      "input": "What did the second source say?",
+      "expected_route": "web_cache_followup",
+      "actual_route": "web_cache_followup",
+      "response_preview": "Source [2]: supervised learning URL: http://www.wikidata.org/entity/Q334384  Summary: supervised learning is documented as: machine learning task of learning a function that maps an input to an output",
+      "latency_ms": 0.0,
+      "passed": true
+    },
+    {
+      "turn": 4,
+      "input": "Give me a shorter summary.",
+      "expected_route": "web_cache_followup",
+      "actual_route": "web_cache_followup",
+      "response_preview": "**Concise Summary (Supervised learning):**  In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based ",
+      "latency_ms": 1.53,
+      "passed": true
+    },
+    {
+      "turn": 5,
+      "input": "45 * 12",
+      "expected_route": "calculator",
+      "actual_route": "calculator",
+      "response_preview": "[Tool: Calculator] 45 * 12 = 540",
+      "latency_ms": 1.55,
+      "passed": true
+    },
+    {
+      "turn": 6,
+      "input": "thank you!",
+      "expected_route": "general_conversation",
+      "actual_route": "conversation",
+      "response_preview": "Hello! I am your AI assistant. How can I help you today?",
+      "latency_ms": 919.41,
+      "passed": true
+    },
+    {
+      "turn": 7,
+      "input": "stuff",
+      "expected_route": "clarification",
+      "actual_route": "clarification",
+      "response_preview": "Your question appears ambiguous or needs more context: Query is too brief or ambiguous to reliably determine intent.  Could you please specify more details or clarify the exact subject or person you w",
+      "latency_ms": 1.73,
+      "passed": true
+    },
+    {
+      "turn": 8,
+      "input": "/web off -> What is reinforcement learning?",
+      "expected_route": "offline_notice",
+      "actual_route": "offline_notice",
+      "response_preview": "[Offline Mode Notice: Live web retrieval is disabled (/web off). Live facts for 'What is reinforcement learning?' cannot be verified without external search.]",
+      "latency_ms": 1.45,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-10-27 18:21:07",
+  "environment": {
+    "os": "Windows 11",
+    "python": "3.12.10",
+    "project_root": "D:\\DEEP-LEARNING-PROJECT"
+  },
+  "artifacts": {
+    "checkpoints/experiment_2/best.pt": {
+      "exists": true,
+      "size_bytes": 169528489,
+      "sha256": "f717e5efff9dc6d58b0fc1d4872e74b0b03bd734029715a3ae14aa549b5b4ab1",
+      "status": "preserved_unmodified"
+    },
+    "checkpoints/ultimate_improvement/best.pt": {
+      "exists": true,
+      "size_bytes": 169528553,
+      "sha256": "cecba4946a8b5a0404e42e9e1790c0d780228da45e07b1910d190d89cbadf2fc",
+      "status": "preserved_unmodified"
+    },
+    "checkpoints/ultimate_improvement/final.pt": {
+      "exists": false,
+      "size_bytes": 0,
+      "sha256": null,
+      "status": "missing"
+    },
+    "checkpoints/baseline/best.pt": {
+      "exists": false,
+      "size_bytes": 0,
+      "sha256": null,
+      "status": "missing"
+    },
+    "tokenizer/tokenizer.json": {
+      "exists": true,
+      "size_bytes": 540619,
+      "sha256": "0f00fae1c3852879cb0bb9a807b45aad93d7700ca4e3f903b1c607ac8c565b08",
+      "status": "updated_or_created"
+    },
+    "src/model.py": {
+      "exists": true,
+      "size_bytes": 6231,
+      "sha256": "17f38407dad461d48260ff100843df02ca89fe73e81bab0d8a625126b5e817ae",
+      "status": "updated_or_created"
+    },
+    "src/generate.py": {
+      "exists": true,
+      "size_bytes": 6395,
+      "sha256": "3173c938b925336557dc1e0d01a7b0a587ad9f8becf9908b7fa85e8902cdcf36",
+      "status": "updated_or_created"
+    },
+    "src/chat.py": {
+      "exists": true,
+      "size_bytes": 10028,
+      "sha256": "7945761f513e3d2a17d8dc0cf02f2f0b6df1e787a4d49d5df0b62535e989f072",
+      "status": "updated_or_created"
+    },
+    "src/web_retrieval.py": {
+      "exists": true,
+      "size_bytes": 25241,
+      "sha256": "c10c2112a294005c58619e363a8c664cc6a695b0962352dd4351fb8b1512eace",
+      "status": "updated_or_created"
+    },
+    "src/generate_backup_pre_web.py": {
+      "exists": false,
+      "size_bytes": 0,
+      "sha256": null,
+      "status": "missing"
+    },
+    "src/chat_backup_pre_web.py": {
+      "exists": false,
+      "size_bytes": 0,
+      "sha256": null,
+      "status": "missing"
+    },
+    "logs/chatbot_ultimate/initial_audit.md": {
+      "exists": true,
+      "size_bytes": 8726,
+      "sha256": "fff9f020e8f73b9a1a22a9b4fcf4a18bc7bfa410d18240d99188e18421688604",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/benchmark.json": {
+      "exists": true,
+      "size_bytes": 6441,
+      "sha256": "483d3b4c05322a9075afbe50b838570a5ef55ad5148de4d848da0106805dfdd0",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/baseline_results.json": {
+      "exists": true,
+      "size_bytes": 32369,
+      "sha256": "2894d3c847ddc7639d0fc0d26114d768356470c6a42c8f269c2df86451e12292",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/root_cause_report.md": {
+      "exists": true,
+      "size_bytes": 5622,
+      "sha256": "395e31913a5c9109a9ef10d49489529d4a0ac24c5b973313d56d1921d046fa7d",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/validation_audit.md": {
+      "exists": true,
+      "size_bytes": 7257,
+      "sha256": "10f56ec020c7bb8f6c8e3da40173a36d38153fff74bfa3763c2ee2a1c648cff3",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/training_data_quality_report.md": {
+      "exists": true,
+      "size_bytes": 6280,
+      "sha256": "f7ee1b140ccc060470377b37d5e8194ea6f0faf5efb22da95cce1024849d2b4a",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/model_comparison.json": {
+      "exists": true,
+      "size_bytes": 4646,
+      "sha256": "048640ea89d9627c773ceea6d2d8b61152a29be1ec403b0ae354cf9e2241c48a",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/web_integration_report.md": {
+      "exists": true,
+      "size_bytes": 6096,
+      "sha256": "ee65207d47d2f591985fcdc58b93807234b92d0dfe8ce56c13995653702f70d7",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/security_test_report.md": {
+      "exists": true,
+      "size_bytes": 5290,
+      "sha256": "2366f26a71cb283fef7e47b74ed6c96995b0d45a70648df44ecf33c575ba9859",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/test_results.json": {
+      "exists": true,
+      "size_bytes": 20415,
+      "sha256": "5a003d5adb168414940c3c9dc90d5451adce47b73f1c362a08d80fc972993519",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/final_metrics.json": {
+      "exists": true,
+      "size_bytes": 2772,
+      "sha256": "9bbf97f7e391e9eb9c8b352b781aecc396b1a0c68550e2ec8a5eda2b3915645a",
+      "status": "updated_or_created"
+    },
+    "logs/chatbot_ultimate/final_report.md": {
+      "exists": true,
+      "size_bytes": 12329,
+      "sha256": "a8691efc4712f7aa28630f225ca3672ad20aa2de7f6bb93999f817426f89ecb4",
+      "status": "updated_or_created"
+    },
+    "RUN_CHATBOT.bat": {
+      "exists": true,
+      "size_bytes": 761,
+      "sha256": "b4cf19788cb1322f7475efc110563aa272148265c70bc93e3579876dc50d86fd",
+      "status": "updated_or_created"
+    }
+  }
+}

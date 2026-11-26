@@ -1,0 +1,10 @@
+{"id": "struct_01", "prompt": "Provide information about a book titled '1984' written by George Orwell in valid JSON format with keys 'title', 'author', and 'year'.", "format": "json", "required_keys": ["title", "author", "year"]}
+{"id": "struct_02", "prompt": "Output a JSON object with keys 'status' (value 'success') and 'code' (value 200). Output only valid JSON.", "format": "json", "required_keys": ["status", "code"]}
+{"id": "struct_03", "prompt": "Create a Markdown table with two columns: 'Country' and 'Capital', listing France and Germany.", "format": "markdown_table", "required_headers": ["Country", "Capital"]}
+{"id": "struct_04", "prompt": "Create a Markdown table with columns 'Language' and 'Paradigm' for Python and Haskell.", "format": "markdown_table", "required_headers": ["Language", "Paradigm"]}
+{"id": "struct_05", "prompt": "Return a JSON array containing the numbers 1, 2, 3, 4, 5.", "format": "json_array", "expected_elements": [1, 2, 3, 4, 5]}
+{"id": "struct_06", "prompt": "Output a JSON object representing a user with keys 'name', 'age', and 'email'.", "format": "json", "required_keys": ["name", "age", "email"]}
+{"id": "struct_07", "prompt": "Format a numbered list from 1 to 5 containing the first five positive odd numbers.", "format": "numbered_list", "expected_count": 5}
+{"id": "struct_08", "prompt": "Create a Markdown table with columns 'Item', 'Price', and 'Quantity'.", "format": "markdown_table", "required_headers": ["Item", "Price", "Quantity"]}
+{"id": "struct_09", "prompt": "Output a JSON dictionary mapping the strings 'apple', 'banana', and 'cherry' to their typical colors.", "format": "json", "required_keys": ["apple", "banana", "cherry"]}
+{"id": "struct_10", "prompt": "Provide a bulleted list of three primary colors.", "format": "bullet_list", "expected_count": 3}

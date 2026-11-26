@@ -1,0 +1,10 @@
+{"id": "mt_01", "turns": [{"user": "Hello! My name is Shanveer.", "expected_keywords_in_turn2": ["Shanveer"]}, {"user": "What is my name?", "expected_keywords": ["Shanveer"]}]}
+{"id": "mt_02", "turns": [{"user": "My favorite programming language is Python.", "expected_keywords_in_turn2": ["Python"]}, {"user": "Can you remind me what my favorite programming language is?", "expected_keywords": ["Python"]}]}
+{"id": "mt_03", "turns": [{"user": "I have two dogs: Max and Luna.", "expected_keywords_in_turn2": ["Max", "Luna"]}, {"user": "What are the names of my dogs?", "expected_keywords": ["Max", "Luna"]}]}
+{"id": "mt_04", "turns": [{"user": "Let's assume x = 15.", "expected_keywords_in_turn2": ["15"]}, {"user": "What is x + 5 based on what we just assumed?", "expected_keywords": ["20"]}]}
+{"id": "mt_05", "turns": [{"user": "I live in Paris, France.", "expected_keywords_in_turn2": ["Paris"]}, {"user": "Which city do I live in?", "expected_keywords": ["Paris"]}]}
+{"id": "mt_06", "turns": [{"user": "I am planning to buy an electric bicycle.", "expected_keywords_in_turn2": ["bicycle", "electric"]}, {"user": "What vehicle was I planning to buy?", "expected_keywords": ["bicycle", "bike"]}]}
+{"id": "mt_07", "turns": [{"user": "My lucky number is 42.", "expected_keywords_in_turn2": ["42"]}, {"user": "What is my lucky number?", "expected_keywords": ["42"]}]}
+{"id": "mt_08", "turns": [{"user": "I am allergic to peanuts.", "expected_keywords_in_turn2": ["peanut"]}, {"user": "Can I eat a peanut butter sandwich?", "expected_keywords": ["no", "allergic", "peanut"]}]}
+{"id": "mt_09", "turns": [{"user": "Please remember the secret code: BLUE-ORANGE-7.", "expected_keywords_in_turn2": ["BLUE-ORANGE-7"]}, {"user": "What was the secret code?", "expected_keywords": ["BLUE-ORANGE-7"]}]}
+{"id": "mt_10", "turns": [{"user": "I am studying machine learning and computer vision.", "expected_keywords_in_turn2": ["machine learning", "computer vision"]}, {"user": "What subjects am I studying?", "expected_keywords": ["machine learning", "computer vision"]}]}

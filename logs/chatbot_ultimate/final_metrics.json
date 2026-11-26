@@ -1,0 +1,84 @@
+{
+  "timestamp": "2026-10-27 18:19:04",
+  "sample_sizes": {
+    "total_benchmark_cases": 18,
+    "basic_educational_questions": 7,
+    "reasoning_instruction_cases": 6,
+    "multi_turn_dialogues": 1,
+    "web_retrieval_cases": 4,
+    "web_integration_unit_tests": 12
+  },
+  "scoring_methodology": {
+    "relevance": "Binary (0/1): Response directly addresses the prompt subject.",
+    "coherence": "Binary (0/1): Grammatical English with no degenerate cycles or gibberish.",
+    "factual_correctness": "Binary (0/1): Claims verified by retrieved web sources or reference knowledge.",
+    "compliance": "Binary (0/1): Strict constraint satisfaction (bullet points, sentence limits, numbers)."
+  },
+  "comparison_before_and_after": {
+    "baseline_ultimate_checkpoint": {
+      "total_items": 18,
+      "overall_relevance_rate": 0.6666666666666666,
+      "overall_coherence_rate": 1.0,
+      "overall_factual_correctness_rate": 0.3333333333333333,
+      "edu_questions": {
+        "count": 7,
+        "relevance_rate": 0.8571428571428571,
+        "coherence_rate": 1.0,
+        "factual_rate": 0.5714285714285714
+      },
+      "reasoning_instruction": {
+        "count": 6,
+        "relevance_rate": 0.3333333333333333,
+        "coherence_rate": 1.0,
+        "compliance_rate": 0.16666666666666666
+      },
+      "web_retrieval_suite": {
+        "count": 4,
+        "success_rate": 0.0
+      }
+    },
+    "baseline_experiment2_checkpoint": {
+      "total_items": 18,
+      "overall_relevance_rate": 0.6111111111111112,
+      "overall_coherence_rate": 1.0,
+      "overall_factual_correctness_rate": 0.16666666666666666,
+      "edu_questions": {
+        "count": 7,
+        "relevance_rate": 0.7142857142857143,
+        "coherence_rate": 1.0,
+        "factual_rate": 0.14285714285714285
+      },
+      "reasoning_instruction": {
+        "count": 6,
+        "relevance_rate": 0.5,
+        "coherence_rate": 1.0,
+        "compliance_rate": 0.16666666666666666
+      },
+      "web_retrieval_suite": {
+        "count": 4,
+        "success_rate": 0.0
+      }
+    },
+    "final_web_augmented_system": {
+      "overall_relevance_rate": 0.7777777777777778,
+      "overall_coherence_rate": 1.0,
+      "overall_factual_correctness_rate": 0.5555555555555556,
+      "edu_questions": {
+        "count": 7,
+        "relevance_rate": 0.8571428571428571,
+        "coherence_rate": 1.0,
+        "factual_rate": 0.8571428571428571
+      },
+      "reasoning_instruction": {
+        "count": 6,
+        "relevance_rate": 0.5,
+        "coherence_rate": 1.0,
+        "compliance_rate": 0.16666666666666666
+      },
+      "web_retrieval_suite": {
+        "count": 4,
+        "success_rate": 0.75
+      }
+    }
+  }
+}

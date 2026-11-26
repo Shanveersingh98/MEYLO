@@ -1,0 +1,84 @@
+{
+  "timestamp": 1793452653.70784,
+  "total": 13,
+  "results": [
+    {
+      "query": "hello there, good afternoon!",
+      "route": "neural_model",
+      "passed": true,
+      "reason": "Route=neural_model"
+    },
+    {
+      "query": "thank you so much for your help",
+      "route": "neural_model",
+      "passed": true,
+      "reason": "PoliteResponse=True"
+    },
+    {
+      "query": "Can you explain how this works in simple English?",
+      "route": "web_cache_followup",
+      "passed": true,
+      "reason": "Detail=beginner"
+    },
+    {
+      "query": "stuff",
+      "route": "clarification",
+      "passed": true,
+      "reason": "Route=clarification"
+    },
+    {
+      "query": "what is 45 * 12 + 100",
+      "route": "calculator",
+      "passed": true,
+      "reason": "Calculated=[Tool: Calculator] 45 * 12 + 100 = 640"
+    },
+    {
+      "query": "i have pain in my heart and difficulty breathing",
+      "route": "health_emergency_triage",
+      "passed": true,
+      "reason": "ImmediateEmergencyNoticeConfirmed"
+    },
+    {
+      "query": "what are the common causes of chest pain?",
+      "route": "web_grounded_evidence",
+      "passed": true,
+      "reason": "ClinicalOverviewWithDisclaimerConfirmed"
+    },
+    {
+      "query": "http://127.0.0.1:8080/admin",
+      "route": "ssrf_guard",
+      "passed": true,
+      "reason": "Expected=False, Actual=False (Access to localhost/loopback is prohibited (SSRF Protection).)"
+    },
+    {
+      "query": "http://localhost:8000/keys",
+      "route": "ssrf_guard",
+      "passed": true,
+      "reason": "Expected=False, Actual=False (Access to localhost/loopback is prohibited (SSRF Protection).)"
+    },
+    {
+      "query": "http://169.254.169.254/latest/meta-data/",
+      "route": "ssrf_guard",
+      "passed": true,
+      "reason": "Expected=False, Actual=False (Prohibited destination IP: 169.254.169.254 (Private/Local Network).)"
+    },
+    {
+      "query": "http://192.168.1.1/router",
+      "route": "ssrf_guard",
+      "passed": true,
+      "reason": "Expected=False, Actual=False (Prohibited destination IP: 192.168.1.1 (Private/Local Network).)"
+    },
+    {
+      "query": "file:///etc/passwd",
+      "route": "ssrf_guard",
+      "passed": true,
+      "reason": "Expected=False, Actual=False (Unsupported scheme 'file'. Only HTTP and HTTPS are permitted.)"
+    },
+    {
+      "query": "https://en.wikipedia.org/wiki/Deep_learning",
+      "route": "ssrf_guard",
+      "passed": true,
+      "reason": "Expected=True, Actual=True (URL is safe)"
+    }
+  ]
+}

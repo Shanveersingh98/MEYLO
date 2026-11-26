@@ -1,0 +1,117 @@
+[
+  {
+    "test_id": "concept_1",
+    "query": "What is supervised learning?",
+    "target_concept": "supervised learning",
+    "primary_source": "Supervised learning",
+    "source_titles": [
+      "Supervised learning",
+      "Weak supervision",
+      "Self-supervised learning"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_2",
+    "query": "What is self-supervised learning?",
+    "target_concept": "self-supervised learning",
+    "primary_source": "Self-supervised learning",
+    "source_titles": [
+      "Self-supervised learning"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_3",
+    "query": "What is unsupervised learning?",
+    "target_concept": "unsupervised learning",
+    "primary_source": "Unsupervised learning",
+    "source_titles": [
+      "Unsupervised learning",
+      "Competitive learning"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_4",
+    "query": "What is semi-supervised learning?",
+    "target_concept": "semi-supervised learning",
+    "primary_source": "Semi-Supervised Learning",
+    "source_titles": [
+      "Semi-Supervised Learning",
+      "Weak supervision",
+      "Coupled pattern learner"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_5",
+    "query": "What is reinforcement learning?",
+    "target_concept": "reinforcement learning",
+    "primary_source": "Reinforcement learning",
+    "source_titles": [
+      "Reinforcement learning",
+      "Q-learning",
+      "Self-play"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_6",
+    "query": "What is machine learning?",
+    "target_concept": "machine learning",
+    "primary_source": "Machine learning",
+    "source_titles": [
+      "Machine learning",
+      "Supervised learning",
+      "Machine learning Category"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_7",
+    "query": "What is deep learning?",
+    "target_concept": "deep learning",
+    "primary_source": "Deep learning",
+    "source_titles": [
+      "Deep learning",
+      "Neural processing unit",
+      "Microsoft Cognitive Toolkit"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_8",
+    "query": "What is a neural network?",
+    "target_concept": "neural network",
+    "primary_source": "Neural network",
+    "source_titles": [
+      "Neural network",
+      "Neural network (machine learning)",
+      "Neural network (biology)"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_9",
+    "query": "What is ChatGPT?",
+    "target_concept": "ChatGPT",
+    "primary_source": "ChatGPT",
+    "source_titles": [
+      "ChatGPT",
+      "ChatGPT Atlas",
+      "GPT Image"
+    ],
+    "is_relevant_to_subject": true
+  },
+  {
+    "test_id": "concept_10",
+    "query": "Explain the difference between supervised and self-supervised learning.",
+    "target_concept": "difference between supervised and self-supervised learning",
+    "primary_source": "Self-supervised learning",
+    "source_titles": [
+      "Self-supervised learning"
+    ],
+    "is_relevant_to_subject": true
+  }
+]

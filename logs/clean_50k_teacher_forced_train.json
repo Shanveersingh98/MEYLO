@@ -1,0 +1,117 @@
+{
+  "dataset_name": "Training Sample (1,000 Sequences)",
+  "sequences_evaluated": 1000,
+  "assistant_tokens_evaluated": 375385,
+  "mean_loss": 3.9302736482211595,
+  "perplexity": 50.92091017930158,
+  "top1_accuracy": 29.422859197890165,
+  "top5_accuracy": 50.42609587490177,
+  "top10_accuracy": 59.014611665356895,
+  "pos_bins": {
+    "0-15": {
+      "min": 0,
+      "max": 15,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "16-31": {
+      "min": 16,
+      "max": 31,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "32-63": {
+      "min": 32,
+      "max": 63,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "64-127": {
+      "min": 64,
+      "max": 127,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "128-255": {
+      "min": 128,
+      "max": 255,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "256-511": {
+      "min": 256,
+      "max": 511,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "512+": {
+      "min": 512,
+      "max": 2048,
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    }
+  },
+  "context_bins": {
+    "First_token_pos0": {
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "First_16_pos0-15": {
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "First_32_pos0-31": {
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "First_64_pos0-63": {
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    },
+    "Remaining_pos64+": {
+      "tokens": 0,
+      "loss": 0.0,
+      "top1": 0,
+      "top5": 0
+    }
+  },
+  "freq_results": {
+    "A_Common": {
+      "tokens": 0,
+      "top1": 0,
+      "loss": 0.0
+    },
+    "B_Medium": {
+      "tokens": 0,
+      "top1": 0,
+      "loss": 0.0
+    },
+    "C_Rare": {
+      "tokens": 0,
+      "top1": 0,
+      "loss": 0.0
+    }
+  }
+}

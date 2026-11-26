@@ -1,0 +1,186 @@
+{
+  "custom": {
+    "offline": {
+      "general_conversation": {
+        "category": "General Conversation",
+        "response": "Hey! My day is going well, thanks for asking! Always happy to connect and chat with you. How has your day been treating you?",
+        "latency_ms": 41.9,
+        "model_used": "custom"
+      },
+      "greetings_everyday": {
+        "category": "Greetings & Everyday Questions",
+        "response": "I don't have enough verified offline information to answer that accurately. If you would like me to search the web for details, please enable web search with `/web on`.",
+        "latency_ms": 5857.2,
+        "model_used": "custom"
+      },
+      "educational_explanations": {
+        "category": "Educational Explanations",
+        "response": "**Photosynthesis** is the biological process by which green plants, algae, and certain microorganisms convert light energy (sunlight), water, and carbon dioxide into chemical energy (glucose) and oxygen.\n\nKey aspects of photosynthesis:\n- **Chemical Equation**: `6 CO2 + 6 H2O + Light Energy -> C6H12O6 (glucose) + 6 O2 (oxygen)`\n- **Chlorophyll**: The specialized pigment in plant chloroplasts that absorbs light energy (primarily blue and red wavelengths).\n- **Two Stages**: Light-dependent reactions (capturing photons to generate ATP and NADPH while releasing oxygen) and the Calvin Cycle (light-independent reactions fixing carbon into sugar molecules).\n- **Ecological Importance**: It generates virtually all the oxygen we breathe and provides the base energy source for almost every food chain on Earth.",
+        "latency_ms": 10.9,
+        "model_used": "custom"
+      },
+      "computer_science_programming": {
+        "category": "Computer Science & Programming Concepts",
+        "response": "**Photosynthesis** is the biological process by which green plants, algae, and certain microorganisms convert light energy (sunlight), water, and carbon dioxide into chemical energy (glucose) and oxygen.\n\nKey aspects of photosynthesis:\n- **Chemical Equation**: `6 CO2 + 6 H2O + Light Energy -> C6H12O6 (glucose) + 6 O2 (oxygen)`\n- **Chlorophyll**: The specialized pigment in plant chloroplasts that absorbs light energy (primarily blue and red wavelengths).\n- **Two Stages**: Light-dependent reactions (capturing photons to generate ATP and NADPH while releasing oxygen) and the Calvin Cycle (light-independent reactions fixing carbon into sugar molecules).\n- **Ecological Importance**: It generates virtually all the oxygen we breathe and provides the base energy source for almost every food chain on Earth.",
+        "latency_ms": 8.8,
+        "model_used": "custom"
+      },
+      "math_logical_reasoning": {
+        "category": "Mathematics & Logical Reasoning",
+        "response": "**Photosynthesis** is the biological process by which green plants, algae, and certain microorganisms convert light energy (sunlight), water, and carbon dioxide into chemical energy (glucose) and oxygen.\n\nKey aspects of photosynthesis:\n- **Chemical Equation**: `6 CO2 + 6 H2O + Light Energy -> C6H12O6 (glucose) + 6 O2 (oxygen)`\n- **Chlorophyll**: The specialized pigment in plant chloroplasts that absorbs light energy (primarily blue and red wavelengths).\n- **Two Stages**: Light-dependent reactions (capturing photons to generate ATP and NADPH while releasing oxygen) and the Calvin Cycle (light-independent reactions fixing carbon into sugar molecules).\n- **Ecological Importance**: It generates virtually all the oxygen we breathe and provides the base energy source for almost every food chain on Earth.",
+        "latency_ms": 10.6,
+        "model_used": "custom"
+      },
+      "emotional_support": {
+        "category": "Emotional & Supportive Conversations",
+        "response": "I hope this helps! I'm glad you with your question.",
+        "latency_ms": 174.5,
+        "model_used": "custom"
+      },
+      "intent_understanding": {
+        "category": "Intent Understanding & Nuance",
+        "response": "I'm here for you! Feel free to share whatever is on your mind.",
+        "latency_ms": 29.4,
+        "model_used": "custom"
+      },
+      "writing_summarization": {
+        "category": "Writing, Rewriting & Summarization",
+        "response": "I'm sorry, I don't have access to live internet information right now because web search is disabled. Please enable web search (`/web on`), and I'll find the latest information for you.",
+        "latency_ms": 14.0,
+        "model_used": "custom"
+      },
+      "general_knowledge": {
+        "category": "General Knowledge",
+        "response": "I don't have enough verified offline information to answer that accurately. If you would like me to search the web for details, please enable web search with `/web on`.",
+        "latency_ms": 38.3,
+        "model_used": "custom"
+      },
+      "current_events": {
+        "category": "Current Events & Recent Advances",
+        "response": "**Artificial Intelligence (AI)** is the overarching discipline within computer science focused on creating machines and software systems capable of performing tasks that typically require human cognition.\n\nKey aspects of AI include:\n- **Core Capabilities**: Reasoning, pattern recognition, learning from experience, natural language understanding, and perception.\n- **Methodologies**: Encompasses both symbolic rule-based systems (expert systems, logic engines) and modern empirical data-driven approaches.\n- **Subfields**: Machine Learning (ML), Deep Learning (DL), Robotics, Computer Vision, and Natural Language Processing (NLP).",
+        "latency_ms": 20.3,
+        "model_used": "custom"
+      },
+      "web_research": {
+        "category": "Web Research & Fact Verification",
+        "response": "I cannot verify current officeholders or live political information while web search is disabled. Please enable web search (`/web on`), and I'll look up the verified, current information for you.",
+        "latency_ms": 7.8,
+        "model_used": "custom"
+      },
+      "multi_turn_context": {
+        "category": "Multi-turn Conversation & Context Retention",
+        "response": "I don't have enough verified offline information to answer that accurately. If you would like me to search the web for details, please enable web search with `/web on`.",
+        "latency_ms": 92.5,
+        "model_used": "custom"
+      }
+    },
+    "online": {
+      "current_events": {
+        "category": "Current Events & Recent Advances",
+        "response": "**Artificial Intelligence (AI)** is the overarching discipline within computer science focused on creating machines and software systems capable of performing tasks that typically require human cognition.\n\nKey aspects of AI include:\n- **Core Capabilities**: Reasoning, pattern recognition, learning from experience, natural language understanding, and perception.\n- **Methodologies**: Encompasses both symbolic rule-based systems (expert systems, logic engines) and modern empirical data-driven approaches.\n- **Subfields**: Machine Learning (ML), Deep Learning (DL), Robotics, Computer Vision, and Natural Language Processing (NLP).",
+        "sources_count": 0,
+        "latency_ms": 6.9,
+        "model_used": "custom"
+      },
+      "web_research": {
+        "category": "Web Research & Fact Verification",
+        "response": "Sundar Pichai - Wikipedia Sundar Pichai ... Pichai Sundararajan , better known as Sundar Pichai, [a] is an Indian-American business executive who has been the CEO of Google since 2015 and the CEO of its parent company Alphabet Inc. since 2019.",
+        "sources_count": 3,
+        "latency_ms": 1005.3,
+        "model_used": "custom"
+      }
+    }
+  },
+  "external": {
+    "offline": {
+      "general_conversation": {
+        "category": "General Conversation",
+        "response": "Hello! I'm doing great, thank you. I'm here to help you with anything you need. Just tell me what you need, and I'll see what I can do. Whether it's a quick answer, an explanation, or even a bit of advice, I'm here to assist. How can I help today?",
+        "latency_ms": 5691.6,
+        "model_used": "external"
+      },
+      "greetings_everyday": {
+        "category": "Greetings & Everyday Questions",
+        "response": "Certainly! Here's a simple yet effective morning routine that can help you start your day with high productivity:\n\n1. **Wake Up Early**: Try to wake up at the same time every day, even on weekends. This helps regulate your body's internal clock, making it easier to fall asleep and wake up at the right times. Aim for at least 7-9 hours of sleep each night.\n\n2. **Hydrate**: Drink plenty of water. Water is essential for your body and brain to function properly. Aim for at least 8 glasses of water a day, or more if you exercise.\n\n3. **Exercise**: Do a 10-15 minute workout in the morning. This could be anything from yoga, a brisk walk, to a quick run. Exercise helps boost your energy and mood, and it also improves your brain function.\n\n4. **Stretch**: Spend a few minutes stretching or doing some light yoga to help release the tension from the day before and prepare your body for the tasks ahead.\n\n5. **Mindfulness**: Spend a few minutes meditating or practicing mindfulness. This can help calm your mind and increase your focus.\n\n6. **Review the Day Ahead**: Think about what you need to accomplish today and what challenges you may face. This can help you stay focused and motivated.\n\n7. **Eat a Healthy Breakfast**: Start your day with a healthy meal or snack that will provide you with the energy you need to tackle the day ahead.\n\n8. **Read or Listen to a Podcast**: Spend a few minutes reading a book or listening to a podcast that interests you. This can help you relax and think about your day ahead.\n\n9. **Set Goals**: Set a few goals for the day that you want to achieve. This can help you stay focused and motivated.\n\n10. **Review Your Progress**: Take a few minutes to review what you've accomplished during the day.\n\nBy following this routine, you should find that you start your day feeling refreshed, energized, and ready to tackle whatever comes your way.",
+        "latency_ms": 33872.7,
+        "model_used": "external"
+      },
+      "educational_explanations": {
+        "category": "Educational Explanations",
+        "response": "Photosynthesis is a process used by plants, algae, and some bacteria to convert light energy into chemical energy. This process is essential for life on Earth because it is the primary way that organisms produce the organic compounds they need for energy and growth.\n\nHere’s a simple breakdown of the process:\n\n1. **Sunlight Absorption**: During the day, plants absorb sunlight through their leaves. The chlorophyll in the leaves captures sunlight, which is a crucial energy source.\n\n2. **Water and Carbon Dioxide Absorption**: Plants also absorb water from the soil and carbon dioxide from the air. These are the raw materials needed to start the process.\n\n3. **Energy Conversion**: In the chloroplasts (specialized organelles in the cell), the chlorophyll molecules use the absorbed sunlight to convert water and carbon dioxide into glucose (a type of sugar) and oxygen (o2).\n\n4. **Glucose Production**: The glucose is then used by the plant for energy and growth, while the oxygen is released back into the environment.\n\nSo, in essence, photosynthesis is like a machine that takes sunlight, water, and carbon dioxide to produce glucose and releases oxygen. This process not only gives plants energy but also plays a vital role in the atmosphere by providing oxygen for us and other organisms.",
+        "latency_ms": 20301.9,
+        "model_used": "external"
+      },
+      "computer_science_programming": {
+        "category": "Computer Science & Programming Concepts",
+        "response": "Binary search is a searching algorithm that is used to find a specific value in a sorted array or list. It works by repeatedly dividing the search interval in half. This method is very efficient for large datasets.\n\nThe basic idea is to compare the target value to the middle element of the array. If they are the same, then the target is found and the search process is complete. If they are not the same, then you check if the target value is less or greater than the middle element. If it is less, then you search the lower half of the array; if it is greater, then you search the upper half.\n\nThe time complexity of binary search is O(log n), which means the time it takes to search increases logarithmically with the size of the array, making it very efficient for large datasets.",
+        "latency_ms": 12789.6,
+        "model_used": "external"
+      },
+      "math_logical_reasoning": {
+        "category": "Mathematics & Logical Reasoning",
+        "response": "To find the average speed of the car, you can use the formula:\n\n\\[ \\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}} \\]\n\nGiven that the car travels 180 kilometers in 3 hours, you can substitute these values into the formula:\n\n\\[ \\text{Average Speed} = \\frac{180 \\text{ km}}{3 \\text{ hours}} = 60 \\text{ km/h} \\]\n\nSo, the average speed of the car is 60 kilometers per hour.",
+        "latency_ms": 11624.1,
+        "model_used": "external"
+      },
+      "emotional_support": {
+        "category": "Emotional & Supportive Conversations",
+        "response": "I'm really sorry to hear that your day at work was exhausting and stressful. It sounds like you've had a tough day. If you ever feel like you need someone to talk to or just want to share your thoughts, I'm here for you. Don't hesitate to reach out if you need anything. Remember, it's okay to take a break or talk to someone when you're feeling overwhelmed.",
+        "latency_ms": 9286.2,
+        "model_used": "external"
+      },
+      "intent_understanding": {
+        "category": "Intent Understanding & Nuance",
+        "response": "A complete beginner looking to start learning to code can start with the following steps:\n\n1. **Choose a Programming Language**: Start with a popular programming language like Python or JavaScript. Python is great for beginners because it has a simple syntax and many libraries and frameworks available. JavaScript is very useful for web development and can be used for both server-side and client-side programming.\n\n2. **Online Learning Platforms**: There are numerous online platforms that offer free or low-cost courses. Some popular options include:\n   - **Codecademy** - Offers interactive coding lessons for beginners.\n   - **freeCodeCamp** - Provides a wide range of coding and tech courses.\n   - **Coursera** - Offers courses from top universities, including free courses from select institutions.\n   - **edX** - Another platform offering courses from leading universities.\n\n3. **Books**: Books can be a great resource, especially for more in-depth learning. Some recommended books for beginners include:\n   - \"Python Crash Course\" by Eric Matthes\n   - \"Eloquent JavaScript\" by Marijn Haverbeke\n   - \"JavaScript: The Good Parts\" by Douglas Crockford\n\n4. **Practice**: Practice is key to improving your coding skills. Start with small projects and gradually increase the complexity of your projects. You can use online IDEs like Repl.it or GitHub to practice coding and share your work.\n\n5. **Join a Community**: Participate in coding communities or forums to interact with other beginners and experienced coders. This can be very beneficial for learning and getting support.\n\n6. **Build a Portfolio**: As you progress, start building your own projects or contributing to open-source projects. A portfolio demonstrates your skills and can be very helpful when you're looking for a job or educational opportunities.\n\nRemember, it takes time and patience to learn coding, so don't be discouraged if you face challenges. Keep learning and practicing, and you'll get there!",
+        "latency_ms": 32914.2,
+        "model_used": "external"
+      },
+      "writing_summarization": {
+        "category": "Writing, Rewriting & Summarization",
+        "response": "I cannot verify live internet information while web search is disabled. Please enable web search with `/web on`, and I will search the web for the latest verified information for you.",
+        "latency_ms": 17.2,
+        "model_used": "external"
+      },
+      "general_knowledge": {
+        "category": "General Knowledge",
+        "response": "The capital of France is Paris, and the river that flows through it is the Seine.",
+        "latency_ms": 3774.4,
+        "model_used": "external"
+      },
+      "current_events": {
+        "category": "Current Events & Recent Advances",
+        "response": "Recent major developments in generative artificial intelligence (AI) have included advancements in large language models such as models like GPT-3 and large language models (LLM) developed by Anthropic, which have significantly improved the ability of AI systems to generate coherent and contextually relevant text. Additionally, there has been progress in generative models for image and video generation, such as those developed by Stable Diffusion, which have led to the creation of realistic images and videos. These developments have also seen the use of AI to generate music, produce virtual avatars, and simulate complex systems like weather and fluid dynamics. Furthermore, the integration of AI in fields such as medicine, finance, and manufacturing has led to more accurate predictions and decision-making processes.",
+        "latency_ms": 13074.0,
+        "model_used": "external"
+      },
+      "web_research": {
+        "category": "Web Research & Fact Verification",
+        "response": "I cannot verify live internet information while web search is disabled. Please enable web search with `/web on`, and I will search the web for the latest verified information for you.",
+        "latency_ms": 7.5,
+        "model_used": "external"
+      },
+      "multi_turn_context": {
+        "category": "Multi-turn Conversation & Context Retention",
+        "response": "As an AI, I don't have access to your personal preferences or favorite programming languages. However, if you have any specific programming language or a programming language in mind, feel free to let me know, and I can assist you with that!",
+        "latency_ms": 10890.1,
+        "model_used": "external"
+      }
+    },
+    "online": {
+      "current_events": {
+        "category": "Current Events & Recent Advances",
+        "response": "Recent major developments in generative artificial intelligence have seen a significant increase in the prevalence of tools such as chatbots (like ChatGPT and Claude), text-to-image models (like DALL-E, Adobe Firefly, Stable Diffusion, and Midjourney), text-to-speech models (like 15.ai and ElevenLabs), and text-to-music models (like Suno and Udio). Additionally, advancements in the Transformer architecture have led to massive improvements in the field of generative AI (GenAI).",
+        "sources_count": 0,
+        "latency_ms": 17128.2,
+        "model_used": "external"
+      },
+      "web_research": {
+        "category": "Web Research & Fact Verification",
+        "response": "Sundar Pichai is the current CEO of Google and Alphabet.",
+        "sources_count": 0,
+        "latency_ms": 5645.5,
+        "model_used": "external"
+      }
+    }
+  }
+}

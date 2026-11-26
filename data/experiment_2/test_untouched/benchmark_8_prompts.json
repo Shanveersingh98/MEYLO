@@ -1,0 +1,58 @@
+[
+  {
+    "id": "bench_1",
+    "prompt": "Hello",
+    "category": "greeting",
+    "training_contaminated": false,
+    "notes": "Original benchmark prompt 1. Tests greeting fluency and persona."
+  },
+  {
+    "id": "bench_2",
+    "prompt": "What is artificial intelligence?",
+    "category": "concept",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 2. AI definition is in training curriculum."
+  },
+  {
+    "id": "bench_3",
+    "prompt": "What is machine learning?",
+    "category": "concept",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 3. ML definition is in training curriculum."
+  },
+  {
+    "id": "bench_4",
+    "prompt": "Explain Python in simple words.",
+    "category": "python",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 4. Python explanation is in training curriculum."
+  },
+  {
+    "id": "bench_5",
+    "prompt": "What is 2 + 2?",
+    "category": "arithmetic",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 5. The exact pair (2, 2, '+') is present in the training curriculum. Must be evaluated as training recall, NOT unseen generalization."
+  },
+  {
+    "id": "bench_6",
+    "prompt": "Explain monopsony in simple words.",
+    "category": "concept",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 6. Monopsony definition is in training curriculum."
+  },
+  {
+    "id": "bench_7",
+    "prompt": "Explain what a function is in Python.",
+    "category": "python",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 7. Function explanation is in training curriculum."
+  },
+  {
+    "id": "bench_8",
+    "prompt": "What is the difference between AI and machine learning?",
+    "category": "concept",
+    "training_contaminated": true,
+    "notes": "Original benchmark prompt 8. AI vs ML distinction is in training curriculum."
+  }
+]

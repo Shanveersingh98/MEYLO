@@ -1,0 +1,9 @@
+Model: Qwen2.5-1.5B-Instruct
+Source: https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF
+File: qwen2.5-1.5b-instruct-q4_k_m.gguf
+Quantization: Q4_K_M (4-bit medium k-quant)
+File Size: 1117320736 bytes (1065.56 MB)
+SHA-256 Checksum: 6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e
+License: Apache-2.0
+Inference Runtime: llama.cpp (portable x86_64 build 12567 in runtime/llama.cpp)
+Downloaded To: D:\DEEP-LEARNING-PROJECT\models\external\qwen2.5-1.5b-instruct\model.gguf

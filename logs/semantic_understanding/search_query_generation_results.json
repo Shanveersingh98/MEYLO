@@ -1,0 +1,367 @@
+{
+  "timestamp": 1793452653.7023737,
+  "total": 44,
+  "results": [
+    {
+      "query": "Who is Shanveer Singh Khosa on LinkedIn?",
+      "intent": "person_profile",
+      "generated_search_queries": [
+        "\"Shanveer Singh Khosa\" LinkedIn",
+        "site:linkedin.com/in \"Shanveer Singh Khosa\"",
+        "\"Shanveer Singh Khosa\" professional profile"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain how PyTorch's torch.nn.Linear works, with a simple Python example.",
+      "intent": "technical_programming",
+      "generated_search_queries": [
+        "PyTorch torch.nn.Linear official documentation",
+        "torch.nn.Linear in_features out_features bias documentation"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Find the latest official Python release information and provide the source links.",
+      "intent": "current_events",
+      "generated_search_queries": [
+        "Python official downloads latest release",
+        "site:python.org/downloads/release Python latest release",
+        "Python latest official release version date"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain the difference between supervised and reinforcement learning.",
+      "intent": "comparison",
+      "generated_search_queries": [
+        "difference between difference between supervised and reinforcement learning",
+        "difference between supervised definition and key characteristics",
+        "reinforcement learning definition and key characteristics"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "intent": "followup_reference",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "Explain the second source in simpler words.",
+      "intent": "followup_reference",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "Find the LinkedIn profile of Shanveer Singh Khosa.",
+      "intent": "person_profile",
+      "generated_search_queries": [
+        "\"Shanveer Singh Khosa\" LinkedIn",
+        "site:linkedin.com/in \"Shanveer Singh Khosa\"",
+        "\"Shanveer Singh Khosa\" professional profile"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Tell me about a named public researcher Geoffrey Hinton.",
+      "intent": "person_profile",
+      "generated_search_queries": [
+        "\"Tell me about a named public researcher Geoffrey Hinton\" professional profile",
+        "\"Tell me about a named public researcher Geoffrey Hinton\" biography career",
+        "Tell me about a named public researcher Geoffrey Hinton"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Find Microsoft's official LinkedIn page.",
+      "intent": "person_profile",
+      "generated_search_queries": [
+        "\"Find Microsoft\" LinkedIn",
+        "site:linkedin.com/in \"Find Microsoft\"",
+        "\"Find Microsoft\" professional profile"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Search for a person named Alex Rivera on GitHub.",
+      "intent": "person_profile",
+      "generated_search_queries": [
+        "\"Search for a person named Alex Rivera\" GitHub",
+        "site:github.com \"Search for a person named Alex Rivera\""
+      ],
+      "passed": true
+    },
+    {
+      "query": "What professional information is publicly available about Satya Nadella?",
+      "intent": "person_profile",
+      "generated_search_queries": [
+        "\"Satya Nadella\" professional profile",
+        "\"Satya Nadella\" biography career",
+        "Satya Nadella"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Give a simple runnable PyTorch example of torch.nn.Linear.",
+      "intent": "technical_programming",
+      "generated_search_queries": [
+        "PyTorch torch.nn.Linear official documentation",
+        "torch.nn.Linear in_features out_features bias documentation"
+      ],
+      "passed": true
+    },
+    {
+      "query": "What is the difference between a parameter and a buffer in PyTorch?",
+      "intent": "comparison",
+      "generated_search_queries": [
+        "difference between parameter and buffer",
+        "parameter definition and key characteristics",
+        "buffer definition and key characteristics"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Find the official documentation for torch.nn.Module.",
+      "intent": "technical_programming",
+      "generated_search_queries": [
+        "PyTorch torch.nn.Module official documentation",
+        "PyTorch torch.nn.Module documentation example"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain what nn.ReLU() does in PyTorch with code.",
+      "intent": "technical_programming",
+      "generated_search_queries": [
+        "PyTorch nn.ReLU official documentation",
+        "PyTorch nn.ReLU documentation example"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain how PyTorch autograd handles backpropagation.",
+      "intent": "technical_programming",
+      "generated_search_queries": [
+        "PyTorch autograd official documentation",
+        "PyTorch autograd documentation example"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Find the latest official Python release.",
+      "intent": "current_events",
+      "generated_search_queries": [
+        "Python official downloads latest release",
+        "site:python.org/downloads/release Python latest release",
+        "Python latest official release version date"
+      ],
+      "passed": true
+    },
+    {
+      "query": "What is the latest stable PyTorch release?",
+      "intent": "current_events",
+      "generated_search_queries": [
+        "PyTorch latest stable release version date",
+        "site:github.com/pytorch/pytorch/releases PyTorch latest release"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Find a recent AI research development in 2026.",
+      "intent": "current_events",
+      "generated_search_queries": [
+        "recent AI research developments 2025 2026 arXiv",
+        "DeepSeek-R1 reasoning models release"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Summarize a recently published technical announcement for PyTorch.",
+      "intent": "current_events",
+      "generated_search_queries": [
+        "PyTorch latest stable release version date",
+        "site:github.com/pytorch/pytorch/releases PyTorch latest release"
+      ],
+      "passed": true
+    },
+    {
+      "query": "What is deep learning?",
+      "intent": "educational_concept",
+      "generated_search_queries": [
+        "deep learning",
+        "deep learning machine learning definition"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain supervised learning in simple words.",
+      "intent": "educational_concept",
+      "generated_search_queries": [
+        "supervised learning",
+        "supervised learning machine learning definition"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain self-supervised learning.",
+      "intent": "educational_concept",
+      "generated_search_queries": [
+        "self-supervised learning",
+        "self-supervised learning machine learning definition"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain neural networks with an example.",
+      "intent": "educational_concept",
+      "generated_search_queries": [
+        "neural networks",
+        "neural networks machine learning definition"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain AI, ML, and DL with examples.",
+      "intent": "comparison",
+      "generated_search_queries": [
+        "difference between artificial intelligence and machine learning",
+        "artificial intelligence definition and key characteristics",
+        "machine learning definition and key characteristics",
+        "deep learning definition and key characteristics"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Compare supervised learning and self-supervised learning.",
+      "intent": "comparison",
+      "generated_search_queries": [
+        "difference between supervised learning and self-supervised learning",
+        "supervised learning definition and key characteristics",
+        "self-supervised learning definition and key characteristics"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain the difference between a parameter and a buffer in PyTorch.",
+      "intent": "comparison",
+      "generated_search_queries": [
+        "difference between difference between a parameter and buffer",
+        "difference between a parameter definition and key characteristics",
+        "buffer definition and key characteristics"
+      ],
+      "passed": true
+    },
+    {
+      "query": "What is supervised learning?",
+      "intent": "educational_concept",
+      "generated_search_queries": [
+        "supervised learning",
+        "supervised learning machine learning definition"
+      ],
+      "passed": true
+    },
+    {
+      "query": "Explain that more simply.",
+      "intent": "followup_reference",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "Give an example of the same concept.",
+      "intent": "followup_reference",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "What did I ask you earlier?",
+      "intent": "followup_reference",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "hello there, good afternoon!",
+      "intent": "general_conversation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "thank you so much for your help",
+      "intent": "general_conversation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "Can you explain how this works in simple English?",
+      "intent": "followup_reference",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "stuff",
+      "intent": "ambiguous_unspecified",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "what is 45 * 12 + 100",
+      "intent": "deterministic_tool",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "i have pain in my heart and difficulty breathing",
+      "intent": "health_safety",
+      "generated_search_queries": [
+        "emergency evaluation acute chest pain",
+        "cardiac symptoms triage"
+      ],
+      "passed": true
+    },
+    {
+      "query": "what are the common causes of chest pain?",
+      "intent": "health_safety",
+      "generated_search_queries": [
+        "common causes of chest pain",
+        "common causes of chest pain medical causes symptoms"
+      ],
+      "passed": true
+    },
+    {
+      "query": "http://127.0.0.1:8080/admin",
+      "intent": "security_validation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "http://localhost:8000/keys",
+      "intent": "security_validation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "http://169.254.169.254/latest/meta-data/",
+      "intent": "security_validation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "http://192.168.1.1/router",
+      "intent": "security_validation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "file:///etc/passwd",
+      "intent": "security_validation",
+      "generated_search_queries": [],
+      "passed": true
+    },
+    {
+      "query": "https://en.wikipedia.org/wiki/Deep_learning",
+      "intent": "security_validation",
+      "generated_search_queries": [],
+      "passed": true
+    }
+  ]
+}

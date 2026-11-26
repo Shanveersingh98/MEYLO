@@ -1,0 +1,167 @@
+{
+  "datasets": {
+    "OASST1 Cleaned": {
+      "count": 2972,
+      "unique_prompts": 2972,
+      "duplicate_prompts": 0,
+      "empty_samples": 0,
+      "distinct_trees": 2972,
+      "mean_prompt_tokens": 34.6,
+      "mean_asst_tokens": 267.5,
+      "mean_seq_tokens": 315.2,
+      "max_seq_tokens": 942,
+      "min_seq_tokens": 40,
+      "oversized_gt_1024": 0
+    },
+    "Arithmetic Train": {
+      "count": 1800,
+      "unique_prompts": 1800,
+      "duplicate_prompts": 0,
+      "empty_samples": 0,
+      "distinct_trees": 0,
+      "mean_prompt_tokens": 12.5,
+      "mean_asst_tokens": 17.0,
+      "mean_seq_tokens": 42.4,
+      "max_seq_tokens": 77,
+      "min_seq_tokens": 23,
+      "oversized_gt_1024": 0
+    },
+    "Python Train": {
+      "count": 1800,
+      "unique_prompts": 190,
+      "duplicate_prompts": 1610,
+      "empty_samples": 0,
+      "distinct_trees": 0,
+      "mean_prompt_tokens": 19.5,
+      "mean_asst_tokens": 111.1,
+      "mean_seq_tokens": 144.3,
+      "max_seq_tokens": 271,
+      "min_seq_tokens": 61,
+      "oversized_gt_1024": 0
+    },
+    "Concepts Train": {
+      "count": 850,
+      "unique_prompts": 313,
+      "duplicate_prompts": 537,
+      "empty_samples": 0,
+      "distinct_trees": 0,
+      "mean_prompt_tokens": 11.6,
+      "mean_asst_tokens": 103.2,
+      "mean_seq_tokens": 128.2,
+      "max_seq_tokens": 200,
+      "min_seq_tokens": 87,
+      "oversized_gt_1024": 0
+    },
+    "Arithmetic Heldout": {
+      "count": 200,
+      "unique_prompts": 200,
+      "duplicate_prompts": 0,
+      "empty_samples": 0,
+      "distinct_trees": 0,
+      "mean_prompt_tokens": 14.0,
+      "mean_asst_tokens": 18.3,
+      "mean_seq_tokens": 45.1,
+      "max_seq_tokens": 75,
+      "min_seq_tokens": 24,
+      "oversized_gt_1024": 0
+    },
+    "Python Heldout": {
+      "count": 200,
+      "unique_prompts": 35,
+      "duplicate_prompts": 165,
+      "empty_samples": 0,
+      "distinct_trees": 0,
+      "mean_prompt_tokens": 16.9,
+      "mean_asst_tokens": 113.9,
+      "mean_seq_tokens": 143.5,
+      "max_seq_tokens": 287,
+      "min_seq_tokens": 75,
+      "oversized_gt_1024": 0
+    },
+    "Concepts Heldout": {
+      "count": 150,
+      "unique_prompts": 80,
+      "duplicate_prompts": 70,
+      "empty_samples": 0,
+      "distinct_trees": 0,
+      "mean_prompt_tokens": 12.1,
+      "mean_asst_tokens": 84.5,
+      "mean_seq_tokens": 110.1,
+      "max_seq_tokens": 139,
+      "min_seq_tokens": 87,
+      "oversized_gt_1024": 0
+    }
+  },
+  "leakage": {
+    "suite_01_benchmarks.json": {
+      "suite_items": 8,
+      "exact_matches_in_train": 7,
+      "matches": [
+        "Hello",
+        "What is artificial intelligence?",
+        "What is machine learning?",
+        "Explain Python in simple words.",
+        "Explain monopsony in simple words.",
+        "Explain what a function is in Python.",
+        "What is the difference between AI and machine learning?"
+      ]
+    },
+    "suite_02_arithmetic_single_step.jsonl": {
+      "suite_items": 100,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_03_arithmetic_multi_step.jsonl": {
+      "suite_items": 20,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_04_python_tasks.jsonl": {
+      "suite_items": 30,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_05_concepts.jsonl": {
+      "suite_items": 30,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_06_factual_qa.jsonl": {
+      "suite_items": 20,
+      "exact_matches_in_train": 1,
+      "matches": [
+        "What is the capital of France?"
+      ]
+    },
+    "suite_07_instruction_following.jsonl": {
+      "suite_items": 15,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_08_structured_answers.jsonl": {
+      "suite_items": 10,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_09_multiturn.jsonl": {
+      "suite_items": 10,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_10_refusal_uncertainty.jsonl": {
+      "suite_items": 10,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_11_robustness_malformed.jsonl": {
+      "suite_items": 10,
+      "exact_matches_in_train": 0,
+      "matches": []
+    },
+    "suite_12_context_boundary.jsonl": {
+      "suite_items": 5,
+      "exact_matches_in_train": 0,
+      "matches": []
+    }
+  }
+}

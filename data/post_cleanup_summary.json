@@ -1,0 +1,11 @@
+{
+  "deleted_count": 15,
+  "deleted_mb": 2449.39,
+  "deleted_gb": 2.392,
+  "remaining_count": 13,
+  "remaining_mb": 2101.89,
+  "remaining_gb": 2.053,
+  "active_model_sha256": "CECBA4946A8B5A0404E42E9E1790C0D780228DA45E07B1910D190D89CBADF2FC",
+  "archive_path": "backups\\checkpoints_recovery_archive.zip",
+  "archive_size_mb": 2235.64
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "test_id": "reg_dl_simple",
+    "query": "Explain deep learning in simple words.",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2159.9,
+    "passed": true,
+    "notes": "Explains deep learning using multilayered neural networks.",
+    "response_preview": "**Simple Overview:**  In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience"
+  },
+  {
+    "test_id": "reg_chatgpt_search",
+    "query": "/search What is ChatGPT",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 3800.4,
+    "passed": true,
+    "notes": "Defines ChatGPT as an AI chatbot developed by OpenAI.",
+    "response_preview": "ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models \u2013 specifically generative pre-trained transformers (GPTs) \u2013 to generate text, speech, and images in response to u"
+  },
+  {
+    "test_id": "reg_ai_ml_dl",
+    "query": "Explain the difference between AI, machine learning, and deep learning.",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 3022.0,
+    "passed": true,
+    "notes": "Hierarchical breakdown of AI, ML, and DL.",
+    "response_preview": "Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) represent hierarchical subsets of modern computing:  - **Artificial Intelligence (AI)**: The overarching discipline concerned with building systems and algorithms capable of "
+  },
+  {
+    "test_id": "reg_greeting",
+    "query": "Hello! How are you?",
+    "engine": "neural_model",
+    "latency_ms": 710.8,
+    "passed": true,
+    "notes": "Conversational greeting handled locally.",
+    "response_preview": "Hello! How can I help you?"
+  },
+  {
+    "test_id": "reg_math",
+    "query": "What is 45 * 12?",
+    "engine": "calculator",
+    "latency_ms": 0.8,
+    "passed": true,
+    "notes": "Arithmetic expression calculated deterministically.",
+    "response_preview": "[Tool: Calculator] 45 * 12 = 540"
+  },
+  {
+    "test_id": "reg_offline",
+    "query": "What is supervised learning?",
+    "engine": "neural_model_unverified",
+    "latency_ms": 1366.4,
+    "passed": true,
+    "notes": "Prioritizes supervised learning with labeled training data and input-output mapping.",
+    "response_preview": "[Offline Mode Notice: Live web retrieval is disabled (/web off). Local 14.1M parameter model output is unverified and may contain inaccuracies.]  Artificial Intelligence (AI) is a broader of machine learning that involves the ability to learn and dec"
+  }
+]

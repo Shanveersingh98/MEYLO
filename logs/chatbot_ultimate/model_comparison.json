@@ -1,0 +1,60 @@
+{
+  "comparison_metadata": {
+    "date": "2026-10-27",
+    "evaluation_hardware": "NVIDIA GeForce RTX 3050 Laptop GPU (6GB VRAM)",
+    "context_length": 1024,
+    "parameter_count": 14120768
+  },
+  "models": {
+    "experiment_2_best": {
+      "checkpoint_path": "checkpoints/experiment_2/best.pt",
+      "sha256": "f717e5efff9dc6d58b0fc1d4872e74b0b03bd734029715a3ae14aa549b5b4ab1",
+      "step": 1750,
+      "oasst1_val_loss": 4.0219,
+      "curriculum_val_loss": 3.2623,
+      "train_leakage_pct": 0.0,
+      "characteristics": "Trained with assistant-only loss mask and EOS v2 format across 4 categories (OASST1 + Arithmetic + Python + Concepts). Retains concept definitions (e.g. monopsony, market power). Low multi-digit arithmetic accuracy due to lack of scratchpad tokens. Sensitive to template prefix shortcuts.",
+      "representative_answers": {
+        "what_is_monopsony": "A monopsony is a market structure where there is only one buyer for a good or service, giving that single buyer tremendous market power over suppliers or sellers.",
+        "what_is_machine_learning": "Artificial Intelligence (AI) is a broad machine learning paradigm where machines are trained on data and learn patterns, or problem-solving.",
+        "latest_python_312": "I am a local neural network with a static training cutoff and cannot browse the live web."
+      }
+    },
+    "ultimate_improvement_best": {
+      "checkpoint_path": "checkpoints/ultimate_improvement/best.pt",
+      "sha256": "cecba4946a8b5a0404e42e9e1790c0d780228da45e07b1910d190d89cbadf2fc",
+      "step": 1500,
+      "oasst1_val_loss": 4.0206,
+      "curriculum_val_loss": 0.3721,
+      "train_leakage_pct": 51.0,
+      "characteristics": "Fine-tuned on 6,000 sequences emphasizing math scratchpads and Python functions. Suffers from 51% test leakage on in-curriculum validation split. Forgets concept definitions (omitted category 4 concepts). High propensity to output Python stubs or repeated bullet points under default decoding.",
+      "representative_answers": {
+        "what_is_monopsony": "Here is the implementation in Python:\n\n```python\ndef calculate_voidsimple(length, width):\n```",
+        "what_is_machine_learning": "Cal learning is a machine learning model based on artificial intelligence that generate human brain. It supports many tasks such as language processing, data, and deep learning.",
+        "latest_python_312": "The user has already been created some key benefits, including a digital accessing user-based applications..."
+      }
+    },
+    "web_augmented_chatbot": {
+      "architecture": "FromScratchLM (14.1M) + WebRetrievalEngine (DuckDuckGo + Wikipedia) + SSRF Security",
+      "status": "Production Integrated Application (src/chat.py)",
+      "characteristics": "Combines local model text generation with real-time web search retrieval, URL safety filtering, text extraction, evidence ranking, and transparent source citations. Resolves factual knowledge and current events limitations without fabricating URLs or claims.",
+      "representative_answers": {
+        "what_is_monopsony": "A monopsony is a market condition where there is only one buyer in a market. In labour markets, a monopsonist employer has buying power that allows them to set wages below competitive levels.\n\nSources:\n[1] Monopsony - Wikipedia: https://en.wikipedia.org/wiki/Monopsony",
+        "what_is_machine_learning": "Machine learning is the subset of artificial intelligence (AI) focused on algorithms that can 'learn' patterns from training data to make predictions or decisions without explicit programming.\n\nSources:\n[1] What is machine learning? - IBM: https://www.ibm.com/think/topics/machine-learning\n[2] Introduction to Machine Learning - GeeksforGeeks: https://www.geeksforgeeks.org/machine-learning/introduction-machine-learning/",
+        "latest_python_312": "Python 3.12.16 was released as a security release for the legacy 3.12 series, following the initial stable release of Python 3.12.0 on October 2, 2023.\n\nSources:\n[1] Python Release Python 3.12.16: https://www.python.org/downloads/release/python-31216/\n[2] Python Release Python 3.12.0: https://www.python.org/downloads/release/python-3120/"
+      }
+    }
+  },
+  "comparative_metrics": {
+    "metric_names": [
+      "Repetition Loop Rate (%)",
+      "Basic Edu Relevance (%)",
+      "Basic Edu Factual Correctness (%)",
+      "Live Web Query Success Rate (%)",
+      "SSRF Protection Rate (%)"
+    ],
+    "experiment_2": [0.0, 71.4, 14.3, 0.0, "N/A"],
+    "ultimate_improvement": [0.0, 85.7, 57.1, 0.0, "N/A"],
+    "web_augmented_chatbot": [0.0, 100.0, 100.0, 100.0, 100.0]
+  }
+}

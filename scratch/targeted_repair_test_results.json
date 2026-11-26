@@ -1,0 +1,105 @@
+[
+  {
+    "sequence": 1,
+    "prompt": "I am feeling very stressed today.",
+    "route": "companion_stressed",
+    "expected_routes": [
+      "companion_stressed",
+      "companion_tired"
+    ],
+    "response": "Take a deep, slow breath with me. When stress piles up, everything can feel overwhelming all at once. You don't have to fix everything today. What's the heaviest thing on your mind right now?",
+    "passed": true,
+    "description": "Empathetic emotional support, no search"
+  },
+  {
+    "sequence": 1,
+    "prompt": "Why does the human brain need sleep?",
+    "route": "web_grounded_evidence",
+    "expected_routes": [
+      "web_grounded_evidence"
+    ],
+    "response": "The human organism physically restores itself during sleep, occurring mostly during slow-wave sleep during which body temperature, heart rate, and brain oxygen consumption decrease. In both the brain and body, the reduced rate of metabolism enables countervailing restorative processes. While the body benefits from sleep, the brain actually requires sleep for restoration, whereas these processes can take place during quiescent waking in the rest of the body. The essential function of sleep may be its restorative effect on the brain: \"Sleep is of the brain, by the brain and for the brain.\" Furthermore, this includes almost any brain, no matter how small: sleep is observed to be a necessary behavior across most of the animal kingdom, including some of the least cognitively advanced animals, implying that sleep is essential to the most fundamental brain processes, i.e. neuronal firing.  This shows that sleep is vital even when there is no need for other functions of sleep, such as memory consolidation or dreaming.\n\nDuring sleep, most of the body's systems are in an anabolic state, helping to restore the immune, nervous, skeletal, and muscular systems; these are vital processes that maintain mood, memory, and cognitive function, and play a large role in the function of the endocrine and immune systems. The internal circadian clock promotes sleep daily at night, when it is dark. However, midday naps may also be necessary: current research is studying power naps. The diverse purposes and mechanisms of sleep are the subject of substantial ongoing research. Sleep is a highly conserved behavior across animal evolution, likely going back hundreds of millions of years, and originating as a means for the brain to cleanse itself of waste products. Researchers have found that cleansing, including the removal of amyloid, may be a core purpose of sleep.\n\nThe most pronounced physiological changes in sleep occur in the brain. The brain uses significantly less energy during sleep than it does when awake, especially during non-REM sleep. In areas with reduced activity, the brain restores its supply of adenosine triphosphate (ATP), the molecule used for short-term storage and transport of energy. In quiet waking, the brain is responsible for 20% of the body's energy use, thus this reduction has a noticeable effect on overall energy consumption.\nSleep increases the sensory threshold. In other words, sleeping persons perceive fewer stimuli, but can generally still respond to loud noises and other salient sensory events.\nDuring slow-wave sleep, humans secrete bursts of growth hormone. All sleep, even during the day, is associated with the secretion of prolactin.\nKey physiological methods for monitoring and measuring changes during sleep include electroencephalography (EEG) of brain waves, electrooculography (EOG) of eye movements, and electromyography (EMG) of skeletal muscle activity. Simultaneous collection of these measurements is called polysomnography, and can be performed in a specialized sleep laboratory. Sleep researchers also use simplified electrocardiography (EKG) for cardiac activity and actigraphy for motor movements.",
+    "passed": true,
+    "description": "Factual research question with web sources, NOT emotional fallback"
+  },
+  {
+    "sequence": 1,
+    "prompt": "Why do flamingos stand on one leg?",
+    "route": "web_grounded_evidence",
+    "expected_routes": [
+      "web_grounded_evidence"
+    ],
+    "response": "Flamingos usually stand on one leg with the other tucked beneath the body. The reason for this behaviour is not fully understood. One theory is that standing on one leg allows the birds to conserve more body heat, given that they spend a significant amount of time wading in cold water. However, the behaviour also takes place in warm water and is also observed in birds that do not typically stand in water. An alternative theory is that standing on one leg reduces the energy expenditure for producing muscular effort to stand and balance on one leg. A study on cadavers showed that the one-legged pose could be held without any muscle activity, while living flamingos demonstrate substantially less body sway in a one-legged posture.\n\nWhile walking, a flamingo's legs may appear to bend backwards. This appearance is due to the middle joint on their legs being their ankle, not their knee. Flamingos also have webbed feet that aid with swimming and they may stamp their feet in the mud to stir up food from the bottom.\n\n== Etymology ==\nThe name flamingo comes from Portuguese or Spanish flamengo 'flame-coloured'; in turn, the word comes from Provençal flamenc – a combination of flama 'flame' and a Germanic-like suffix -ing. The word may also have been influenced by the Spanish ethnonym flamenco 'Fleming' or 'Flemish'.\nThe name of the genus, Phoenicopterus, is from Ancient Greek  φοινικόπτερος (phoinikopteros) 'crimson/red-feathered'; other genera names include Phoeniconaias, which means 'crimson/red water nymph (or naiad)', and Phoenicoparrus, which means 'crimson/red bird (though, an unknown bird of omen)'.\nA group of flamingos is called a \"flamboyance\", or a \"stand\".",
+    "passed": true,
+    "description": "Factual research question with web sources, NOT emotional fallback"
+  },
+  {
+    "sequence": 2,
+    "prompt": "I had an argument with my best friend.",
+    "route": "companion_emotional_hurt",
+    "expected_routes": [
+      "companion_emotional_hurt"
+    ],
+    "response": "I'm really sorry to hear that. Disagreements with someone close to you are especially distressing and emotionally draining. When someone matters that much to you, conflict cuts deep. I'm right here to listen—do you want to share what the disagreement was about, or how you're feeling right now?",
+    "passed": true,
+    "description": "Acknowledges friend conflict"
+  },
+  {
+    "sequence": 2,
+    "prompt": "He misunderstood me.",
+    "route": "companion_emotional_hurt",
+    "expected_routes": [
+      "companion_emotional_hurt"
+    ],
+    "response": "That can be really frustrating, especially when someone close misunderstands your intentions or what you said. When you didn't mean things that way, it hurts to feel blamed. Have you had a chance to calmly explain what you actually meant?",
+    "passed": true,
+    "description": "Empathy for misunderstanding in ongoing dispute"
+  },
+  {
+    "sequence": 2,
+    "prompt": "What should I do?",
+    "route": "companion_interpersonal_advice",
+    "expected_routes": [
+      "companion_interpersonal_advice"
+    ],
+    "response": "If I were in your shoes, I would give both of you a little time to let the initial frustration settle, and then I would send a short, caring message first. You don't have to rehash the whole argument right away; something simple and sincere works best:\n\n*'Hey, our friendship means a lot to me and I really don't like that we argued today. Whenever you're ready, I'd love to talk things through and hear your thoughts.'*\n\nReaching out this way takes the pressure off, demonstrates maturity, and leaves the door open without putting your friend on the defensive. How does that approach sound to you?",
+    "passed": true,
+    "description": "Thoughtful personal advice without web search"
+  },
+  {
+    "sequence": 3,
+    "prompt": "What is machine learning?",
+    "web_search": false,
+    "route": "offline_educational_grounded",
+    "expected_routes": [
+      "offline_educational_grounded"
+    ],
+    "response": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+    "passed": true,
+    "description": "Web OFF: Clean offline definition"
+  },
+  {
+    "sequence": 3,
+    "prompt": "Who is the current Prime Minister of India?",
+    "web_search": false,
+    "route": "offline_freshness_fallback",
+    "expected_routes": [
+      "offline_freshness_fallback"
+    ],
+    "response": "I cannot verify current officeholders or live political information while web search is disabled. Please enable web search (`/web on`), and I'll look up the verified, current information for you.",
+    "passed": true,
+    "description": "Web OFF: Honest offline limitation"
+  },
+  {
+    "sequence": 3,
+    "prompt": "What are the latest AI developments in 2026?",
+    "web_search": true,
+    "route": "web_grounded_evidence",
+    "expected_routes": [
+      "web_grounded_evidence"
+    ],
+    "response": "### Official Python Release Information\n\n**Latest Verified Release:** Python 3.16.0a2\n**Official Release Date:** 2026-11-10\n**Source Authority:** Python Software Foundation (python.org)\n\n**Summary of Current Active Releases:**\nThe latest official Python release is Python 3.16.0a2, published on 2026-11-10 by the Python Software Foundation. Recent official active releases include: Python 3.16.0a2, Python 3.11.18, Python 3.13.18, Python 3.12.16. Official release downloads, security notes, and changelogs are maintained on the official Python website.\n\nTo download source tarballs, official Windows installers, or macOS binaries, visit the official Python downloads portal below.",
+    "passed": true,
+    "description": "Web ON: Live research retrieval with sources"
+  }
+]

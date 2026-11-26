@@ -1,0 +1,149 @@
+{
+  "manifest_version": "1.0",
+  "timestamp": "2026-11-16T13:18:43.887556+00:00",
+  "total_files_archived": 14,
+  "total_bytes_archived": 622344,
+  "archive_destination": "backups/archive/src_legacy_backups",
+  "operations": [
+    {
+      "operation_id": "op_arch_20261116_131826_443296",
+      "original_path": "src/chat.py.bak",
+      "target_path": "backups/archive/src_legacy_backups/chat.py.bak",
+      "file_size": 22225,
+      "sha256": "ab76cab48457c21a6eb53bed7ad720bb018afadad64f98a316a8f3a315b0f506",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:26.447306+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131826_471979",
+      "original_path": "src/question_understanding.py.bak",
+      "target_path": "backups/archive/src_legacy_backups/question_understanding.py.bak",
+      "file_size": 40515,
+      "sha256": "54213d00c7baf85b4960104339655c313e018ecf4a263665c0400c6047b19d04",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:26.471979+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131826_504636",
+      "original_path": "src/web_retrieval.py.bak",
+      "target_path": "backups/archive/src_legacy_backups/web_retrieval.py.bak",
+      "file_size": 83214,
+      "sha256": "df13070bbcb0b3541cea7550b97d2fb2dda589efce01a84f04df5194a0b8429a",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:26.504636+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_484587",
+      "original_path": "src/answer_synthesis.py.pre_repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/answer_synthesis.py.pre_repair_bak",
+      "file_size": 39208,
+      "sha256": "74727a95e57e754e59aa8ab49d36d877d823ef9c75a4d57fe9d0f4a576f2f905",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.490552+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_625937",
+      "original_path": "src/answer_synthesis.py.repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/answer_synthesis.py.repair_bak",
+      "file_size": 39352,
+      "sha256": "7eb82a30d01dc2acda668206e81546d5dedaffea45ac9d5b06cbc37d115bda62",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.627936+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_655111",
+      "original_path": "src/chat.py.pre_repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/chat.py.pre_repair_bak",
+      "file_size": 40729,
+      "sha256": "815b3abde25efd5b8d4a86ffce90bef58e5a0a0122705ba3c4b96ceb50639e6d",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.656116+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_681980",
+      "original_path": "src/chat.py.repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/chat.py.repair_bak",
+      "file_size": 28820,
+      "sha256": "61d8fcca1b89d701c2596b6419e20fb906c9a06fb2ae331e8f413ec80daf06e0",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.681980+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_704526",
+      "original_path": "src/chat.py.stage2_bak",
+      "target_path": "backups/archive/src_legacy_backups/chat.py.stage2_bak",
+      "file_size": 24206,
+      "sha256": "048587aec8a95e8755e496987f24567fc014c75d345e6e751e0a1bb0302c5abd",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.704526+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_729742",
+      "original_path": "src/companion_rules.py.pre_repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/companion_rules.py.pre_repair_bak",
+      "file_size": 24491,
+      "sha256": "e059f4e854292493a1c33500dc46137fe77cdd5051032586d1772c05edcd37c8",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.731255+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_757683",
+      "original_path": "src/companion_rules.py.stage2_bak",
+      "target_path": "backups/archive/src_legacy_backups/companion_rules.py.stage2_bak",
+      "file_size": 18232,
+      "sha256": "3c7750d835e4df205905727574f888b9a874b2d2cfae56d11c5bee6b00556651",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.757683+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_787900",
+      "original_path": "src/question_understanding.py.pre_repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/question_understanding.py.pre_repair_bak",
+      "file_size": 46429,
+      "sha256": "1feca304983b23995b5b8b3ea091bf37c1763a89b5eb88da8b54148bbb8aad25",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.788903+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_822114",
+      "original_path": "src/question_understanding.py.repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/question_understanding.py.repair_bak",
+      "file_size": 45202,
+      "sha256": "4a8571377908e1078b5fc5bc8a56db4d437dd425ddf19bac8a210d8d39ca2d99",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.822114+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_856195",
+      "original_path": "src/web_retrieval.py.pre_repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/web_retrieval.py.pre_repair_bak",
+      "file_size": 85358,
+      "sha256": "9b24870a4e4573b82f25f9b56ef363fff30bf4d6501349572b8df7149def8aeb",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.856195+00:00",
+      "status": "archived_verified"
+    },
+    {
+      "operation_id": "op_arch_20261116_131843_886652",
+      "original_path": "src/web_retrieval.py.repair_bak",
+      "target_path": "backups/archive/src_legacy_backups/web_retrieval.py.repair_bak",
+      "file_size": 84363,
+      "sha256": "fb34f49a57120a3ac4b30945d81ea58635efb33f44aa5a8cf210351f1461fd45",
+      "reason": "Quarantined loose backup file from active src/ directory into organized backups archive.",
+      "timestamp": "2026-11-16T13:18:43.887556+00:00",
+      "status": "archived_verified"
+    }
+  ]
+}

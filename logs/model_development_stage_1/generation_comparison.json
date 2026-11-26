@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "model": "FromScratchLM (14.1M)",
+    "checkpoint": "checkpoints/ultimate_improvement/best.pt",
+    "prompt_count": 5,
+    "config_count": 4
+  },
+  "configurations": {
+    "config_1_production": {
+      "description": "Production Baseline (calibrated nucleus sampling with repetition penalty & 3-gram block)",
+      "temperature": 0.35,
+      "top_k": 20,
+      "top_p": 0.85,
+      "repetition_penalty": 1.15,
+      "ngram_block": 3
+    },
+    "config_2_creative": {
+      "description": "Higher Diversity / Exploration (higher temp & top_k)",
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": 0.9,
+      "repetition_penalty": 1.15,
+      "ngram_block": 3
+    },
+    "config_3_greedy_low_temp": {
+      "description": "Low Temperature / Near-Greedy (minimal sampling noise)",
+      "temperature": 0.1,
+      "top_k": 5,
+      "top_p": 0.7,
+      "repetition_penalty": 1.15,
+      "ngram_block": 3
+    },
+    "config_4_no_ngram_block": {
+      "description": "No Repetition Blocking (raw nucleus sampling without 3-gram block or penalty)",
+      "temperature": 0.35,
+      "top_k": 20,
+      "top_p": 0.85,
+      "repetition_penalty": 1.0,
+      "ngram_block": 0
+    }
+  },
+  "results": [
+    {
+      "prompt_id": "p1_educational",
+      "category": "Educational",
+      "prompt": "What is machine learning?",
+      "outputs": {
+        "config_1_production": {
+          "response": "Artificial Intelligence (AI) is a broad machine learning that involves the development of computer science and machines that can learn from data. It's a broad field of machine learning, but it's a machine learning model that can be used to learn from the world.",
+          "token_count": 57,
+          "latency_ms": 2593.5,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_2_creative": {
+          "response": "Eachine learning is a machine learning model that involves the training data from the training dataset, or other words in a task. While it has been trained on several tasks and can be used to build its training data, including scarines, speech recognition, and language processing.",
+          "token_count": 60,
+          "latency_ms": 1524.8,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_3_greedy_low_temp": {
+          "response": "Artificial Intelligence (AI) is a broad machine learning that involves the development of computer science and machines that can be used to learn from data. It's a machine learning model that uses many different tasks, including data analysis, data, and data structures.",
+          "token_count": 56,
+          "latency_ms": 1690.2,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_4_no_ngram_block": {
+          "response": "Artificial Intelligence (AI) is a broad machine learning that involves the development of machine learning and machine learning. It is a machine learning that involves using machine learning and machine learning, such as machine learning, machine learning, and machine learning. It is a machine learning model that is trained on a machine learning, where the machine learning is trained on a machine learning.",
+          "token_count": 78,
+          "latency_ms": 1871.8,
+          "repetition_detected": true,
+          "terminal_punctuation": true
+        }
+      }
+    },
+    {
+      "prompt_id": "p2_instruction",
+      "category": "Instruction Following",
+      "prompt": "Explain what a computer program is in exactly three points.",
+      "outputs": {
+        "config_1_production": {
+          "response": "A computer program is a computer program that can be used to run on a computer. Here are some steps you can follow to help you get started:\n\n1. Choose a computer in computer: You can use the computer to run the computer by running the computer, such as the computer or computer. This can be done using the computer.\n2. Create a computer: Once you have a computer, you can use a computer to install computer to see if it's computer. You can also use the program and then use the software to run it.\n3. Use the computer: If you need to run a computer or a computer that can use computer to control the computer program. You'll need to install the computer and use the operating",
+          "token_count": 152,
+          "latency_ms": 5901.3,
+          "repetition_detected": false,
+          "terminal_punctuation": false
+        },
+        "config_2_creative": {
+          "response": "Creating an computer program can be trained on a computer or a computer program that is designed to run on a program. If you have a program, it is not the programmed by the program or a program that can be used with Python programs.",
+          "token_count": 55,
+          "latency_ms": 1416.8,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_3_greedy_low_temp": {
+          "response": "A computer program is a computer program that can be used to learn and understand how to understand the program. Here are some steps you can help you:\n\n1. First, set up a computer that will be used in computer that can help improve your computer. This can help reduce the computer's performance of computer.\n2. You can use the computer to optimize the computer by using computer or computer. You may need to use the program to optimize computer to improve the computer. The program can help to improve your program and improve performance.\n3. You'll need to improve computer algorithms such as computer or DICO. You could also use the software to improve performance on the computer program.\n4. You should consider using the",
+          "token_count": 152,
+          "latency_ms": 7301.0,
+          "repetition_detected": false,
+          "terminal_punctuation": false
+        },
+        "config_4_no_ngram_block": {
+          "response": "A computer program is a computer program that uses a computer program that uses a computer program that uses the program to run on the program. It uses the program to run the program that uses the program to run the program to run the program to run the program.\n\nTo run the program, you can run program that uses the program that uses the program to run program to run the program. The program is used to run program that uses the program, and it can run program that uses the program to run program.\n\nTo run program, you can run program that uses the program program that uses the program to run program, such as the program.\n\nTo run program, you can run program that uses the program that can run program",
+          "token_count": 152,
+          "latency_ms": 3489.2,
+          "repetition_detected": true,
+          "terminal_punctuation": false
+        }
+      }
+    },
+    {
+      "prompt_id": "p3_reasoning",
+      "category": "Basic Reasoning",
+      "prompt": "If I have 5 apples and give away 2, how many do I have left?",
+      "outputs": {
+        "config_1_production": {
+          "response": "To calculate 2000 - 5000 step by step:\n1. First subtract the tens: 4000 - 3000 = 5000.\n2. Next add the ones: 5000 - 1 = 10000. This will be 3000. If you have 8000, 3000 - 6000 = 6000.",
+          "token_count": 70,
+          "latency_ms": 1884.1,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_2_creative": {
+          "response": "To calculate 500 + 225 step by step:\n1. First add the tens: 600 + 60 = 120.\n2. Next add the ones: 400 + 1 = 104.\nTherefore, 800 + 400 = 796.",
+          "token_count": 63,
+          "latency_ms": 2068.3,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_3_greedy_low_temp": {
+          "response": "To calculate 5 - 2 = 4.\n2. First add the tens: 5 - 3 = 10.\nTherefore, 5 - 5 = 5.",
+          "token_count": 38,
+          "latency_ms": 974.1,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_4_no_ngram_block": {
+          "response": "1. Calculate items remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after.\n\n1. Add the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after the remaining after.",
+          "token_count": 113,
+          "latency_ms": 3411.9,
+          "repetition_detected": true,
+          "terminal_punctuation": true
+        }
+      }
+    },
+    {
+      "prompt_id": "p4_open_conv",
+      "category": "General Conversation",
+      "prompt": "Tell me something interesting.",
+      "outputs": {
+        "config_1_production": {
+          "response": "Sure, I can provide you with an interesting question. Here are some interesting ideas for your ideas:\n\n1. What do you like about it?\n2. How can I help you?\n3. What is the most interesting story?\n4. What are you? What are what you want?\n5. What's a few interesting characters?\n6. What kind of the story? What do it? What is your story? How do you have?\n7. What would you like to create a story??\n8. What can I know how many other characters? What's the story is the story or a story that has a unique character.",
+          "token_count": 142,
+          "latency_ms": 6634.3,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_2_creative": {
+          "response": "Sure! What do you like about it?",
+          "token_count": 14,
+          "latency_ms": 370.4,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_3_greedy_low_temp": {
+          "response": "Sure! What do you like about it?",
+          "token_count": 14,
+          "latency_ms": 329.9,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_4_no_ngram_block": {
+          "response": "Sure, I'd be happy to help you with your question. Here are some interesting ideas for your question:\n\n1. What do you like about it?\n2. What do you like about it?\n3. What do you like about it?\n4. What do you like about it?\n5. What do you like about it?\n6. What do you like about it?\n7. What do you like about it?\n7. What do you like about it?\n7. What do you like about it?\n7. What do you like about it?\n7. What do you like to do you like?",
+          "token_count": 140,
+          "latency_ms": 3727.7,
+          "repetition_detected": true,
+          "terminal_punctuation": true
+        }
+      }
+    },
+    {
+      "prompt_id": "p5_constraint",
+      "category": "Instruction Following",
+      "prompt": "Explain photosynthesis in two sentences.",
+      "outputs": {
+        "config_1_production": {
+          "response": "Enthesis is a type of chemical energy that can be used to produce the two different types of glucose and other bacteria. In general, some of the two types of chemicals, such as a chemical energy called the two or more chemical reactions in the two-like chemical properties of the chemical energy.\n\nThe main difference between two types, one of chemical molecules are used in the chemical properties that are used for chemical reactions, which are used to create an chemical reactions that are stored in the same chemical properties. This means that cells have two types like electrons, where it is used to use the chemical reactions of chemical reactions and chemical energy (such as a cellular reactions, and oxygen) into the chemical process.",
+          "token_count": 151,
+          "latency_ms": 6787.9,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_2_creative": {
+          "response": "Gnthesis is a type of chemical energy that can be used to generate an essential role in the chemical properties. It's a process for example, where it can be found in an elementary structure called a chemical structure, which makes them a chemical bondogyll inside one that uses the chemicals a chemical properties of two atoms and molecules that explains the behavior of chemical reactions that are responsible for each other chemicals.\n\nHere are the main principles of the chlorophylla:\n\n    Captic chemicals: These are known as the body of electrons, such as the chemical elemental chemicals, which are the chemical (such as a chemical) that are stored in the presence of",
+          "token_count": 152,
+          "latency_ms": 6346.6,
+          "repetition_detected": false,
+          "terminal_punctuation": false
+        },
+        "config_3_greedy_low_temp": {
+          "response": "Anthesis is a process of photosynthesis that can be used to produce light energy in the light energy. In other words, it's important to note that the light-ses are not directly proportional to the same way that it is present in the same time.\n\nIn general, the other hand, it is possible to determine the other words and how it is not only the same thing. For example, if you have a light-bits the same color, it may be considered to be considered as a way of light-like the same amount of light.",
+          "token_count": 123,
+          "latency_ms": 4851.3,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        },
+        "config_4_no_ngram_block": {
+          "response": "Sure, I can't know what you mean?",
+          "token_count": 15,
+          "latency_ms": 303.3,
+          "repetition_detected": false,
+          "terminal_punctuation": true
+        }
+      }
+    }
+  ]
+}

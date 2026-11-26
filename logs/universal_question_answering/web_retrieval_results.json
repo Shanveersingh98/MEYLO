@@ -1,0 +1,74 @@
+{
+  "timestamp": 1793120512.1853359,
+  "total": 11,
+  "passed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Wikipedia Exact Concept: Deep learning",
+      "latency_ms": 515.41,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "Wikidata Entity Search: PyTorch",
+      "latency_ms": 635.72,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "PubMed Medical Search: chest pain causes",
+      "latency_ms": 806.91,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "OpenAlex Researcher Search: Geoffrey Hinton",
+      "latency_ms": 1135.62,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "GitHub User Search: torvalds",
+      "latency_ms": 11587.54,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SSRF Check Loopback: http://127.0.0.1:8080",
+      "latency_ms": 0.0,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SSRF Check Localhost: http://localhost/admin",
+      "latency_ms": 0.0,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SSRF Check AWS Metadata: http://169.254.169.254/latest",
+      "latency_ms": 0.52,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SSRF Check Private Subnet: http://192.168.1.1",
+      "latency_ms": 0.0,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SSRF Check Disallowed Scheme: file:///etc/passwd",
+      "latency_ms": 0.0,
+      "passed": true,
+      "error": null
+    },
+    {
+      "name": "SSRF Check Valid Public HTTPS: https://en.wikipedia.org",
+      "latency_ms": 84.88,
+      "passed": true,
+      "error": null
+    }
+  ]
+}

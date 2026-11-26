@@ -1,0 +1,55 @@
+# ==============================================================================
+# MEYLO (.gitignore)
+# ==============================================================================
+
+# Virtual Environments & Embedded Python
+.venv/
+venv/
+env/
+ENV/
+Python312/
+
+# Node & Frontend Build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.npm/
+
+# Model Weights & Large Checkpoints (>100MB GitHub limit)
+# Note: Checkpoints and GGUF models are stored locally
+*.pt
+*.pth
+*.gguf
+backups/
+
+# Processed Training Sequences & Intermediate Dumps
+data/processed/
+data/raw/
+*.bin
+models/**/.cache/
+
+# Training Logs & Verbose Process Logs
+logs/*.log
+logs/*.pid
+logs/*.jsonl
+*.log
+*.pid
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+
+# SQLite Concurrency & Temporary Files (Keep main .db file)
+*.db-wal
+*.db-shm
+*.tmp
+*.temp
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini

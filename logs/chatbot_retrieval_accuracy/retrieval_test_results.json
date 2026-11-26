@@ -1,0 +1,273 @@
+[
+  {
+    "test_id": "concept_1",
+    "original_query": "What is supervised learning?",
+    "normalized_query": "supervised learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 3411.0,
+    "primary_source_title": "Supervised learning",
+    "all_source_titles": [
+      "Supervised learning",
+      "Weak supervision",
+      "Self-supervised learning"
+    ],
+    "source_urls": [
+      "[1] Supervised learning: https://en.wikipedia.org/wiki/Supervised_learning",
+      "[2] Weak supervision: https://en.wikipedia.org/wiki/Weak_supervision",
+      "[3] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Prioritizes supervised learning with labeled training data and input-output mapping.",
+    "final_answer": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).\nThe goal of supervised learning is for the trained model to accurately predict the output for new, unseen data. This requires the algorithm to effectively generalize from the training examples, a quality measured by its generalization error. Supervised learning is commonly used for tasks such as classification (predicting a category, e.g., spam or not spam), regression (predicting a numerical value, e.g., a house price), and conditional density estimation (predicting the probability distribution of the output given an input, denoted by \n  \n    \n      \n        p\n        (\n        y\n        \u2223\n        x\n        )\n      \n    \n    {\\displaystyle p(y\\mid x)}\n  \n).\n\n\nSources:\n[1] Supervised learning: https://en.wikipedia.org/wiki/Supervised_learning\n[2] Weak supervision: https://en.wikipedia.org/wiki/Weak_supervision\n[3] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+  },
+  {
+    "test_id": "concept_2",
+    "original_query": "What is self-supervised learning?",
+    "normalized_query": "self-supervised learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2359.0,
+    "primary_source_title": "Self-supervised learning",
+    "all_source_titles": [
+      "Self-supervised learning"
+    ],
+    "source_urls": [
+      "[1] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Explains self-supervision using the data itself to generate training signals.",
+    "final_answer": "Self-supervised learning (SSL) is a paradigm in machine learning where a model is trained on a task using the data itself to generate supervisory signals, rather than relying on externally-provided labels. In the context of neural networks, self-supervised learning aims to leverage inherent structures or relationships within the input data to create meaningful training signals. SSL tasks are designed so that solving them requires capturing essential features or relationships in the data. The input data is typically augmented or transformed in a way that creates pairs of related samples, where one sample serves as the input, and the other is used to formulate the supervisory signal. This augmentation can involve introducing noise, cropping, rotation, or other transformations. Self-supervised learning more closely imitates the way humans learn to classify objects.\nDuring SSL, the model learns in two steps. First, the task is solved based on an auxiliary or pretext classification task using pseudo-labels, which help to initialize the model parameters. Next, the actual task is performed with supervised or unsupervised learning.\nSelf-supervised learning has produced promising results in recent years, and has found practical application in fields such as audio processing, and is being used by Facebook and others for speech recognition.\n\n\nSources:\n[1] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+  },
+  {
+    "test_id": "concept_3",
+    "original_query": "What is unsupervised learning?",
+    "normalized_query": "unsupervised learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 3844.8,
+    "primary_source_title": "Unsupervised learning",
+    "all_source_titles": [
+      "Unsupervised learning",
+      "Competitive learning"
+    ],
+    "source_urls": [
+      "[1] Unsupervised learning: https://en.wikipedia.org/wiki/Unsupervised_learning",
+      "[2] Competitive learning: https://en.wikipedia.org/wiki/Competitive_learning"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Explains finding patterns in unlabeled data without target labels.",
+    "final_answer": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.\nConceptually, unsupervised learning divides into the aspects of data, training, algorithm, and downstream applications. Typically, the dataset is harvested cheaply \"in the wild\", such as massive text corpus obtained by web crawling, with only minor filtering (such as Common Crawl). This compares favorably to supervised learning, where the dataset (such as the ImageNet1000) is typically constructed manually, which is much more expensive.\nThere are algorithms designed specifically for unsupervised learning, such as clustering algorithms like k-means, dimensionality reduction techniques like principal component analysis (PCA), Boltzmann machine learning, and autoencoders. After the rise of deep learning, most large-scale unsupervised learning has been done by training general-purpose neural network architectures by gradient descent, adapted to performing unsupervised learning by designing an appropriate training procedure.\nSometimes a trained model can be used as-is, but more often they are modified for downstream applications. For example, the generative pretraining method trains a model to generate a textual dataset, before finetuning it for other applications, such as text classification. As another example, autoencoders are trained to produce good features, which can then be used as a module for other models, such as in a latent diffusion model.\n\n\nSources:\n[1] Unsupervised learning: https://en.wikipedia.org/wiki/Unsupervised_learning\n[2] Competitive learning: https://en.wikipedia.org/wiki/Competitive_learning"
+  },
+  {
+    "test_id": "concept_4",
+    "original_query": "What is semi-supervised learning?",
+    "normalized_query": "semi-supervised learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2385.8,
+    "primary_source_title": "Semi-Supervised Learning",
+    "all_source_titles": [
+      "Semi-Supervised Learning",
+      "Weak supervision",
+      "Coupled pattern learner"
+    ],
+    "source_urls": [
+      "[1] Semi-Supervised Learning: https://en.wikipedia.org/wiki/Semi-Supervised_Learning",
+      "[2] Weak supervision: https://en.wikipedia.org/wiki/Weak_supervision",
+      "[3] Coupled pattern learner: https://en.wikipedia.org/wiki/Coupled_pattern_learner"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Explains combining labeled and unlabeled data (or weak supervision).",
+    "final_answer": "Weak supervision - Wikipedia\n \n(Redirected from Semi-Supervised Learning )\nParadigm in machine learning\nWeak supervision (also known as semi-supervised learning ) is a paradigm in machine learning , the relevance and notability of which increased with the advent of large language models due to the large amount of data required to train them. It is characterized by using a combination of a small amount of human- labeled data (exclusively used in more expensive and time-consuming supervised learning paradigm), followed by a large amount of unlabeled data (used exclusively in unsupervised learning paradigm). In other words, the desired output values are provided only for a subset of the training data. The remaining data is unlabeled or imprecisely labeled. Intuitively, it can be seen as an exam and labeled data as sample problems that the teacher solves for the class as an aid in solving another set of problems. In the transductive setting, these unsolved problems act as exam questions. In the inductive setting, they become practice problems of the sort that will make up the exam.\nTendency for a task to employ supervised vs. unsupervised methods. Ta\n\n\nSources:\n[1] Semi-Supervised Learning: https://en.wikipedia.org/wiki/Semi-Supervised_Learning\n[2] Weak supervision: https://en.wikipedia.org/wiki/Weak_supervision\n[3] Coupled pattern learner: https://en.wikipedia.org/wiki/Coupled_pattern_learner"
+  },
+  {
+    "test_id": "concept_5",
+    "original_query": "What is reinforcement learning?",
+    "normalized_query": "reinforcement learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2106.0,
+    "primary_source_title": "Reinforcement learning",
+    "all_source_titles": [
+      "Reinforcement learning",
+      "Q-learning",
+      "Self-play"
+    ],
+    "source_urls": [
+      "[1] Reinforcement learning: https://en.wikipedia.org/wiki/Reinforcement_learning",
+      "[2] Q-learning: https://en.wikipedia.org/wiki/Q-learning",
+      "[3] Self-play: https://en.wikipedia.org/wiki/Self-play"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Explains learning by interacting with environment to maximize cumulative reward.",
+    "final_answer": "In machine learning and optimal control, reinforcement learning (RL) (also known as approximate dynamic programming) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.\nWhile supervised learning and unsupervised learning algorithms respectively attempt to discover patterns in labeled and unlabeled data, reinforcement learning involves training an agent through interactions with its environment. To learn to maximize rewards from these interactions, the agent makes decisions between trying new actions to learn more about the environment (exploration), or using current knowledge of the environment to take the best action (exploitation). The search for the optimal balance between these two strategies is known as the exploration\u2013exploitation dilemma.\n\nThe environment is typically stated in the form of a Markov decision process, as many reinforcement learning algorithms use dynamic programming techniques. The main difference between classical dynamic programming methods and reinforcement learning algorithms is that the latter do not assume knowledge of an exact mathematical model of the Markov decision process, and they target large Markov decision processes where exact methods become infeasible.\n\n\nSources:\n[1] Reinforcement learning: https://en.wikipedia.org/wiki/Reinforcement_learning\n[2] Q-learning: https://en.wikipedia.org/wiki/Q-learning\n[3] Self-play: https://en.wikipedia.org/wiki/Self-play"
+  },
+  {
+    "test_id": "concept_6",
+    "original_query": "What is machine learning?",
+    "normalized_query": "machine learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2403.9,
+    "primary_source_title": "Machine learning",
+    "all_source_titles": [
+      "Machine learning",
+      "Supervised learning",
+      "Machine learning Category"
+    ],
+    "source_urls": [
+      "[1] Machine learning: https://en.wikipedia.org/wiki/Machine_learning",
+      "[2] Supervised learning: https://en.wikipedia.org/wiki/Supervised_learning",
+      "[3] Machine learning Category: https://duckduckgo.com/c/Machine_learning"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Defines ML as a field of AI learning from data.",
+    "final_answer": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from  data and generalize to unseen data, and thus perform tasks without being explicitly programmed.\nStatistics and mathematical optimisation methods compose the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) through unsupervised learning.\nFrom a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.\nAdvances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance. The resulting dominance of machine learning within the field of AI from the late 2000s and early 2010s onwards was such that the terms \"machine learning\" and \"artificial intelligence\" are now often used interchangeably, even though they are not synonymous.\n\n\nSources:\n[1] Machine learning: https://en.wikipedia.org/wiki/Machine_learning\n[2] Supervised learning: https://en.wikipedia.org/wiki/Supervised_learning\n[3] Machine learning Category: https://duckduckgo.com/c/Machine_learning"
+  },
+  {
+    "test_id": "concept_7",
+    "original_query": "What is deep learning?",
+    "normalized_query": "deep learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2656.5,
+    "primary_source_title": "Deep learning",
+    "all_source_titles": [
+      "Deep learning",
+      "Neural processing unit",
+      "Microsoft Cognitive Toolkit"
+    ],
+    "source_urls": [
+      "[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning",
+      "[2] Neural processing unit: https://en.wikipedia.org/wiki/Neural_processing_unit",
+      "[3] Microsoft Cognitive Toolkit: https://en.wikipedia.org/wiki/Microsoft_Cognitive_Toolkit"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Explains deep learning using multilayered neural networks.",
+    "final_answer": "In machine learning, deep learning (DL) focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers (ranging from three to several hundred or thousands) in the network. Methods used can be supervised, semi-supervised or unsupervised.\nSome common deep learning network architectures include fully connected networks, deep belief networks, recurrent neural networks, recurrent Random neural networks, convolutional neural networks, generative adversarial networks, transformers, and neural radiance fields. These architectures have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics, drug design, medical image analysis, climate science, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance.\nEarly forms of neural networks were inspired by information processing and distributed communication nodes in biological systems, particularly the human brain. However, current neural networks do not intend to model the brain function of organisms, and are generally seen as low-quality models for that purpose.\n\n\nSources:\n[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning\n[2] Neural processing unit: https://en.wikipedia.org/wiki/Neural_processing_unit\n[3] Microsoft Cognitive Toolkit: https://en.wikipedia.org/wiki/Microsoft_Cognitive_Toolkit"
+  },
+  {
+    "test_id": "concept_8",
+    "original_query": "What is a neural network?",
+    "normalized_query": "neural network",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 3205.7,
+    "primary_source_title": "Neural network",
+    "all_source_titles": [
+      "Neural network",
+      "Neural network (machine learning)",
+      "Neural network (biology)"
+    ],
+    "source_urls": [
+      "[1] Neural network: https://en.wikipedia.org/wiki/Neural_network",
+      "[2] Neural network (machine learning): https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29",
+      "[3] Neural network (biology): https://en.wikipedia.org/wiki/Neural_network_%28biology%29"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Defines neural networks as interconnected artificial neurons.",
+    "final_answer": "A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.\n\nIn neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems \u2013 a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.\nIn neuroscience, behavior and cognition arise from interactions between distributed brain regions. In computer science, artificial neural networks power many modern AI systems, but require large datasets and substantial computing power. Additionally, their internal representations are difficult to interpret.\n\n\nSources:\n[1] Neural network: https://en.wikipedia.org/wiki/Neural_network\n[2] Neural network (machine learning): https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29\n[3] Neural network (biology): https://en.wikipedia.org/wiki/Neural_network_%28biology%29"
+  },
+  {
+    "test_id": "concept_9",
+    "original_query": "What is ChatGPT?",
+    "normalized_query": "ChatGPT",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2463.7,
+    "primary_source_title": "ChatGPT",
+    "all_source_titles": [
+      "ChatGPT",
+      "ChatGPT Atlas",
+      "GPT Image"
+    ],
+    "source_urls": [
+      "[1] ChatGPT: https://en.wikipedia.org/wiki/ChatGPT",
+      "[2] ChatGPT Atlas: https://en.wikipedia.org/wiki/ChatGPT_Atlas",
+      "[3] GPT Image: https://en.wikipedia.org/wiki/GPT_Image"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Defines ChatGPT as an AI chatbot developed by OpenAI.",
+    "final_answer": "ChatGPT is a generative AI chatbot developed by OpenAI. Originally released on November 30, 2022, the product uses large language models \u2013 specifically generative pre-trained transformers (GPTs) \u2013 to generate text, speech, and images in response to user prompts. ChatGPT accelerated the ongoing AI boom, a period marked by rapid investment and public attention toward the field of artificial intelligence (AI). OpenAI operates the service on a freemium model. Users can interact with ChatGPT through text, audio, and image prompts.\nChatGPT was quickly adopted, reaching 100 million monthly active users two months after its release and 900 million weekly active users in February 2026. As of September 2026, it is the fifth-most visited website globally. Proponents say that it has the potential to transform numerous professional fields, and it has instigated public debate about the nature of creativity and the future of knowledge work.\nThe chatbot has also been criticized for its limitations and potential for unethical use. It may generate incorrect or nonsensical answers that sound plausible, known as hallucinations. Biases in its training data have been reflected in its responses. The chatbot can facilitate academic dishonesty, generate misinformation, and create malicious code. The ethics of its development, particularly the use of copyrighted content as training data, have also drawn criticism.\n\n\nSources:\n[1] ChatGPT: https://en.wikipedia.org/wiki/ChatGPT\n[2] ChatGPT Atlas: https://en.wikipedia.org/wiki/ChatGPT_Atlas\n[3] GPT Image: https://en.wikipedia.org/wiki/GPT_Image"
+  },
+  {
+    "test_id": "concept_10",
+    "original_query": "Explain the difference between supervised and self-supervised learning.",
+    "normalized_query": "difference between supervised and self-supervised learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 2537.4,
+    "primary_source_title": "Self-supervised learning",
+    "all_source_titles": [
+      "Self-supervised learning"
+    ],
+    "source_urls": [
+      "[1] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+    ],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Explains distinction between human-labeled data and data-generated supervision.",
+    "final_answer": "Supervised Learning and Self-Supervised Learning represent two distinct paradigms in machine learning that differ fundamentally in how training labels are acquired:\n\n- **Supervised Learning (SL)**: Algorithms are trained using explicit, human-annotated input-output pairs (labeled data). The model learns a mapping function from input features to target labels (e.g., predicting a category from an image labeled by a human supervisor). Its primary limitation is the high cost and bottleneck of acquiring extensive labeled datasets.\n\n- **Self-Supervised Learning (SSL)**: Algorithms autonomously generate supervisory signals directly from raw, unlabeled data without human annotation. The model masks or corrupts parts of the input data and trains itself to predict the missing components (e.g., next-token prediction in Large Language Models like GPT, or contrastive visual representation learning). It enables foundation models to pre-train on vast internet-scale datasets before task-specific fine-tuning.\n\n\nSources:\n[1] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+  },
+  {
+    "test_id": "multiturn_turn_1",
+    "original_query": "What is supervised learning?",
+    "normalized_query": "supervised learning",
+    "engine": "web_grounded_evidence",
+    "latency_ms": 3019.5,
+    "primary_source_title": "Cached Follow-up",
+    "all_source_titles": [
+      "Cached Search Context"
+    ],
+    "source_urls": [],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Multi-turn context follow-up",
+    "final_answer": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).\nThe goal of supervised learning is for the trained model to accurately predict the output for new, unseen data. This requires the algorithm to effectively generalize from the training examples, a quality measured by its generalization error. Supervised learning is commonly used for tasks such as classification (predicting a category, e.g., spam or not spam), regression (predicting a numerical value, e.g., a house price), and conditional density estimation (predicting the probability distribution of the output given an input, denoted by \n  \n    \n      \n        p\n        (\n        y\n        \u2223\n        x\n        )\n      \n    \n    {\\displaystyle p(y\\mid x)}\n  \n).\n\n\nSources:\n[1] Supervised learning: https://en.wikipedia.org/wiki/Supervised_learning\n[2] Weak supervision: https://en.wikipedia.org/wiki/Weak_supervision\n[3] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning"
+  },
+  {
+    "test_id": "multiturn_turn_2",
+    "original_query": "What are the main points from the second search result?",
+    "normalized_query": "main points from the second search result",
+    "engine": "web_cache_followup",
+    "latency_ms": 0.5,
+    "primary_source_title": "Cached Follow-up",
+    "all_source_titles": [
+      "Cached Search Context"
+    ],
+    "source_urls": [],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Multi-turn context follow-up",
+    "final_answer": "Source [2]: Weak supervision\nURL: https://en.wikipedia.org/wiki/Weak_supervision\n\nMain points:\n- Weak supervision (also known as semi-supervised learning) is a paradigm in machine learning, the relevance and notability of which increased with the advent of large language models due to the large amount of data required to train them.\n- It is characterized by using a combination of a small amount of human-labeled data (exclusively used in more expensive and time-consuming supervised learning paradigm), followed by a large amount of unlabeled data (used exclusively in unsupervised learning paradigm).\n- In other words, the desired output values are provided only for a subset of the training data.\n- The remaining data is unlabeled or imprecisely labeled."
+  },
+  {
+    "test_id": "multiturn_turn_3",
+    "original_query": "Summarize the first source",
+    "normalized_query": "first source",
+    "engine": "web_cache_followup",
+    "latency_ms": 0.0,
+    "primary_source_title": "Cached Follow-up",
+    "all_source_titles": [
+      "Cached Search Context"
+    ],
+    "source_urls": [],
+    "source_matches_subject": true,
+    "factually_appropriate": true,
+    "passed": true,
+    "notes": "Multi-turn context follow-up",
+    "final_answer": "Source [1]: Supervised learning\nURL: https://en.wikipedia.org/wiki/Supervised_learning\n\nMain points:\n- In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs.\n- This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output.\n- The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions.\n- For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs)."
+  }
+]

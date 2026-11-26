@@ -1,0 +1,92 @@
+[
+  {
+    "type": "turn",
+    "user": "Hello! My name is Jordan and I am a software engineer.",
+    "assistant": "Hello Jordan! It's a pleasure to help you. How is life in Bordan today? What do you like me?",
+    "engine": "neural_model",
+    "model": "custom",
+    "latency_ms": 2611.0920906066895
+  },
+  {
+    "type": "turn",
+    "user": "What is machine learning in simple terms?",
+    "assistant": "**Machine Learning (ML)** is a core subfield of Artificial Intelligence focused on developing algorithms that learn patterns and statistical relationships directly from data, rather than relying on explicit hand-coded instructions.\n\nKey paradigms of Machine Learning include:\n- **Supervised Learning**: The algorithm learns from labeled training pairs (input and target), mapping inputs to correct outputs (e.g., classification and regression).\n- **Unsupervised Learning**: The algorithm uncovers hidden patterns, structures, or groupings in unlabeled datasets (e.g., k-means clustering, PCA).\n- **Reinforcement Learning**: An agent learns optimal behaviors through sequential trial-and-error interactions with an environment, guided by rewards and penalties.",
+    "engine": "offline_educational_grounded",
+    "model": "custom",
+    "latency_ms": 23.21004867553711
+  },
+  {
+    "type": "command",
+    "cmd": "/model external",
+    "msg": "[Switched to External Model: Qwen2.5-1.5B-Instruct (GGUF Q4_K_M)]",
+    "active_model": "external"
+  },
+  {
+    "type": "turn",
+    "user": "Do you remember what my name is and what I do?",
+    "assistant": "Yes, I remember! You are Jordan, a software engineer. How can I assist you today?",
+    "engine": "qwen_offline",
+    "model": "external",
+    "latency_ms": 3237.700939178467
+  },
+  {
+    "type": "command",
+    "cmd": "/web on",
+    "msg": "[Web Search: ON]",
+    "web": true
+  },
+  {
+    "type": "turn",
+    "user": "name of current cm of punjab india",
+    "assistant": "Bhagwant Mann is currently serving as the Chief Minister of Punjab.",
+    "engine": "qwen_web_grounded",
+    "model": "external",
+    "latency_ms": 7547.266006469727
+  },
+  {
+    "type": "command",
+    "cmd": "/sources",
+    "sources": "Sources for the recent response:\n\u2022 Bhagwant Mann - Wikipedia: https://en.wikipedia.org/wiki/Bhagwant_Mann\n\u2022 Punjab Cabinet Ministers 2026: Full List with Contact: https://newsdarpan.in/en/article/punjab-cabinet-ministers-list-2026-contact-numbers-portfolios\n\u2022 Chief Minister of Punjab, India - Wikipedia: https://en.wikipedia.org/wiki/Chief_Minister_of_Punjab,_India"
+  },
+  {
+    "type": "turn",
+    "user": "What is the capital of Japan?",
+    "assistant": "I apologize, but I encountered an internal engine communication error while processing your request. Please verify the model server is responding or switch models with `/model custom`.",
+    "engine": "qwen_web_grounded",
+    "model": "external",
+    "latency_ms": 3884.359836578369
+  },
+  {
+    "type": "turn",
+    "user": "What is the capital of Japan?",
+    "assistant": "The capital of Japan is Tokyo.",
+    "engine": "qwen_web_grounded",
+    "model": "external",
+    "latency_ms": 8464.985847473145
+  },
+  {
+    "type": "command",
+    "cmd": "/web off",
+    "msg": "[Web Search: OFF]",
+    "web": false
+  },
+  {
+    "type": "command",
+    "cmd": "/model custom",
+    "msg": "[Switched to Custom Trained Model (checkpoints/ultimate_improvement/best.pt)]",
+    "active_model": "custom"
+  },
+  {
+    "type": "turn",
+    "user": "What is 10 plus 15?",
+    "assistant": "I don't have enough verified offline information to answer that accurately. If you would like me to search the web for details, please enable web search with `/web on`.",
+    "engine": "offline_quality_fallback",
+    "model": "custom",
+    "latency_ms": 7289.93821144104
+  },
+  {
+    "type": "command",
+    "cmd": "/model status",
+    "status": "==================================================\n             AI COMPANION MODEL STATUS            \n==================================================\nActive Model      : Custom Trained Model (FromScratchLM)\nCheckpoint Path   : checkpoints\\ultimate_improvement\\best.pt\nInference Engine  : PyTorch Autoregressive Decoder\nExecution Device  : NVIDIA GeForce RTX 3050 6GB Laptop GPU (CUDA 13.0)\nStatus            : Loaded & Ready\n--------------------------------------------------\nHardware CPU      : 12th Gen Intel(R) Core(TM) i5-12450H\nHardware GPU      : NVIDIA GeForce RTX 3050 6GB Laptop GPU (6.0 GB VRAM, CUDA 13.0)\nSystem RAM Load   : 12.27 GB / 15.7 GB (78.0%)\nGPU VRAM Load     : 62.27 MB / 6144 MB\nWeb Search Mode   : OFF (Pure Offline Mode)\n=================================================="
+  }
+]

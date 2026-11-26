@@ -1,0 +1,119 @@
+[
+  {
+    "test_id": "test_1",
+    "query": "What is deep learning?",
+    "sources": [
+      "[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning",
+      "[2] Deep learning Category: https://duckduckgo.com/c/Deep_learning",
+      "[3] Transformer (deep learning): https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_2",
+    "query": "What is ChatGPT?",
+    "sources": [
+      "[1] ChatGPT: https://en.wikipedia.org/wiki/ChatGPT",
+      "[2] ChatGPT Atlas: https://en.wikipedia.org/wiki/ChatGPT_Atlas",
+      "[3] GPT Image: https://en.wikipedia.org/wiki/GPT_Image"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_3",
+    "query": "What is machine learning?",
+    "sources": [
+      "[1] Machine learning: https://en.wikipedia.org/wiki/Machine_learning",
+      "[2] Machine learning Category: https://duckduckgo.com/c/Machine_learning",
+      "[3] Neural network (machine learning): https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_4",
+    "query": "Explain the difference between AI, machine learning, and deep learning.",
+    "sources": [
+      "[1] Machine learning: https://en.wikipedia.org/wiki/Machine_learning",
+      "[2] Temporal difference learning: https://en.wikipedia.org/wiki/Temporal_difference_learning",
+      "[3] Learning curve (machine learning): https://en.wikipedia.org/wiki/Learning_curve_%28machine_learning%29"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_5",
+    "query": "Give three real-world applications of deep learning.",
+    "sources": [
+      "[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning",
+      "[2] Comparison of deep learning software: https://en.wikipedia.org/wiki/Comparison_of_deep_learning_software",
+      "[3] Deep reinforcement learning: https://en.wikipedia.org/wiki/Deep_reinforcement_learning"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_6",
+    "query": "Explain supervised learning in simple words.",
+    "sources": [
+      "[1] Supervised learning: https://en.wikipedia.org/wiki/Supervised_learning",
+      "[2] Self-supervised learning: https://en.wikipedia.org/wiki/Self-supervised_learning",
+      "[3] Unsupervised learning - Unsupervised learning is a framework: https://duckduckgo.com/Unsupervised_learning"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_7",
+    "query": "What is a neural network?",
+    "sources": [
+      "[1] Neural network: https://en.wikipedia.org/wiki/Neural_network",
+      "[2] Neural network (machine learning): https://en.wikipedia.org/wiki/Neural_network_%28machine_learning%29",
+      "[3] Neural network A group of interconnected units called neuron: https://duckduckgo.com/Neural_network"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_8",
+    "query": "Summarize an accessible public educational source about deep learning.",
+    "sources": [
+      "[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning",
+      "[2] Deep learning Category: https://duckduckgo.com/c/Deep_learning",
+      "[3] Transformer (deep learning): https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "test_9",
+    "query": "What are the main points from the second search result?",
+    "sources": [
+      "https://duckduckgo.com/c/Deep_learning"
+    ],
+    "provider": "web"
+  },
+  {
+    "test_id": "test_10",
+    "query": "What is Python programming language and its latest release history?",
+    "sources": [
+      "[1] History of Python: https://en.wikipedia.org/wiki/History_of_Python",
+      "[2] Python (programming language): https://en.wikipedia.org/wiki/Python_%28programming_language%29",
+      "[3] Julia (programming language): https://en.wikipedia.org/wiki/Julia_%28programming_language%29"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "explicit_search_1",
+    "query": "/search what is deep learning",
+    "sources": [
+      "[1] Deep learning: https://en.wikipedia.org/wiki/Deep_learning",
+      "[2] Deep reinforcement learning: https://en.wikipedia.org/wiki/Deep_reinforcement_learning",
+      "[3] Artificial intelligence: https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "provider": "wikipedia"
+  },
+  {
+    "test_id": "explicit_search_2",
+    "query": "/search what is ChatGPT",
+    "sources": [
+      "[1] ChatGPT: https://en.wikipedia.org/wiki/ChatGPT",
+      "[2] ChatGPT Atlas: https://en.wikipedia.org/wiki/ChatGPT_Atlas"
+    ],
+    "provider": "wikipedia"
+  }
+]
